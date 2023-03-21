@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-theme-relearn"
+
+[params]
+  themeVariant = ["lc-light", "lc-dark-blue", "lc-dark-blue-two"]
