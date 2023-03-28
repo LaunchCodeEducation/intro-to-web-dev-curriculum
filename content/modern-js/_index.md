@@ -22,10 +22,27 @@ After you complete everything in this chapter, you should be able to do the foll
 
 ## Key Terminology
 
+These are the key terms you should make note of as you read the chapter. The terms are broken down by the page they appear on.
+
+### The JavaScript-y Way
+
 1. Vanilla JavaScript
 1. VanillaJS
+1. ECMAScript
 1. ECMAScript2015
 1. ES6
+1. arrow function
+1. spread operator
+1. `Map`
+1. for/of loop
+1. `map()`
+
+### JavaScript Syntax Extensions
+
+1. syntax extension
+1. JSX
+1. JavaScript XML
+1. Ternary operator
 
 ## Content Links
 
