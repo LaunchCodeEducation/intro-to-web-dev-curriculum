@@ -5,8 +5,8 @@ draft: false
 weight: 28
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Kimberly Horan # to be set by the page reviewer
+reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -42,7 +42,21 @@ These are the key terms you should make note of as you read the chapter. The ter
 1. syntax extension
 1. JSX
 1. JavaScript XML
-1. Ternary operator
+
+
+### Supersets
+
+1. superset
+1. TypeScript
+1. statically typed
+1. dynamically typed
+
+### Transpilation
+
+1. transpilation
+1. transpiler
+1. source-to-source compiler
+1. Babel
 
 ## Content Links
 

@@ -5,8 +5,8 @@ draft: false
 weight: 1
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Kimberly Horan # to be set by the page reviewer
+reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -180,6 +180,8 @@ While a JavaScript `Map` is a type of collection, `map()` is an array method in 
 
 {{% /notice %}}
 
+<!-- anonymous -->
+
 {{% notice green "Question" "rocket" %}}
 
    What do you think `evenNumbers` will hold after this code executes?
@@ -189,3 +191,5 @@ While a JavaScript `Map` is a type of collection, `map()` is an array method in 
       let evenNumbers = oddNumbers.map(number => number * 2);
    ```
 {{% /notice %}}
+
+<!-- it will probably hold [2,6,10] -->
