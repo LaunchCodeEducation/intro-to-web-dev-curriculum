@@ -17,7 +17,7 @@ components and creating new ones.
 
 ## Starter Code
 
-For this set of exercises, you will need a copy of the LaunchCode Angular
+For this set of exercises, you will need a copy of the LaunchCode React
 projects repository. If you haven't done so already,
 
 1. Fork the [react-exercises-and-studios repository](https://github.com/LaunchCodeEducation/react-exercises-and-studios)
