@@ -2,7 +2,7 @@
 title: "React, Part 1"
 date: 2023-03-31T09:42:17-05:00
 draft: false
-weight: 2
+weight: 29
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
