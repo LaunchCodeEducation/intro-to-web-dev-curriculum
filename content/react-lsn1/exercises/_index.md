@@ -35,7 +35,11 @@ Navigate into the exercises now:
    $ cd exercises
 ```
 
-You should be able to run  `npm start`, but the page will not look pretty. Time to fix that!  
+You should be able to run  `npm start`, but the page will not look pretty. Time to fix that! 
+
+{{% notice blue "Note" "rocket" %}}
+   If the `exercises` app doesn't run at first, try running `npm install`. Once that process has completed, you should be able to run `npm start` again to get the development server going.
+{{% /notice %}}
 
 ## Part 1: Modify the CSS
 
@@ -50,21 +54,21 @@ they appear pretty bland. Let's change that.
    1. The movie list should have heading that aligns to the *left*.
    1. The font size should be large enough to easily read.
 
-{{% expand "Check Your Solution" %}}
+   {{% expand "Check Your Solution" %}}
 
-```css
-.movieText {
-   color: purple;
-   font-size: 1.3vw;
-   text-align: left;
-}
+   ```css
+   .movieText {
+      color: purple;
+      font-size: 1.3vw;
+      text-align: left;
+   }
 
-.movieHeading {
-   text-align: left;
-}
-```
+   .movieHeading {
+      text-align: left;
+   }
+   ```
 
-{{% /expand %}}
+   {{% /expand %}}
 
 2. Change the chore list text by adjusting the code in
    `ChoresList.module.css` to accomplish the following:
