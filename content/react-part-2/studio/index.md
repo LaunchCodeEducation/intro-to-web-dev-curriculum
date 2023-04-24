@@ -11,3 +11,11 @@ lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
+
+Build off Pintrest idea  -- [Studio for Part 1](https://github.com/LaunchCodeEducation/react-exercises-and-studios/tree/main/part1/exercises)
+
+- use star rating to change something
+- what's my fridge array 
+   - compare ingredient list to fridge list and change something accordingly
+   - could add needed item to grocery list?
+   - mapping and conditionals
