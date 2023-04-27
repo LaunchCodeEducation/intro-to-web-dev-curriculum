@@ -13,3 +13,9 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+
+[What is the Arrow Function in ReactJS?](https://www.tutorialspoint.com/what-is-the-arrow-function-in-reactjs)
+
+[React Basics: What’s the difference between JavaScript and JSX?](https://medium.com/weekly-webtips/react-basics-whats-the-difference-between-javascript-and-jsx-604dd224b1cf)
+
+[React Props Explained with Examples](https://refine.dev/blog/react-props/)
