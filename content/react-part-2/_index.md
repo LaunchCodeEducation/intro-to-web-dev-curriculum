@@ -14,13 +14,16 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Learning Objectives
 
-1. Be able to incorporate ES6 expressions into HTML rendering.
-1. Be able to use conditional rendering to display or not display certain elements. 
-1. Students will be able to use the following syntax:
-   a. `if`/`else`
-   b. Embedded expressions with `&&` operator
-   c. `? :` conditional operator
-   d. the `warn` prop
-1. Be able to use a list to display the elements in an array using `map`.
+Upon completing the content in this chapter, you should be able to do the following:
+
+1. Incorporate JavaScript expressions into HTML rendering.
+1. Use conditional rendering to display or not display certain elements. 
+1. Use the following syntax:
+   1. `if`/`else`
+   1. Embedded expressions with logical operators such as `&&`
+   1. Ternary conditional operator `? :`
+   1. the `warn` prop
+1. Create a list to display the elements in an array using the `map`method.
 
 ## Key Terminology
+

@@ -11,10 +11,111 @@ lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
+
+## Using JavaScript in React
+
+React is a JavaScript library which means we can use JavaScript in our React applications.
+
+You can use JavaScript expressions to create loops, variables, functions, conditionals, objects, and strings in React projects.
+
+### Syntax
+
+**Curly braces**
+- Declaring variables 
+- Working with objects
+
+```react{linenos=table,hl_lines=[],linenostart=1}
+const name = "Willow"
+
+function Hello(){
+   return(
+      <h1>Hello, my name is {name}</h1>
+   );
+};
+
+export default Hello;
+```
+
+
+
+**Template literals**
+Concatenation is messy.  
+//TODO: need a better example
+```react{linenos=table,hl_lines=[],linenostart=1}
+const name1 = "Willow";
+const name2 = "Alyce";
+
+function Hello(){
+   return(
+      <h1>{name1}</h1>
+   );
+};
+
+```
+
+You can use Template literals similar to h can help make your code easier to read.
+
+```react{linenos=table,hl_lines=[],linenostart=1}
+const name1 = "Willow";
+const name2 = "Alyce";
+
+function Hello(){
+   return(
+      <div>
+         {` My dog is named ${name1}. 
+         
+         My cat is named ${name2}.`}
+      </div>
+   );
+};
+
+```
+
+**Modules**
+we need to export ??  and import??
+```react{linenos=table,hl_lines=[],linenostart=1}
+
+```
+
+**Arrow Functions**
+another way to declare functions
+- why these???
+```react{linenos=table,hl_lines=[],linenostart=1}
+
+```
+
+**Working with Props and JS**
+```react{linenos=table,hl_lines=[],linenostart=1}
+function Hello(props){
+   return(
+      <h1>hello {props.name}
+   );
+}
+```
+
+
+
+
+
+
+
+
+
+
 ## Adding JS into our React Project
 
-- provide use JS functionality in react
-- JSX allows JS in the markup (JSX is markup language for React - combo of html and JS)
+React is a JS library which means we can use JS in our react applications.  
+We can use JS to work with 
+
+   - Loops
+   - Variable declaration
+   - Function declaration
+   - `if/else` conditions
+   - objects
+   - stings
+
+provide use JS functionality in react
+JSX allows JS in the markup (JSX is markup language for React - combo of html and JS)
    - you can code functions, variables, and apply the logic you learned in the JS sections
       - https://www.digitalocean.com/community/tutorials/how-to-create-react-elements-with-jsx
 

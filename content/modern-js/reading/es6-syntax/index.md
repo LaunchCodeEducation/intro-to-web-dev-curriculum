@@ -12,7 +12,7 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-So far, we have been learning **Vanilla JavaScript** or **VanillaJS**. VanillaJS is a term used to describe plain JavaSript that doesn't employ any additional libraries or frameworks. Learning about programming and web development using VanillaJS is extremely useful in understanding the underlying behaviors of those frameworks and why programmers use them. 
+So far, we have been learning **Vanilla JavaScript** or **VanillaJS**. VanillaJS is a term used to describe plain JavaScript that doesn't employ any additional libraries or frameworks. Learning about programming and web development using VanillaJS is extremely useful in understanding the underlying behaviors of those frameworks and why programmers use them. 
 
 VanillaJS is more formally referred to **ECMAScript**. When **ECMAScript2015** or **ES6** was released, several key features were introduced that allow React developers to write more efficient code. We encountered these terms earlier when learning about template literals. We have introduced coding concepts to you using JavaScript syntax that is close to other languages, but ES6 has some specialized syntax that you are likely to see in more complex JavaScript applications. 
 
