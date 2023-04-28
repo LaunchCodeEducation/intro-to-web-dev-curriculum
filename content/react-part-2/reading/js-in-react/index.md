@@ -35,6 +35,7 @@ W3 Schools created some nice examples of [React Events](https://www.w3schools.co
 ### JavaScript Variables
 We can render variables on the browser by encasing them in curly braces `{ }`.
 
+{{% notice blue "Example: Variables" "rocket" %}} 
    ```react{linenos=table,hl_lines=[],linenostart=1}
    const name = "Willow"
 
@@ -46,6 +47,8 @@ We can render variables on the browser by encasing them in curly braces `{ }`.
 
    export default Hello;
    ```
+   {{% /notice %}}
+
 {{% expand "Check the output" %}}
 
 Hello! My name is Willow!
@@ -65,7 +68,7 @@ Template Literal syntax:
 
 Should look something like this when you put it all together: `{'Hello, ${variableNameHere}'}`
 
-
+{{% notice blue "Example: Template Literals" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 let num1 = 4;
 let num2 = 7;
@@ -81,6 +84,8 @@ function TemplateLiteral(){
 
 export default TemplateLiteral;
 ```
+{{% /notice %}}
+
 {{% expand "Check the output" %}}
 
    (4 * 8) is 32 and (4 + 8) is 12
@@ -94,6 +99,7 @@ Arrow functions are simplified functions.  They can be used as arguments and pas
 
 Why not only use arrow functions?  For long functions.  They are great for single-line expressions but longer functions can be hard to read.
 
+{{% notice blue "Example: Comparison of Functions" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 //comparing functions
 
@@ -106,8 +112,8 @@ function Greeting(){
 const ArrowGreeting = () => (
       <h1>Hello! I am an arrow function.</h1>
 );
-
 ```
+{{% /notice %}}
 
 {{% expand "Check the output" %}}
 
@@ -117,7 +123,7 @@ const ArrowGreeting = () => (
 
 {{% /expand %}}
 
-
+{{% notice blue "Example: Combining Functions" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 //function with an arrow function
 
@@ -133,8 +139,8 @@ function ShinyButton(){
 }
 
 export default ShinyButton;
-
 ```
+{{% /notice %}}
 
 {{% expand "Check the output" %}}
 
@@ -145,10 +151,12 @@ export default ShinyButton;
 
 ### Working with Props and JS
 //TODO: format as relref link
+
 If you recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), props are arguments passed to and between functions.  We can use anything as a prop, since props is a naming convention.
 
 We can use props to pass data between components.
 
+{{% notice blue "Example: Props" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 function GreetFriend(props) {
    return(
@@ -168,6 +176,7 @@ function Greeting(){
 
 export default Greeting;
 ```
+{{% /notice %}}
 
 {{% expand "Check the output" %}}
 
@@ -177,6 +186,7 @@ export default Greeting;
 
 We can declare our props.  This can make the code more meaningful and easier for humans to understand.
 
+{{% notice blue "Example: Defined Props" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 function GreetFriend(name) {
    return(
@@ -196,6 +206,7 @@ function Greeting(){
 
 export default Greeting;
 ```
+{{% /notice %}}
 
 {{% expand "Check the output" %}}
 
@@ -205,6 +216,7 @@ export default Greeting;
 
 We can also set default variables for props.  
 
+{{% notice blue "Example: Default values" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 function GreetFriend(name ="Tacocat") {
    return(
@@ -224,6 +236,7 @@ function Greeting(){
 }
 export default Greeting;
 ```
+{{% /notice %}}
 
 {{% expand "Check the output" %}}
 
@@ -232,13 +245,20 @@ export default Greeting;
 
 {{% /expand %}}
 
+
+{{% notice blue "Note" "rocket" %}} 
+   Lines 9 and 14 in the example above are empty tags.
+   These are called **Fragments**.  [Fragments](https://react.dev/reference/react/Fragment#usage) allow you to group multiple elements and treat them as a single element.  You will often find fragments in return statements.
+{{% /notice %}}
+
 ### Importing and Exporting 
 
 **Exporting Components**
 
 There are multiple ways to export.  We recommend you pick one way and remain consistent with it throughout your codebase.  It will help with readability.
 
-Option 1: 
+{{% notice blue "Example: Exporting" "rocket" %}} 
+**Option 1:** After the function
 ```react{linenos=table,hl_lines=[],linenostart=1}
 function GreetFriend(name ="Tacocat") {
    return(
@@ -249,7 +269,7 @@ function GreetFriend(name ="Tacocat") {
 export default GreetingFriend;
 ```
 
-Option 2:
+**Option 2:** As part of the declaration
 ```react{linenos=table,hl_lines=[],linenostart=1}
 export default function GreetFriend(name ="Tacocat") {
    return(
@@ -257,6 +277,7 @@ export default function GreetFriend(name ="Tacocat") {
    );
 }
 ```
+{{% /notice %}}
 
 **Importing Components**
 
@@ -265,26 +286,30 @@ In the example above, `GreetFriend` and `Greeting` are in the same file.  We cou
 
 **Importing Other Things**
 
-You can import non-component portions of your codebase.  JSON files are a commonly imported item.
+You can import non-component portions of your codebase. JSON files are a commonly imported item.  
 
-Data stored in a JSON file.  In this example, it is a name.  
+Data stored in a JSON file.  In this example, it is a name.  Component for `GreetFriend` importing the JSON file and using it to complete the greeting message.  
+
+{{% notice blue "Example: Working with JSON" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
 // File is nameData.json
 {
    "name": "Hermes"
 }
 ```
+When you import something that you plan to use in a function, be sure to give it a name if none exists.  In this example, there is only a file name.  We assigned it the name `data`.  This `data` is an object, so we can use dot notation to access the object's values with the keys.
 
-Component for `GreetFriend` importing the JSON file and using it to complete the greeting message.
 ```react{linenos=table,hl_lines=[],linenostart=1}
-import nameData from './nameData.json'
+import data from './nameData.json'
 
 function GreetFriend() {
    return(
-      <h1>Hello, {nameData.name}!</h1>
+      <h1>Hello, {data.name}!</h1>
    );
 }
 ```
+{{% /notice %}}
+
 {{% expand "Check the output" %}}
 
 ## Hello, Hermes!
@@ -294,13 +319,112 @@ function GreetFriend() {
 ## Check Your Understanding
 
 {{% notice green  "Question" "rocket" %}} 
-- using {variable}
+What structure is used to contain JavaScript variables?
+
+   1. Brackets `[ ]`
+   1. Parentheses `( )`
+   1. Double Quotes `" "`
+   1. Curly Braces `{ }`
+
+<!-- answer: A -->
+{{% /notice %}} 
+
+{{% notice green  "Question" "rocket" %}} 
+   ```react{linenos=table,hl_lines=[],linenostart=1}
+   const bookInfo = {
+      title: "Dracula",
+      author: "Bram Stoker",
+      published: 1897 
+   }
+
+   function Book(){
+      return(
+         <p>My favorite book is {title}</p>
+      );
+   };
+
+   export default Book;
+   ```
+
+   Is returning the following error:
+   ```bash
+   'title' is not defined  no-undef
+   ```
+
+   Which syntax will correctly assign a value to `title`?
+
+   1. 
+      ```react
+      <p>My favorite book is Dracula</p>
+      ```
+   1. 
+      ```react
+      <p>My favorite book is {bookInfo.title}</p>
+      ```
+   1. 
+      ```react
+      const BookInfo = () => {
+         return(
+            <p>My favorite book is {title}</p>
+         );
+      }
+      ```
+      1. 
+      ```react
+      function Book(props){
+         return(
+            <p>My favorite book is {props.title}</p>
+         );
+      };
+      ```
+
+   <!-- answer: B -->
 {{% /notice %}}
 
 {{% notice green  "Question" "rocket" %}} 
-- function 
-{{% /notice %}}
+How would you rewrite the following arrow function as a regular function?
+```react
+const SayHello = () => {
+   
+   return(
+      <h1>Hello!</h1>
+   );
+}
 
-{{% notice green  "Question" "rocket" %}} 
-- TBD
+export default SayHello;
+```
+
+1. 
+   ```react
+      function SayHello(){
+            return(
+            <h1>Hello!</h1>
+         );
+      }
+   ```  
+
+1. 
+   ```react
+      function SayHello("Hello"){
+            return();
+      }
+   ```  
+
+1. 
+   ```react
+      const SayHello(){
+            return(
+            <h1>Hello!</h1>
+         );
+      }
+   ```  
+1. 
+   ```react
+      function SayHello(){
+            return(
+            <h1>{Hello!}</h1>
+         );
+      }
+   ```  
+<!-- answer: A -->
 {{% /notice %}}
