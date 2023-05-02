@@ -271,11 +271,11 @@ Congrats you have used the map function to iterate through a collection of JSON 
 
    Here is a peek at the first profile object and the Banner. 
    - The Banner should cross the entire browser window. 
-   - There should be 7 profiles. 
+   - There should be 7 profiles total. 
    - If the profile is for a fish, it will have a blue background.
    - Else it will have a more purple background.
    - Each profile will have a name, emoji, and list of 3 fun facts
-   - The Learn More button will be contained within each profile. 
+   - The `Learn More` button will be contained within each profile. 
 
    ![Final Project Preview Check](./images/FinalPreview.png)
 

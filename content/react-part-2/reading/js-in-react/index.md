@@ -95,7 +95,7 @@ export default TemplateLiteral;
 
 
 ### Arrow Functions
-Arrow functions are simplified functions.  They can be used as arguments and passed to other functions because they do not affect the global scope of the project.  This makes them very useful for defining props, working with loops, and conditional statements.  These functions will return values without using the `return` keyword.
+**Arrow functions** are simplified functions.  They can be used as arguments and passed to other functions because they do not affect the global scope of the project.  This makes them very useful for defining props, working with loops, and conditional statements.  These functions will return values without using the `return` keyword.
 
 Why not only use arrow functions?  For long functions.  They are great for single-line expressions but longer functions can be hard to read.
 
@@ -369,7 +369,7 @@ What structure is used to contain JavaScript variables?
          );
       }
       ```
-      1. 
+   1. 
       ```react
       function Book(props){
          return(

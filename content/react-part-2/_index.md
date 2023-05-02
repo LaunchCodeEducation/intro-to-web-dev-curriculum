@@ -27,3 +27,9 @@ Upon completing the content in this chapter, you should be able to do the follow
 
 ## Key Terminology
 
+1. Arrow Functions
+1. `Fragments`
+1. `if/else`
+1. Ternary operator
+1. `map`
+
