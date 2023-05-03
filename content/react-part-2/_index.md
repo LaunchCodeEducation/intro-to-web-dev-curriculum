@@ -1,5 +1,5 @@
 ---
-title: "React Part 2: Conditional Rending and JavaScript Expressions"
+title: "React, Part 2"
 date: 2023-05-03T11:39:25-05:00
 draft: false
 weight: 31
@@ -11,6 +11,8 @@ lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
+
+JavaScript in React, Conditional Rendering, and the `map` function
 
 ## Learning Objectives
 

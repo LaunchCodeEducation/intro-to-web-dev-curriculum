@@ -1,5 +1,5 @@
 ---
-title: "Mapping"
+title: "The map Function"
 date: 2023-05-03T11:39:25-05:00
 draft: false
 weight: 3
@@ -12,7 +12,9 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-## Mapping
+## `map`
+
+
 
 
 ## Check Your Understanding

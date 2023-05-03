@@ -24,7 +24,7 @@ With some slight syntax differences, we can use DOM and Window events, such as `
 
 While you can use the event handlers you learned about in previous lessons, the syntax may vary.
 
-In React part 1, we used `className` to apply CSS stylings instead of `class`. This is because `class` is a JavaScript keyword.  React adapted by using `className` for the same purpose using camel case.
+In React part 1, we used `className` to apply CSS stylings instead of `class`. This is because `class` is a JavaScript keyword.  React adapted by using `className`.  Note the use of camelCase.
 
 We can use the `onclick` method in React, but we need to apply camel casing to the name: `onClick`.   
 
@@ -33,7 +33,7 @@ W3 Schools created some nice examples of [React Events](https://www.w3schools.co
 {{% /notice %}}
 
 ### JavaScript Variables
-We can render variables on the browser by encasing them in curly braces `{ }`.
+We can render variables inside our components and function by encasing them in curly braces `{ }`.
 
 {{% notice blue "Example: Variables" "rocket" %}} 
    ```react{linenos=table,hl_lines=[],linenostart=1}
@@ -54,6 +54,8 @@ We can render variables on the browser by encasing them in curly braces `{ }`.
 Hello! My name is Willow!
 
 {{% /expand %}}
+
+`name` was declared in line 1, as a JavaScript string.  We can render it inside the `Hello` function by using curly braces.  The curly braces let the JSX and HTML know that we want to use the variable `name` and its value.  If we left off the curly braces, the word name would appear in the browser.  The message would read "Hello! My name is name".  
 
 
 ### Template literals
@@ -97,7 +99,7 @@ export default TemplateLiteral;
 ### Arrow Functions
 **Arrow functions** are simplified functions.  They can be used as arguments and passed to other functions because they do not affect the global scope of the project.  This makes them very useful for defining props, working with loops, and conditional statements.  These functions will return values without using the `return` keyword.
 
-Why not only use arrow functions?  For long functions.  They are great for single-line expressions but longer functions can be hard to read.
+Why not only use arrow functions?  For long functions.  They are great for short expressions but longer functions can be hard to read.
 
 {{% notice blue "Example: Comparison of Functions" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
@@ -152,7 +154,7 @@ export default ShinyButton;
 ### Working with Props and JS
 //TODO: format as relref link
 
-If you recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), props are arguments passed to and between functions.  We can use anything as a prop, since props is a naming convention.
+If you recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), props are arguments passed to and between functions.  We can use anything as a prop, since props are placeholders.
 
 We can use props to pass data between components.
 
@@ -255,7 +257,7 @@ export default Greeting;
 
 **Exporting Components**
 
-There are multiple ways to export.  We recommend you pick one way and remain consistent with it throughout your codebase.  It will help with readability.
+There are multiple ways to export.  We recommend you pick one way and remain consistent with it throughout your codebase. It will help with readability.
 
 {{% notice blue "Example: Exporting" "rocket" %}} 
 **Option 1:** After the function
