@@ -1,8 +1,8 @@
 ---
 title: "React Part 2: Conditional Rending and JavaScript Expressions"
-date: 2023-03-22T11:39:25-05:00
+date: 2023-05-03T11:39:25-05:00
 draft: false
-weight: 30
+weight: 31
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer

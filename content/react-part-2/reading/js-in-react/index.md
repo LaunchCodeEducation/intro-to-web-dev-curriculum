@@ -1,6 +1,6 @@
 ---
 title: "JavaScript in React"
-date: 2023-03-22T11:39:25-05:00
+date: 2023-05-03T11:39:25-05:00
 draft: false
 weight: 1
 originalAuthor: Courtney Frey # to be set by page creator

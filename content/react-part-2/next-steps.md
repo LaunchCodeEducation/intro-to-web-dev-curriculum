@@ -1,6 +1,6 @@
 ---
 title: "Next Steps"
-date: 2023-03-22T11:39:25-05:00
+date: 2023-05-03T11:39:25-05:00
 draft: false
 weight: 4
 originalAuthor: Courtney Frey # to be set by page creator
@@ -19,3 +19,5 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 [React Basics: What’s the difference between JavaScript and JSX?](https://medium.com/weekly-webtips/react-basics-whats-the-difference-between-javascript-and-jsx-604dd224b1cf)
 
 [React Props Explained with Examples](https://refine.dev/blog/react-props/)
+
+[A Beginner’s Guide to Loops in React JSX](https://www.telerik.com/blogs/beginners-guide-loops-in-react-jsx)
