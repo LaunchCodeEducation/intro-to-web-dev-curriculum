@@ -21,3 +21,5 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 [React Props Explained with Examples](https://refine.dev/blog/react-props/)
 
 [A Beginner’s Guide to Loops in React JSX](https://www.telerik.com/blogs/beginners-guide-loops-in-react-jsx)
+
+[Using map() in JavaScript and React.js](https://ordinarycoders.com/blog/article/javascript-react-map-method)
