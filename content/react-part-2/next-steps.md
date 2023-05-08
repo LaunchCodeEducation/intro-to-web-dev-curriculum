@@ -23,3 +23,5 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 [A Beginner’s Guide to Loops in React JSX](https://www.telerik.com/blogs/beginners-guide-loops-in-react-jsx)
 
 [Using map() in JavaScript and React.js](https://ordinarycoders.com/blog/article/javascript-react-map-method)
+
+[Using a condition inside map() in React](https://bobbyhadz.com/blog/react-map-with-condition)

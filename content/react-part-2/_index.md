@@ -24,7 +24,6 @@ Upon completing the content in this chapter, you should be able to do the follow
    1. `if`/`else`
    1. Embedded expressions with logical operators such as `&&`
    1. Ternary conditional operator `? :`
-   1. the `warn` prop
 1. Create a list to display the elements in an array using the `map`method.
 
 ## Key Terminology

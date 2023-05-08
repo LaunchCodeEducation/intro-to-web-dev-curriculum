@@ -11,17 +11,9 @@ lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
-## Resources
-1. https://react.dev/learn/rendering-lists
-1. https://upmostly.com/tutorials/how-to-use-map-in-react-applications
-1. https://www.simplilearn.com/tutorials/reactjs-tutorial/map-in-reactjs
-1. https://bobbyhadz.com/blog/react-map-with-condition
-
-examples: https://codesandbox.io/s/eloquent-bird-ugfd6m?file=/components/SeasonSorting.js
-
 
 ## `map()`
-`map()` is ued for iterating through or displaying lists of similar objects of a component in React.  `map()` iterates through arrays and returns JSX.  When `map()` function is called, it renders every returned value to the DOM.  This is the most popular loop used in React.
+`map()` is used for iterating through or displaying lists of similar objects of a component in React.  `map()` iterates through arrays and returns JSX.  When `map()` function is called, it renders every returned value to the DOM.  This is the most popular loop used in React.
 We can use the `map()` function to create lists and to iterate through arrays.  
 
 Let's look at an example.
@@ -29,7 +21,7 @@ Let's look at an example.
 {{% notice blue "Example" "rocket" %}} 
 In this example, we are using an array of strings that name the days of the week.  
 
-[Try it!](https://codesandbox.io/p/sandbox/map-function-le3cw3)
+**[Try it!](https://codesandbox.io/p/sandbox/map-function-le3cw3)**
 
    ```react{linenos=table,hl_lines=[],linenostart=1}
    let weekDays = [
@@ -44,7 +36,7 @@ In this example, we are using an array of strings that name the days of the week
 
    function DaysOfTheWeek() {
       const ListOfDays = (props) => {
-         return props.map((day) => <li>{day}</li>);
+         return props.map((day) => <li key={props.index}>{day}</li>);
       };
    return <ul>{ListOfDays(weekDays)}</ul>;
    }
@@ -70,17 +62,23 @@ In this example, we are using an array of strings that name the days of the week
   - Sunday
 {{% /expand %}}
 
-
 ### Keys
-The example above used a simple array that contained a collection of strings.  We can use `map()` for more complicated arrays, such as an array of objects. Like the `for` loop, you can nest the `map()` function.
+
+**Keys and Arrays**
+
+The example above used a simple array that contained a collection of strings. The `map()` function always uses key-value-pairs.  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in the example above.
+
+**Keys and Objects**
+
+We can use `map()` for more complicated arrays, such as an array of objects. Like the `for` loop, you can nest the `map()` function.
 
 <!-- //TODO: link to objects page in JS textbook will need to update when JS added to this book-->
 
-With all of the flexibility of the `map()` function, we need to ensure the correct element is rendered. `map()` works with [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html). 
+With all of the flexibility of the `map()` function, we need to ensure it renders the correct element. `map()` works with [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html). 
 
 The key becomes a value's unique id that React associates with its component.  This helps prevent values being mixed up between components.  This unique id is crucial if the items in your array can move, be inserted into other components, or even deleted.  
 
-It is not advised to create keys while the application is running.  Ideally, you should include them in your data somehow. A key needs to be a string or number datatype.  If you have the opportunity to create your data, we suggest using an `id` key of sorts.  If your data does not have an `id` then use what is available.
+It is not advised to create keys while the application is running.  You should include them in your data somehow. A key needs to be a string or number datatype.  If you have the opportunity to create your data, include some sort of `id` key.  If your data does not have an `id` then use what is available.
 
 {{% notice blue "Example" "rocket" %}} 
 
@@ -88,7 +86,7 @@ Let's look at some data.
 
 We created a `calendar.json` file to store our data in our app.
 
-TRY IT //TODO: add link
+**[Try It](https://codesandbox.io/p/sandbox/map-function-le3cw3?file=%2Fsrc%2FApp.js%3A1%2C4)**
 ```react{linenos=table,hl_lines=[],linenostart=1}
 [{
     "month": "January",
@@ -108,7 +106,7 @@ TRY IT //TODO: add link
 ```
 {{% /notice %}}
 
-We have a collection of `months` and `seasons`.  We don't have any `id` values declared at this time.  Keys need to be either a number or string.  Let's use the `month` values as our keys. 
+We have a collection of `months` and `seasons`.  We don't have any `id` values declared in the JSON file.  Keys need to be either a number or string.  Let's use the `month` values as our keys. 
 
 {{% notice blue "Example without ID" "rocket" %}} 
  
@@ -161,10 +159,12 @@ We have a collection of `months` and `seasons`.  We don't have any `id` values d
    ]
 ```
 
-If the data had `id` key, we could use that.  In the example below, we updated the `calendar` so that each object now contains an `id`.  The output is the same.  
+If the data had `id`, we could use that.  In the example below, we updated the `calendar` so that each object now contains an `id`.  The output is the same.  
 
 
 ```react{linenos=table,hl_lines=[],linenostart=1}
+   import calendar from "../components/Calendar";
+
    function SeasonSorting() {
    const whichSeason = calendar.map((cal) => (
       <li key={cal.id}>
@@ -191,21 +191,78 @@ If the data had `id` key, we could use that.  In the example below, we updated t
 {{% /expand %}}
 
 ## Mapping conditions
-We can also use `map()` to render array elements based on conditions.
+We can also use `map()` to render array elements based on conditions.  This can be useful if you do not want every item in your list rendered.  You can use any of the conditional methods addressed above.
 
--- see codesandbox.io for inital example
+{{% notice blue "Example mapping Conditionally" "rocket" %}} 
+Let's explore how to use map and conditionals to selectively render items to the UI.
 
+This example uses the same JSON file as the previous example.  You can explore it more in "Try It" link below.
+
+You can code along here: **[Try It!](https://codesandbox.io/s/conditionalmapping-yds8ue)** 
+
+
+```react{linenos=table,hl_lines=[],linenostart=1}
+import calendar from "../components/Calendar";
+
+let monthChoice = "August";
+
+function ConditionInsideMap() {
+  return (
+    <div>
+      {calendar.map((props) => {
+        return props.month === monthChoice ? (
+          <h2 key={props.id}>
+            {props.month} is part of the {props.season} season
+          </h2>
+        ) : null;
+      })}
+    </div>
+  );
+}
+
+export default ConditionInsideMap;
+```
+{{% /notice %}}
+
+{{% expand "Output Check" %}}
+### August is part of the Summer season
+{{% /expand %}}
+
+In the example above, we import the `calendar` and pass it to `map()`.  The `map()` function compares the `month` string to the `monthChoice` variable.  If they are equal, then the `<h2>` message will render to the screen.  Otherwise, the screen will stay blank.  This example uses a ternary operator.
 
 ## Check Your Understanding
 
 {{% notice green  "Question" "rocket" %}} 
-- TBD
-{{% /notice %}}
+When the code below runs, it produces this warning: 
+```bash
+Warning: Each child in a list should have a unique "key" prop.
+```
 
-{{% notice green  "Question" "rocket" %}} 
-- TBD
-{{% /notice %}}
+```react{linenos=table,hl_lines=[],linenostart=1}
+const digits = [12, 65, 72, 33, 2, 99];
 
-{{% notice green  "Question" "rocket" %}} 
-- TBD
+function ListOfNums() {
+  return digits.map((number, index) => <li>{number}</li>);
+}
+
+export default ListOfNums;
+```
+
+How best can we correct our code?
+
+1. ```react
+   export default ListofNums(key={index});
+   ```
+
+1. ```react
+   digits(key={index}).map
+   ```
+   
+1. ```react
+   <li key={index}>{number}</li>);
+   ```
+
+1. This will never be resolved when working with arrays.
+
+<!-- answer: c -->
 {{% /notice %}}
