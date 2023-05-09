@@ -26,6 +26,46 @@ In the example of a tax application, we might have a state variable for federal 
 
 Here we are using the `useState` hook to set the initial value of `federalTax` to 0. We also have declared that the state setter function for `federalTax` is `setFederalTax`. To update the value of `federalTax` to 100, we just have to use `setFederalTax` like so, `setFederalTax(100)`. 
 
+You can also set the up the state variable to be an object. Here is how we might do it with our tax application.
+
+```jsx
+   const [taxes, setTaxes] = useState({
+      federal: 0,
+      state: 0
+   });
+```
+
+With `useState`, the value of `taxes.federal` is set to 0 and the value of `taxes.state` is also set to 0. To update the value of the state taxes to -10, but not update the value of the federal taxes, then we would pass those values to `setTaxes` like so:
+
+```jsx
+   setTaxes({
+      federal: taxes.federal,
+      state: -10
+   });
+```
+
+State variables are considered read-only, so in order for us to update the state, we have to pass a new object to the state variable.
+
 {{% notice orange "Warning" "rocket" %}}
    It is worth noting that if the user reloads the page, the state of the component is returned to the original state. If we wanted to make sure that we didn't lose track of what the user owes in federal taxes, we may have to do some backend work, but that is a task for Unit 2 of this course.
 {{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green "Question" "rocket" %}}
+   What is `useState`?
+
+   1. A class
+   1. An object
+   1. A hook
+   1. A function
+
+{{% /notice %}}
+
+<!-- A hook -->
+
+{{% notice green "Question" "rocket" %}}
+   True or False: State variables are considered to be read-only.
+{{% /notice %}}
+
+<!-- True -->

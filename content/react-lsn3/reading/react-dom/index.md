@@ -5,8 +5,8 @@ draft: false
 weight: 3
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Kimberly Horan # to be set by the page reviewer
+reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -21,13 +21,13 @@ We are at a shoe factory and the mechanism responsible for counting how many sho
 1. Make a new file called `ShoeButton.js`.
 1. Add the following code to that file.
 
-   ```jsx
+   ```jsx {linenos=table}
       import { useState } from 'react';
 
       export default function ShoeButton() {
          const [shoeCount, setShoeCount] = useState(0);
 
-         handleClick = () => {
+         const handleClick = () => {
             setShoeCount(shoeCount+1);
          }
 
@@ -45,18 +45,18 @@ We are at a shoe factory and the mechanism responsible for counting how many sho
 
 This is an example of a counter button, which is one of the simplest ways to update the state of a component. You may have noticed that as you click the button, the page doesn't reload, but the component still re-renders. Here is what is happening:
 
-1. When you click the button, the call to `setShoeCount` inside `handleClick` updates the value of the state variable, `shoeCount`.
+1. When you click the button, the call to `setShoeCount` inside `handleClick()` updates the value of the state variable, `shoeCount`.
 1. This call ensures that the change in state is recognized and that component re-rendering is triggered. 
 1. React's Virtual DOM then updates the `<h1>` element to display the new shoe count.
 1. React compares the real DOM to the Virtual DOM and finds that the real DOM has the old shoe count displayed and the virtual DOM has the new shoe count displayed.
 1. Reconciliation occurs and the real DOM is updated to display the new count.
 1. Now the component is re-rendered and you can hit the button again!
 
-In this code, `handleClick` is our event handler for the `onClick` event. We previously learned about `onClick` in [DOM and Events](https://education.launchcode.org/intro-to-professional-web-dev/chapters/dom-and-events/events.html?highlight=onclick#handling-events). In React, we use event handlers to trigger changes in state based on users' actions. You may have noticed that we are able to write web applications that perform similar actions as the ones we learned about previously with much less code.
+In this code, `handleClick()` is our event handler for the `onClick` event. We previously learned about `onClick` in [DOM and Events](https://education.launchcode.org/intro-to-professional-web-dev/chapters/dom-and-events/events.html?highlight=onclick#handling-events). In React, we use event handlers to trigger changes in state based on users' actions. You may have noticed that we are able to write web applications that perform similar actions as the ones we learned about previously with much less code.
 
-When we first learned about event handlers, we create a small application that would update some HTML when a button was clicked.
+When we first learned about event handlers, we created a small application that would update some HTML when a button was clicked.
 
-```html
+```html {linenos=table}
    <!DOCTYPE html>
    <html>
       <head>
@@ -76,15 +76,15 @@ When we first learned about event handlers, we create a small application that w
    </html>
 ```
 
-With React, we don't need nearly as much code to accomplish the same task.
+With React, we can simplify our code and still accomplish the same task.
 
-```jsx
+```jsx {linenos=table}
    import { useState } from 'react';
 
    export default function Doorbell() {
       const[bell, setBell] = useState("");
 
-      handleClick = () => {
+      const handleClick = () => {
          setBell(bell += "you rang...");
       }
 
@@ -97,8 +97,6 @@ With React, we don't need nearly as much code to accomplish the same task.
       );
    }
 ```
-
-These two codebases have the same effect when run, but the React code is a lot simpler and over time, will be more efficient.
 
 {{% notice blue "Note" "rocket" %}}
 

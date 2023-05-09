@@ -5,8 +5,8 @@ draft: false
 weight: 31
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Kimberly Horan # to be set by the page reviewer
+reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -16,14 +16,26 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 Once you have completed everything in this chapter, you should be able to do the following:
 
-1. Understand what state is in React
-1. Be able to render a form
-1. Use handleSubmit and handleChange to appropriately update the state upon form submission
-1. Use refs to manipulate the DOM
+1. Understand what state is in React.
+1. Understand the underlying processes of changing the state in React.
+1. Work with event handlers to change a component's state.
+1. Be able to render a form and understand what happens when the form is submitted.
 
 ## Key Terminology
 
 Here is a list of key terms you should make note of throughout the chapter on the page that they appear.
+
+### An Introduction to State in React
+
+1. state
+1. state variable
+1. state setter function
+1. hooks
+
+### Changes in State
+
+1. Virtual DOM
+1. reconciliation
 
 ## Content Links
 
