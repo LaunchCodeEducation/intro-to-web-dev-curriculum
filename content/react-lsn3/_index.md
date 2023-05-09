@@ -12,7 +12,18 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-## Major Concepts & Key Terminology
+## Learning Objectives
+
+Once you have completed everything in this chapter, you should be able to do the following:
+
+1. Understand what state is in React
+1. Be able to render a form
+1. Use handleSubmit and handleChange to appropriately update the state upon form submission
+1. Use refs to manipulate the DOM
+
+## Key Terminology
+
+Here is a list of key terms you should make note of throughout the chapter on the page that they appear.
 
 ## Content Links
 
