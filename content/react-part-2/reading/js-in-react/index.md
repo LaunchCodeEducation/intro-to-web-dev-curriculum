@@ -33,7 +33,7 @@ W3 Schools created some nice examples of [React Events](https://www.w3schools.co
 {{% /notice %}}
 
 ### JavaScript Variables
-We can render variables inside our components and function by encasing them in curly braces `{ }`.
+We can render variables inside our components and function by encasing them in curly braces `{ }`. The curly braces act as escape characters for JSX.   
 
 {{% notice blue "Example: Variables" "rocket" %}} 
    ```react{linenos=table,hl_lines=[],linenostart=1}

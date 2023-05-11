@@ -66,7 +66,7 @@ In this example, we are using an array of strings that name the days of the week
 
 **Keys and Arrays**
 
-The example above used a simple array that contained a collection of strings. The `map()` function always uses key-value-pairs.  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in the example above.
+The example above used a simple array that contained a collection of strings. The `map()` function always uses [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html).  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in the example above.
 
 **Keys and Objects**
 
@@ -74,7 +74,7 @@ We can use `map()` for more complicated arrays, such as an array of objects. Lik
 
 <!-- //TODO: link to objects page in JS textbook will need to update when JS added to this book-->
 
-With all of the flexibility of the `map()` function, we need to ensure it renders the correct element. `map()` works with [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html). 
+With all of the flexibility of the `map()` function, we need to ensure it renders the correct element. `map()` works with key-value-pairs. 
 
 The key becomes a value's unique id that React associates with its component.  This helps prevent values being mixed up between components.  This unique id is crucial if the items in your array can move, be inserted into other components, or even deleted.  
 
@@ -132,8 +132,6 @@ We have a collection of `months` and `seasons`.  We don't have any `id` values d
    1. February is part of Winter
    1. March is part of Spring
 {{% /expand %}}
-
-
 
 
 {{% notice blue "Example with ID" "rocket" %}} 
