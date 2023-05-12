@@ -13,7 +13,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 TODO: link to conditionals chapter in JS
 
-React components may need to display different things depending on certain conditions.  This is called **Conditional Rendering**. Conditional rendering allows you to change the output with logical operators.   Many use the same syntax you learned in earlier in the course, such as `if` statements and the logical `&&` operator.  You will also learn how to use the ternary operator.
+React components may need to display different things depending on certain conditions.  This is called **Conditional Rendering**. Conditional rendering allows you to change the output with logical operators.   This includes `if`, `if/else`, logical AND (`&&`) operator, and the ternary operator.
 
 ## `if` statements
 
