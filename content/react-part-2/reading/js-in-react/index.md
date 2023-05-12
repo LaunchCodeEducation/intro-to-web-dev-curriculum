@@ -14,15 +14,18 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Using JavaScript in React
 
-React is a JavaScript library which means we can use JavaScript in our React applications.
+React is a JavaScript library. You can create the following JavaScript expressions in your React projects:
+ 1. Variables
+ 1. Loops
+ 1. Functions
+ 1. Conditionals
+ 1. Objects
+ 1. Strings
+1. DOM and Window events.
 
-You can use JavaScript expressions to create loops, variables, functions, conditionals, objects, and strings in React projects.
-
-With some slight syntax differences, we can use DOM and Window events, such as `alert` or `onclick` in our React applications.  
+The syntax is a little different in React, but the functionality is the same.
 
 {{% notice blue "A Note on Naming Conventions." "rocket" %}} 
-
-While you can use the event handlers you learned about in previous lessons, the syntax may vary.
 
 In React part 1, we used `className` to apply CSS stylings instead of `class`. This is because `class` is a JavaScript keyword.  React adapted by using `className`.  Note the use of camelCase.
 
@@ -33,7 +36,7 @@ W3 Schools created some nice examples of [React Events](https://www.w3schools.co
 {{% /notice %}}
 
 ### JavaScript Variables
-We can render variables inside our components and function by encasing them in curly braces `{ }`. The curly braces act as escape characters for JSX.   
+We can render variables inside our components by encasing them in curly braces `{ }`. The curly braces act as escape characters for JSX. They inform the JSX to render the element inside of the brackets.
 
 {{% notice blue "Example: Variables" "rocket" %}} 
    ```react{linenos=table,hl_lines=[],linenostart=1}
@@ -97,7 +100,7 @@ export default TemplateLiteral;
 
 
 ### Arrow Functions
-**Arrow functions** are simplified functions.  They can be used as arguments and passed to other functions because they do not affect the global scope of the project.  This makes them very useful for defining props, working with loops, and conditional statements.  These functions will return values without using the `return` keyword.
+**Arrow functions** are simplified functions. You can use an arrow function as an argument for other functions.  They do not affect the global scope of the project.  Due to their scope, they can be very useful for defining `props`, loops, and conditionals. These functions will return values without using the `return` keyword.
 
 Why not only use arrow functions?  For long functions.  They are great for short expressions but longer functions can be hard to read.
 
@@ -154,9 +157,9 @@ export default ShinyButton;
 ### Working with Props and JS
 //TODO: format as relref link
 
-If you recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), props are arguments passed to and between functions.  We can use anything as a prop, since props are placeholders.
+Recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), `props` are arguments passed to and between functions.  We can use anything as a `props`, since `props` are placeholders.
 
-We can use props to pass data between components.
+We can use `props` to pass data between components.
 
 {{% notice blue "Example: Props" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
@@ -250,7 +253,7 @@ export default Greeting;
 
 {{% notice blue "Note" "rocket" %}} 
    Lines 9 and 14 in the example above are empty tags.
-   These are called **Fragments**.  [Fragments](https://react.dev/reference/react/Fragment#usage) allow you to group multiple elements and treat them as a single element.  You will often find fragments in return statements.
+   These are **Fragments**.  [Fragments](https://react.dev/reference/react/Fragment#usage) allow you to group many elements and treat them as a single element.  You will often find fragments in return statements.
 {{% /notice %}}
 
 ### Importing and Exporting 
@@ -290,7 +293,7 @@ In the example above, `GreetFriend` and `Greeting` are in the same file.  We cou
 
 You can import non-component portions of your codebase. JSON files are a commonly imported item.  
 
-Data stored in a JSON file.  In this example, it is a name.  Component for `GreetFriend` importing the JSON file and using it to complete the greeting message.  
+Data is stored in a JSON file. We import to the component. The component is able to find the data. In this example, it is a name.  `GreetFriend` imports the JSON file and then uses it to complete the greeting message.
 
 {{% notice blue "Example: Working with JSON" "rocket" %}} 
 ```react{linenos=table,hl_lines=[],linenostart=1}
