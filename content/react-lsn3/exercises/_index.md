@@ -20,7 +20,7 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
 
 {{% /notice %}}
 
-1. Create a new application called `exercises` in the `part3` directory in the `react-exercises-and-studios` repo.
+1. Create a new application called `exercises` in the `part3` directory in the [react-exercises-and-studios](https://github.com/LaunchCodeEducation/react-exercises-and-studios) repo.
 1. In `App.js`, remove the content from the `<div className="App">` element and replace it with an `<h1>` heading that says "My Hobby: " with your hobby coming after the colon.
 
    {{% expand "Check Your Solution" %}}
