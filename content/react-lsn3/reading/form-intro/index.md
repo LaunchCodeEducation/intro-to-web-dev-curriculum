@@ -83,7 +83,7 @@ Let's return to manufacturing. Since the shoe factory is having so many issues t
       }
    ```
 
-1. Now when a user types text into the form field, the state of the component is continually changed and the words the user types appears in the `<p>` element. 
+1. Now when a user types text into the form field, the state of the component is continually changed and the words the user types appear in the `<p>` element. 
 1. Time to handle submission! We are going to set up a second event handler for this.
 
    ```jsx {linenos=table}

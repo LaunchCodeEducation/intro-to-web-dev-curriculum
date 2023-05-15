@@ -16,12 +16,12 @@ Time to make a React app to share a hobby you love with your friends and family!
 
 {{% notice blue "Note" "rocket" %}}
 
-The solution in the `solutions` branch of the `react-exercises-and-studios` repo uses needlepoint as an example hobby. Whenever you see a reference to needlepoint in the solution to the exercises, subsitute it for your own chosen hobby.
+The solution in the `solutions` branch of the `react-exercises-and-studios` repo uses needlepoint as an example hobby. Whenever you see a reference to needlepoint in the solution to the exercises, substitute it for your own chosen hobby.
 
 {{% /notice %}}
 
 1. Create a new application called `exercises` in the `part3` directory in the `react-exercises-and-studios` repo.
-1. In `App.js`, remove the content from the `<div className="App">` element and replace it with an `h1` heading that says "My Hobby: " with your hobby coming after the colon.
+1. In `App.js`, remove the content from the `<div className="App">` element and replace it with an `<h1>` heading that says "My Hobby: " with your hobby coming after the colon.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
@@ -44,10 +44,10 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
 
 1. This functional component return a `<div>` that contains the following:
 
-   1. An `<h2>` heading that that says something to the effect of "3 Fun Facts About this Hobby".
+   1. An `<h2>` heading that says something to the effect of "3 Fun Facts About this Hobby".
    1. An ordered list that contains three facts that you want others to know about your chosen hobby.
 
-1. Call the new `HobbyIntroduction` component under your `h1` heading in `App.js`.
+1. Call the new `HobbyIntroduction` component under your `<h1>` heading in `App.js`.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
