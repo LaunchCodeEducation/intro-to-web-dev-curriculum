@@ -24,7 +24,7 @@ Check out the [starter branch](https://github.com/LaunchCodeEducation/react-exer
       - `Button.js`
          - Creates a button for the application that uses the `alert` Window method.
       - `oceans.json`
-         - holds multiple objects, which we use use in our application
+         - holds multiple objects, which we will use in our application
       - `Profile.js`
          - Will become a list template that holds an image, name, facts, and a button for each `json` object in `oceans.json`.
       - `styles.css` contains the styling we will add to our application.
@@ -79,7 +79,7 @@ There are a lot of steps to make these profile objects.  We are going to work on
 
 **A. Create the `listItems` function**
 
-1. Open the `oceans.json` file.  It contains 7 `JSON` objects.  Each object has multiple properties, such as a name and image.  These properties are going to be used in the creation of our list.
+1. Open the `oceans.json` file.  It contains 7 `JSON` objects.  Each object has multiple key/value pairs, such as a `name` and `image`.  We will use these key/value pairs to create our list.
 1. Import the `oceans.json` file.  Give it a meaningful alias, such as `oceans`.
 1. In the `Profile` function, remove the `<h3>` placeholder, but keep the `<Button />`. 
 
@@ -104,14 +104,13 @@ export default Profile;
 
 **B. Add the Profile Image**
 
-//TODO: rework this, pull listItems out and then pass to Profile -- keep elements separate
-
 Each profile object will have an emoji to represent it.
 
-1. We will use `map` to help us iterate through the image properties in the JSON file.
-   1. Declare a variable called `listItem` and instantiate it equal to the mapped output of the `oceans.json`. 
+1. We will use `map` to help us iterate through the `image` values in the JSON file.
+   1. Declare a variable called `listItem` and instantiate it equal to `oceans.map()`.
+   1. Set the callback parameter of `listItem` to `ocean =>` 
 
-   //TODO: Link to this section of the reading
+   
 
    1. The map function should return `ocean` which will include all elements required to create a profile object.
 1. Each profile will be contained in its own `<div>`.  To keep each `<div>` unique, we will need to add a `key` which is set to the `id` property of each JSON object.  We are working with JSON objects, so you will need curly braces. 

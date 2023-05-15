@@ -13,13 +13,17 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## `map()`
-`map()` is used for iterating through or displaying lists of similar objects of a component in React.  `map()` iterates through arrays and returns JSX.  When `map()` function is called, it renders every returned value to the DOM.  This is the most popular loop used in React.
-We can use the `map()` function to create lists and to iterate through arrays.  
 
+`map()` is used for iterating through or displaying lists of similar objects of a component in React.
+The `map` function creates a new array, which it renders to the DOM.  This allows you to manipulate data from an array without changing the original array.  It is similar to any of the loops you learned in the JavaScript portion of this book.
+
+To use the `map` function, you chain it to the array you want to iterate over.  You will need to pass it a parameter for callback.  This callback will be returned as JSX.  
 Let's look at an example.
 
 {{% notice blue "Example" "rocket" %}} 
 In this example, we are using an array of strings that name the days of the week.  
+
+We will chain the `map` function to `props` in this example. The callback parameter is `day`.  `ListOfDays` will return `day` as a list item.  `ListOfDays` is contained within the `DaysOfTheWeek` function.  The `DaysOfTheWeek` function is returning an unordered list of `ListOfDays`.  Notice in this return statement, the array `weekDays` is the parameter.
 
 **[Try it!](https://codesandbox.io/p/sandbox/map-function-le3cw3)**
 
@@ -66,7 +70,7 @@ In this example, we are using an array of strings that name the days of the week
 
 **Keys and Arrays**
 
-The example above used a simple array that contained a collection of strings. The `map()` function always uses [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html).  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in the example above.
+The example above used a simple array that contained a collection of strings. The `map()` function always uses [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html).  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in line 13 of the example above.
 
 **Keys and Objects**
 
@@ -74,7 +78,7 @@ We can use `map()` for more complicated arrays, such as an array of objects. Lik
 
 <!-- //TODO: link to objects page in JS textbook will need to update when JS added to this book-->
 
-With all of the flexibility of the `map()` function, we need to ensure it renders the correct element. `map()` works with key-value-pairs. 
+With all of the flexibility of the `map()` function, we need to ensure it renders the correct element. 
 
 The key becomes a value's unique id that React associates with its component.  This helps prevent values being mixed up between components.  This unique id is crucial if the items in your array can move, be inserted into other components, or even deleted.  
 
