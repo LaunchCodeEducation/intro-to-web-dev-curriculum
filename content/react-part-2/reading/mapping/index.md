@@ -82,7 +82,7 @@ With all of the flexibility of the `map()` function, we need to ensure it render
 
 The key becomes a value's unique id that React associates with its component.  This helps prevent values being mixed up between components.  This unique id is crucial if the items in your array can move, be inserted into other components, or even deleted.  
 
-It is not advised to create keys while the application is running.  You should include them in your data somehow. A key needs to be a string or number datatype.  If you have the opportunity to create your data, include some sort of `id` key.  If your data does not have an `id` then use what is available.
+It is not advised to create keys while the application is running.  You should include them in your data somehow. A key needs to be a string or number data type.  If you have the opportunity to create your data, include some sort of `id` key.  If your data does not have an `id` then use what is available.
 
 {{% notice blue "Example" "rocket" %}} 
 
