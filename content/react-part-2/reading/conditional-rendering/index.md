@@ -110,7 +110,7 @@ Currently, we are hardcoding these outcomes.  In the next chapter, you will lear
    ```
 {{% /notice %}}
 
-//TODO: Also a codesandbox feature.  Click the black left border.  Then click the hamburger menu in the top left corner.  Select `App.js` to explore.
+
 
 {{% notice blue "Example Setting our Conditional to False" "rocket" %}}
 Try it out in this sandbox!  
