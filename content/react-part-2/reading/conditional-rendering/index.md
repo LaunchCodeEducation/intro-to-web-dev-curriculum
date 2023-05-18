@@ -111,7 +111,10 @@ Currently, we are hardcoding these outcomes.  In the next chapter, you will lear
    ```
 {{% /notice %}}
 
-//TODO: Also a codesandbox feature.  Click the black left border.  Then click the hamburger menu in the top left corner.  Select `App.js` to explore.
+Explore codesandbox:
+1. Click the black left border.  
+1. Click the hamburger menu in the top left corner.  
+1. Select `App.js` to explore.
 
 {{< rawhtml >}}
 <iframe src="https://codesandbox.io/embed/rainorshine-if-rainy-sunny-s6on88?fontsize=14&hidenavigation=1&theme=dark&view=preview"
