@@ -157,7 +157,7 @@ export default ShinyButton;
 ### Working with Props and JS
 //TODO: format as relref link
 
-Recall from the [PREVIOUS CHAPTER](react-lsn1/reading/components/#functional-components), `props` are arguments passed to and between functions.  We can use anything as a `props`, since `props` are placeholders.
+Recall from the [previous chapter]({{< relref "../../../../react-lsn1/reading/components/#functional-components" >}}), `props` are arguments passed to and between functions.  We can use anything as a `props`, since `props` are placeholders.
 
 We can use `props` to pass data between components.
 

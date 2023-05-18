@@ -11,7 +11,7 @@ lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
-TODO: link to conditionals chapter in JS
+
 
 React components may need to display different things depending on certain conditions.  This is called **Conditional Rendering**. Conditional rendering allows you to change the output with logical operators.   This includes `if`, `if/else`, logical AND (`&&`) operator, and the ternary operator.
 
@@ -25,7 +25,6 @@ In the `App` function, we use an `if` statement and `props` to render which stat
 
 {{% notice blue "Example Setting our Conditional to True" "rocket" %}}
 
-TODO: I've been using codesandbox for testing my examples -- would this be an option for students or too distracting?  the react.dev documentation uses codesandbox
 
 [Try it!](https://codesandbox.io/s/rainorshine-if-49kscs?file=/src/App.js)
    ```react{linenos=table,hl_lines=[14],linenostart=1}
@@ -111,7 +110,12 @@ Currently, we are hardcoding these outcomes.  In the next chapter, you will lear
    ```
 {{% /notice %}}
 
-Explore codesandbox:
+//TODO: Also a codesandbox feature.  Click the black left border.  Then click the hamburger menu in the top left corner.  Select `App.js` to explore.
+
+{{% notice blue "Example Setting our Conditional to False" "rocket" %}}
+Try it out in this sandbox!  
+
+Explore CodeSandbox:
 1. Click the black left border.  
 1. Click the hamburger menu in the top left corner.  
 1. Select `App.js` to explore.
@@ -124,6 +128,8 @@ Explore codesandbox:
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 {{</ rawhtml >}}
+
+{{% /notice %}}
 
 {{% expand "Output" %}}
    ## Bring your sunglasses!
@@ -289,7 +295,7 @@ Ternary statements are simplified `if/else` blocks.  We could update our `RainOr
 ## Other applications for Conditional Rendering
 
 Conditional Rendering can also be applied to the styling of elements. 
-Let's add some to our `RainOrShine` function.  We will need
+Let's add some to our `RainOrShine` function.  We will need set the conditional as part of the `className`.
 
 {{% notice blue "Example: Ternary for applying CSS" "rocket" %}}
    ```react{linenos=table,hl_lines=[1,11],linenostart=1}

@@ -24,7 +24,7 @@ The app you complete in this studio will have the following functionality:
 
 ## Getting Started
 
-1. Fork and clone the [starter code ADD LINK](). //TODO: Link to starter code
+1. Check out the `studio2-solution` branch from the [exercises and studio](https://github.com/LaunchCodeEducation/react-exercises-and-studios) repo.
 
 1. Explore the codebase.  
    1. Look at the `App` function. 
