@@ -1,5 +1,5 @@
 ---
-title: "Create the Banner Component"
+title: "2: Create the Banner Component"
 date: 2023-05-25T11:39:25-05:00
 draft: false
 weight: 3

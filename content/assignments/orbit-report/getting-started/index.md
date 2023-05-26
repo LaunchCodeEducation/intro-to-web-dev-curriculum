@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "1. Getting Started"
 date: 2023-03-22T11:39:25-05:00
 draft: false
 weight: 2
