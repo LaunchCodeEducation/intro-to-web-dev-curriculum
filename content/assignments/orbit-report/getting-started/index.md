@@ -13,7 +13,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### Explore the Starter Code
-<!-- TODO: link to repo -->
+<!-- TODO: link to repo it needs to be added to GitHub Classroom-->
 1. Fork and Clone the [starter code] (LINK HERE) repo.
    1. Run `npm install` 
    1. Run `npm start` to run the starter code.
