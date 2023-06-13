@@ -17,10 +17,15 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 This project uses unit tests to help auto-grade your work. The tests should pass based on the 
 files you create and their behavior.
 
+{{% notice orange "Warning" "rocket" %}} 
+ <!-- TODO: link to Github actions page -->
+ In order to pass this assignment, you must pass the workflow tests in [GitHub Actions](LINK HERE).  
+{{% /notice %}}
+
 
 Run the tests when you reach this section of the instructions. You may run them as you work on the project. These tests are looking to see if your components render. They do not provide help in creating the project.
 
-### To Run the Tests
+### To Run the Tests in Your Terminal
 Use these steps to start the tests:
 
 1. In the terminal, `cd` into the project directory.
