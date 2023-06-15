@@ -14,6 +14,14 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 Your first assignment is mostly an exercise in following instructions. We'll ask you to modify an existing program so that, when run, the program prints "Hello world!".
 
+{{% notice red Warning "rocket" %}}
+In order to complete this assignment there are a few things that you will need to have already completed! You can find these items below:
+
+1. [Installed Git]({{< relref "../../installations/install-git/" >}})
+1. [Installed Visual Studio Code]({{< relref " ../../installations/install-visual-studio/" >}})
+1. [Installed Node]({{< relref " ../../installations/install-node/" >}})
+{{% /notice %}}
+
 Programming jobs often require you to get familiar with, or at least make use of, additional technologies. Here, you'll be using a few web applications, like GitHub and Repl.it, to write your code, run it, save it, and submit your assignment.
 
 So while the coding task may appear straightforward, you'll be introduced to a set of instructions, or **workflow**, that is important for the rest of your success in this class.
@@ -25,10 +33,9 @@ Read this whole page before you start taking any action.
 ## Requirements
 
 1. Sign up for a GitHub account.
-1. Sign up for a Repl.it account.
-1. Open and accept the GitHub classroom assignment invitation.
-1. Change the code in Repl.it.
-1. Commit the code in Repl.it.
+1. Change the code in Visual Studio Code.
+1. Commit the code.
+1. Push the code to your assignment repository.
 1. Make sure your assignment passes the test.
 
 ### GitHub
@@ -41,18 +48,30 @@ If you haven't done so already, create a [GitHub account](https://github.com/joi
 Before starting on any assignment, make sure you are signed into your GitHub account!
 {{% /notice %}}
 
-First, find Assignment #0 in Canvas and click on the starter code repo link. Fork the repository to your personal profile, copy the repo’s URL for cloning, and open up Visual Studio Code.
+First, find `Assignment #0` in Canvas and click on the starter code repo link. Fork the repository to your personal profile, copy the repo’s URL for cloning, and clone the project to a directory on your machine.
+
+After you have cloned the directory to your machine, open up the project within `Visual Studio Code`.
 
 ## Hello world!
 
 Once you have the assignment open within visual studio code, have a look around the various files and get curious about what this code does.
 Don't be afraid to look - just don't edit any of this code just yet.
 
-After you have done some exploring, use the Repl.it *Run* button to run the program. To begin with, the program prints just `"Hello"`. Remember, your task is to modify the output of this program so that, when run, `"Hello world!"` is printed.
+After you have done some exploring, open a terminal window within your `Visual Studio Code` application. You can do this by selecting the `terminal` option near the top left of your window and clicking `new terminal`.
 
-Take a look at the `hello.js` file. This is the only file in your starter code that needs changing.
-You'll see a structure called a `function`, along with a final `module.exports` line. We haven't learned about either of these items yet - but we will! If you are so compelled, google these terms to get a brief introduction.
-If you are not compelled, you don't need to know what they do for the purposes of this class until later lessons.
+{{% notice blue Note "rocket" %}}
+You can also open a terminal and navigate to the `assignment0` project directory location and run the following commands as well.
+{{% /notice %}}
+
+Type in the following command:
+
+```bash
+node index.js
+```
+
+You should notice that when the program runs the output is `"Hello"`. Remember, your task is to modify the output of this program so that, when run, `"Hello world!"` is printed.
+
+Take a look at the `hello.js` file. This is the only file in your starter code that needs changing. You'll see a structure called a `function`, along with a final `module.exports` line. We haven't learned about either of these items yet - but we will! If you are so compelled, google these terms to get a brief introduction. If you are not compelled, you don't need to know what they do for the purposes of this class until later lessons.
 
 {{% notice blue Tip "rocket" %}}
 Set a timer for 5 mins and google search "JavaScript functions" or "JavaScript module.exports". Or look these items up directly on [W3Schools](https://www.w3schools.com/) or [MDN](https://developer.mozilla.org/en-US/). When the timer is up, write down whatever you have found interesting or most salient from your search.
@@ -72,29 +91,36 @@ It's a good idea to take note of how this file in the starter code looks before 
 
 With all of this in mind, modify the string on that line so that `"Hello world!"` is printed.
 
+### Test Code Locally
+
+Run the following command to test your newly updated code to see if it passes the tests:
+
+```bash
+npm test
+```
+
+Run the program again to verify that the output is `Hello world!` as expected before moving on to the next step.
+
+```bash
+node index.js
+```
+
 ### Commit Your Changes
 
-Now that your program prints `"Hello world!"`, you'll commit your code. Committing your code is part of a process called version control, which we'll get into in a later lesson. For now, go to the sidebar in your Repl.it window and click on the version control icon.
+Now that your program prints `"Hello world!"`, you'll commit your code. Committing your code is part of a process called version control, which we'll get into in a later lesson. For now, open up your terminal and type in the following commands to follow along:
 
-Here, the user selects the version control icon.
-
-When you have opened the version control tab, write a commit message in the text field that prompts "What did you change?". A **commit message** is a note about what you have changed in your code.
-
-Click on the text box and write a message that conveys what you have changed in the code.
-
-A good commit message in this case would be something like: "Added my personal solution", or "Updated hello.js to print 'hello world!'".
-
-Hit the *commit & push* button. Voila - your solution is submitted (pushed) to the GitHub graders.
+1. `git status`
+1. `git add .`
+1. `git commit -m "Hello, world!"`
+1. `git push origin main`
 
 ### Check Your Solution
 
-Once you've committed your work, head to Github to see that your solution passes the tests.
+Once you've committed your work, head to your Github repository associated with this assignment to see that your solution passes the tests.
 
-The easiest way to do this is to click on the hyperlink at the top of the Repl.it version control tab.
+The easiest way to do this is to click on the `actions` tab located near the top of your repository.
 
-The hyperlink pointed to here takes you to the GitHub location of your assignment.
-
-If your solution passes the grading requirements, you will see a green check mark near your latest commit.
+If your solution passes the grading requirements, you will also see a green check mark near your latest commit.
 
 The latest commit message on this assignment is "removed a comma from my solution". The green check to the right of the message indicates that the solution passed.
 
@@ -104,17 +130,17 @@ The latest commit, "added a comma to my solution" does not pass the grading requ
 
 A red `x` can always be corrected by repeating the previous steps. These are:
 
-1. Open Repl.it (you can use the *Work in Repl.it* button from the GitHub page)
+1. Open the `actions` tab. Select the failed test and select the `rerun all failed jobs` option.
 1. Change the string,
 1. Run the program to visually ensure that `"Hello world!"` is printed,
 1. Commit and push your changes.
 
-You may make any number of commits to your solution. You won't lose points for pushing *commit and push* many times. In fact, each assignment is worth only 1 point. In most cases, you won't need to *commit and push* more than once, however. You can verify that your code runs we expect by running it and seeing the proper `"Hello world!"` message printed.
+You may make any number of commits to your solution. You won't lose points for pushing *commit and push* many times. In fact, each assignment is worth only 1 point. In most cases, you won't need to *commit and push* more than once, however. You can verify that your code runs the way we expect by running it and seeing the proper `"Hello world!"` message printed.
 
 In some cases, you may see a yellow dot grading status instead of the green check or red `x`. This is fine and just means that GitHub is currently building your solution. It will often resolve to either a check or `x` after a few moments.
 
 When you see a green check, your code passes and you are all finished with the assignment.
 
 {{% notice blue Note "rocket" %}}
-If your program is outputting "Hello world!", but you are still not seeing a green check mark, make sure you did not edit any file other than `hello.js`. An accidental space or extra character can cause problems with Github Classroom's grading. To double check that you have not done so, you can click on the 7-digit code next to the check mark or x. This will bring up which files have been changed and any changes made. If any other files other than `hello.js` were changed, make sure to undo the changes in Repl.it and commit to Github.
+If your program is outputting "Hello world!", but you are still not seeing a green check mark, make sure you did not edit any file other than `hello.js`. An accidental space or extra character can cause problems with the tests. To double check that you have not done so, you can click on the 7-digit code next to the check mark or x. This will bring up which files have been changed and any changes made. If any other files other than `hello.js` were changed, make sure to undo the changes in Repl.it and commit to Github.
 {{% /notice %}}
