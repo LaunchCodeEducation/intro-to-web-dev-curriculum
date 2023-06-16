@@ -20,34 +20,61 @@ Run the following command to test your newly updated code to see if it passes th
 npm test
 ```
 
-Run the program again to verify that the output is `Hello world!` as expected before moving on to the next step.
+![Image of terminal window after running the npm test command](pictures/npm-test.png?classes=border)
 
-```bash
-node index.js
-```
+If your tests fail, please revisit the previous section and double check that your hello.js file is formatted as expected. The test expects the output to be "Hello world!" precisely.
 
 ### Commit Your Changes
 
-Now that your program prints `"Hello world!"`, you'll commit your code. Committing your code is part of a process called version control, which we'll get into in a later lesson. For now, open up your terminal and type in the following commands to follow along:
+Now that your program prints `"Hello world!"` and the tests pass, you'll commit your code. Committing your code is part of a process called version control, which we'll get into in a later lesson. For now, open up your terminal and type in the following commands to follow along:
+
+{{% notice blue Note "rocket" %}}
+You will notice in the below commands that we are also running the `git status` command to check the current status of git after running commands. It is not required that we run a `git status` command but it does help illustrate what is happening.
+{{% /notice %}}
 
 1. `git status`
+
+![Image of terminal window after running the git status command](pictures/git-status.png?classes=border)
+
 1. `git add .`
-1. `git commit -m "Hello, world!"`
+
+![Image of terminal window after running the git add . command](pictures/git-add.png?classes=border)
+
+1. `git commit -m "Hello world!"`
+
+![Image of terminal window after running the git commit command with "Hello World as commit message](pictures/git-commit.png?classes=border)
+
 1. `git push origin main`
+
+![Image of terminal window after running the git push command](pictures/git-push.png?classes=border)
 
 ### Check Your Solution
 
-Once you've committed your work, head to your Github repository associated with this assignment to see that your solution passes the tests.
+Once you've committed your work, head to your Github repository associated with this assignment to see if your solution passes the tests.
 
 The easiest way to do this is to click on the `actions` tab located near the top of your repository.
 
-If your solution passes the grading requirements, you will also see a green check mark near your latest commit.
+![Image of github options within main repository page containing the actions tab](pictures/github-menu-options.png?classes=border)
 
-The latest commit message on this assignment is "removed a comma from my solution". The green check to the right of the message indicates that the solution passed.
+Once inside of the actions tab your view should look similar to the following:
+
+![Image of github actions view within github repository](pictures/actions-view.png?classes=border)
+
+{{% notice blue Note "rocket" %}}
+In the above image you may notice that the circle icon next to Hello world! is yellow. Your tests may have already completed by the time you navigate to this page and the circle may appear as green if the tests passed, or red if they have failed.
+{{% /notice %}}
+
+You can click on the `Hello world!` workflow run and view the steps that the `GitHub Action` is completing and receive more details:
+
+![View after selecting the specific Hello world! workflow run within GitHub Actions](pictures/autograding-yml-view.png?classes=border)
+
+Click the the `build` button:
+
+![View of the actual GitHub actions build steps](pictures/build.png?classes=border)
+
+If your solution passes the grading requirements, you will notice a check mark next to each step within the build process. You will also notice a green check mark next to your most recent `commit id` on the main page of your repository.
 
 If your solution does not pass, you will see a red `x` in its place.
-
-The latest commit, "added a comma to my solution" does not pass the grading requirements.
 
 A red `x` can always be corrected by repeating the previous steps. These are:
 
