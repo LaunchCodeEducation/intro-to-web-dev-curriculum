@@ -16,6 +16,16 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 Welcome to your first graded assignment.  We would like you to create a short quiz console application.
 
+Fork and clone the [starter code repo](https://github.com/LaunchCodeEducation/Candidate-Testing-Autograded/tree/main).
+
+1. Open a terminal and `cd` into the project file.
+   1. You will see `candidate-testing.js` and other files if you run `ls`
+1. Run `npm install` to bring in all of the packages you need to run the application
+1. Run `npm install jest` this will install the unit tests for autograding
+1. Run `npm i readline-sync` to install `readline-sync`
+
+You should be ready to code your application.  Good luck! 
+
 
 ## Requirements
 
