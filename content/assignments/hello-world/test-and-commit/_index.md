@@ -40,7 +40,7 @@ You will notice in the below commands that we are also running the `git status` 
 
 ![Image of terminal window after running the git add . command](pictures/git-add.png?classes=border)
 
-1. `git commit -m "Hello world!"`
+1. `git commit -m "Commit message"`
 
 ![Image of terminal window after running the git commit command with "Hello World as commit message](pictures/git-commit.png?classes=border)
 
