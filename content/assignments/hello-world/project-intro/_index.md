@@ -38,6 +38,10 @@ So while the coding task may appear straightforward, you'll be introduced to a s
 
 If you haven't done so already, create a [GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 
+{{% notice blue Note "rocket" %}}
+You can also learn more about git and github by viewing the following [resource page](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
+{{% /notice %}}
+
 ### Assignment Invitation
 
 {{% notice blue Tip "rocket" %}}

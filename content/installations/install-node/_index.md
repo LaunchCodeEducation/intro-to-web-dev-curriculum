@@ -26,6 +26,6 @@ $ node -v
 v##.##.#
 ```
 
-5. At the time of writing this walkthrough the `LTS` version of node is `18.16.0`.
+5. At the time of writing this walkthrough the `LTS` version of node is `18.16.0`. As long as your node version is `18.x.x` then you should not encounter any issues within this book.
 
 6. If it doesn't install, try adding `sudo` before `npm` and then run the command again.

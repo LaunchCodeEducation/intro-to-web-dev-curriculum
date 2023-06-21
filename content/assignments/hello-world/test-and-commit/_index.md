@@ -50,6 +50,10 @@ You will notice in the below commands that we are also running the `git status` 
 
 ### Check Your Solution
 
+{{% notice blue Note "rocket" %}}
+The following section covers `GitHub Actions`. If you would like to visit the documentation provided by `GitHub` you can find that [documentation here](https://docs.github.com/en/actions)
+{{% /notice %}}
+
 Once you've committed your work, head to your Github repository associated with this assignment to see if your solution passes the tests.
 
 The easiest way to do this is to click on the `actions` tab located near the top of your repository.

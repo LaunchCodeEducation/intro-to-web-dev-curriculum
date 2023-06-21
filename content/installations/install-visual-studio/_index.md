@@ -15,7 +15,11 @@ In addition to simply writing and running code, Visual Studio Code has tools tha
 Visual Studio Code is very customizable. Once you have everything set up, you can take additional steps to personalize your workspace such as changing the theme.
 {{% /notice %}}
 
-Go to the Visual Studio Code [download page](https://code.visualstudio.com/download/) and download the appropriate version for your operating system.
+Go to the Visual Studio Code [download page](https://code.visualstudio.com/download/) and download the appropriate version.
+
+{{% notice blue Note "rocket" %}}
+`Mac` users please ensure that you download the correct version depending on if your mac is using an `M1` or `M2` silicon chip.
+{{% /notice %}}
 
 Open your new copy of Visual Studio Code. To open one of your coding projects, go to **File > Open** and select the project you want to work on.
 
@@ -34,4 +38,6 @@ Now every time you open the terminal, it will default to bash!
 1. Restart Visual Studio Code and then go into the Command Palette again to change the terminal profile.
 {{% /notice %}}
 
-Please note that Markdown rendering can vary depending on the platform or Markdown editor you are using.
+{{% notice blue Note "rocket" %}}
+You can further explore resources within `visual studio code` by viewing the [documentation here](https://code.visualstudio.com/docs)
+{{% /notice %}}
