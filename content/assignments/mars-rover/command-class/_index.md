@@ -18,7 +18,7 @@ We'll follow TDD practices for the creation of `Message` and `Rover`, but for th
 
 1. This class builds an object with two properties: `constructor(commandType, value)`
 - `commandType` is a string that represents the type of command. We will go over the details of the types when we get to the `Rover` class and tests. At this time, note that a command type will be one of the following: `MODE_CHANGE`, `MOVE`, or `STATUS_CHECK`.
-- To peek ahead at the full functionality of these types, refer to the [Command Types table](command-types-table).
+- To peek ahead at the full functionality of these types, refer to the [Command Types Table]({{< relref "../rover-class/_index.md#rover-command-types" >}}).
 - `value` is a value related to the type of command.
 
 {{% notice blue Example "rocket" %}}
@@ -26,13 +26,13 @@ We'll follow TDD practices for the creation of `Message` and `Rover`, but for th
 let modeCommand = new Command('MODE_CHANGE', 'LOW_POWER');
 let moveCommand = new Command('MOVE', 12000);
 ```
-{{% /notice %}}
 
 `MODE_CHANGE` and `MOVE` are passed in as the `commandType`.
 
 `LOW_POWER` and 12000 are passed in as the `value`. Different command types require different kinds of values. `STATUS_CHECK` takes no value.
 
-Don't worry about the mode options for now. To peek ahead, see the [Rover Modes table](rover-modes-table).
+Don't worry about the mode options for now. To peek ahead, see the [Rover Modes Table]({{< relref "../rover-class/_index.md#rover-modes" >}}).
+{{% /notice %}}
 
 Now that we've gone over the class, let's check out the tests.
 
@@ -42,9 +42,9 @@ To begin, open and examine `spec/command.spec.js`. One test has been created for
 
 **Test 1**
 
-Note that the test description reads, **"throws error if a command type is NOT passed into the constructor as the first parameter"**.
-
-1. So far, you have used many expectations to check for equality. In the chapter on exceptions, we shared an example of how we might use an expectation to check if an exception is thrown. Refer back to that [example](exception-expectations) for guidance on the syntax.
+Note that the test description reads, "throws error if a command type is NOT passed into the constructor as the first parameter".
+<!-- TODO: Add link below that references back to the exceptions chapter example -->
+1. So far, you have used many expectations to check for equality. In the chapter on exceptions, we shared an example of how we might use an expectation to check if an exception is thrown. Refer back to that [example]() for guidance on the syntax.
 1. Run the command `npm test` within your terminal to verify that the test passes. Next, comment out lines 4-6 in `command.js`. Run `npm test` again to verify that the test fails (the expected error is not thrown when the `Command` class is called).
 1. Restore lines 4-6 to `throw Error("Command type required.");`.
 1. Change 'Command type required.' on line 9 in `command.spec.js` to 'Oops'. Run `npm test` again to verify that the test fails (the error message did not match `"Command type required."`).
@@ -70,5 +70,5 @@ Run `npm test` to verify that all 3 command tests pass.
 As you move through the remaining instructions, the amount of guidance will decrease. Refer to your earlier, passing tests to help you construct new tests and passing code.
 {{% /notice %}}
 
-Great job, astronaut! When you are ready to keep going, check out [Part 2](mars-rover2)!
+Great job, astronaut! When you are ready to keep going, check out the [Message Class]({{< relref "../message-class/_index.md" >}})!
 
