@@ -2,7 +2,7 @@
 title: "Mars Rover"
 date: 2023-05-25T12:55:09-05:00
 draft: false
-weight: 100
+weight: 3
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer

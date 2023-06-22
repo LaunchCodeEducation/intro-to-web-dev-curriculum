@@ -12,11 +12,13 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-# Assignment #3: Mars Rover
-
 This task puts your unit testing, modules making, and exception handling knowledge to use by writing tests and classes for the Mars rover named Curiosity.
 
-![Curiosity rover taken by the rover on Mars.](pictures/curiosity-rover-selfie.png?classes=border)
+/home/john/Desktop/launchcode/curriculum/hugo/javascript/content/assignments/mars-rover/starter-code/pictures/curiosity-rover-selfie.jpg
+
+{{< rawhtml >}}
+   <img src="pictures/curiosity-rover-selfie.png" alt="Curiosity rover taken by the rover on Mars." width=30% />
+{{< /rawhtml >}}
 
 You will create a simulation for issuing commands to Curiosity. The idea is to create a *command* at mission control, convert that command into a *message*, send it to the *rover*, then have the rover respond to that message.
 
@@ -30,11 +32,11 @@ In true TDD form, you will be asked to first write the appropriate unit tests fo
 
 ## Sections:
 
-- [Get the Starter Code](#get-the-starter-code)
-- [Command Class](#command-class)
-- [Message Class](#message-class)
-- [Rover Class](#rover-class)
-- [Submitting Your Work](#submitting-your-work)
+1. [Starter Code]({{< relref "#submitting-your-work" >}})
+1. [Command Class]({{< relref "../command-class/_index.md" >}})
+1. [Message Class]({{< relref "../message-class/_index.md" >}})
+1. [Rover Class]({{< relref "../rover-class/_index.md" >}})
+1. [Submitting Your Work]({{< relref "../submitting-your-work/_index.md" >}})
 
 ## Get the Starter Code
 
@@ -55,16 +57,4 @@ Each numbered item describes a test. *You should use the given phrases as the te
 Do NOT try to write all of the tests at once. Doing so will be inefficient and will cause excessive frustration.
 {{% /notice %}}
 
-## Submitting Your Work
-
-Once your `Rover` class is completed and you have written 13 passing specs, you are ready to submit.
-
-::: tip
-Make sure that you did not edit either `studentgrading.spec.js`, `grading.js`, or any file in the `helpers` directory inside `spec`. Changes to
-
- these files could affect your grade.
-:::
-
-In Canvas, open the Mars Rover assignment and click the "Submit" button. An input box will appear.
-
-Copy the URL for your repl and paste it into the box, then click "Submit" again.
+Once you are ready, move on to the next section: [Command Class]({{< relref "../command-class/_index.md" >}})
