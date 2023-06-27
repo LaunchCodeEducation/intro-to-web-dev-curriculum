@@ -14,6 +14,10 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Submitting Your Work
 
+{{% notice blue Note "rocket" %}}
+Make sure to change the name of the `studentgrade.specx.js` file located in the `spec` directory to `studentgrade.spec.js` to run all tests once more.
+{{% /notice %}}
+
 Once your `Rover` class is completed and you have 14 passing tests, you are ready to submit.
 
 {{% notice blue Tip "rocket" %}}
