@@ -2,7 +2,7 @@
 title: "Assignment 6: Orbit Report"
 date: 2023-05-25T11:39:25-05:00
 draft: false
-weight: 2
+weight: 7
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer

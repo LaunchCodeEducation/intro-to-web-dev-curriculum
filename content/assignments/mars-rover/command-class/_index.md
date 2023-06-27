@@ -1,25 +1,25 @@
 ---
-title: "Command Class"
+title: "2. Command Class"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 2
-originalAuthor: Courtney Frey # to be set by page creator
-originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: Kimberly Horan # to be set by the page reviewer
-reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
+originalAuthor: John Woolbright # to be set by page creator
+originalAuthorGitHub: jwoolbright23 # to be set by page creator
+reviewer: Sally Steuterman # to be set by the page reviewer
+reviewerGitHub: gildedgardenia # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-### Command Class Description
+## Command Class Description
 
 We'll follow TDD practices for the creation of `Message` and `Rover`, but for this class, `Command`, we've provided the functionality. `Command` is already written for you and you do not need to modify it to write passing tests. Open up and examine the file `command.js`.
 
-1. This class builds an object with two properties: `constructor(commandType, value)`
-- `commandType` is a string that represents the type of command. We will go over the details of the types when we get to the `Rover` class and tests. At this time, note that a command type will be one of the following: `MODE_CHANGE`, `MOVE`, or `STATUS_CHECK`.
-- To peek ahead at the full functionality of these types, refer to the [Command Types Table]({{< relref "../rover-class/_index.md#rover-command-types" >}}).
-- `value` is a value related to the type of command.
+This class builds an object with two properties: `constructor(commandType, value)`
+1. `commandType` is a string that represents the type of command. We will go over the details of the types when we get to the `Rover` class and tests. At this time, note that a command type will be one of the following: `MODE_CHANGE`, `MOVE`, or `STATUS_CHECK`.
+1. To peek ahead at the full functionality of these types, refer to the [Command Types Table]({{< relref "../rover-class/_index.md#rover-command-types" >}}).
+1. `value` is a value related to the type of command.
 
 {{% notice blue Example "rocket" %}}
 ```javascript
@@ -60,9 +60,7 @@ Create a second `Command` test using "constructor sets command type" as the desc
 
 **Test 3**
 
-Code a third test using "constructor sets a value passed in as the 2nd argument" as the description. This test checks that the `constructor` correctly sets the `value` property in the new object.
-
-a. You may not need to know a proper `value` in order to write this test.
+Code a third test using "constructor sets a value passed in as the 2nd argument" as the description. This test checks that the `constructor` correctly sets the `value` property in the new object. You may not need to know a proper `value` in order to write this test.
 
 Run `npm test` to verify that all 3 command tests pass.
 

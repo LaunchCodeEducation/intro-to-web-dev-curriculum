@@ -1,12 +1,12 @@
 ---
-title: "Rover Class"
+title: "4. Rover Class"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 4
-originalAuthor: Courtney Frey # to be set by page creator
-originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: Kimberly Horan # to be set by the page reviewer
-reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
+originalAuthor: John Woolbright # to be set by page creator
+originalAuthorGitHub: jwoolbright23 # to be set by page creator
+reviewer: Sally Steuterman # to be set by the page reviewer
+reviewerGitHub: gildedgardenia # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -23,18 +23,18 @@ With [the Message Class section]({{< relref "../message-class/_index.md" >}}) co
 This class builds a rover object with a few properties, and it also contains a function outside of `constructor` to handle updates to its properties.
 
 1. `constructor(position)`
-- `position` is a number representing the rover's position.
-- Sets `this.position` to `position`
-- Sets `this.mode` to `'NORMAL'`
-- Sets the default value for `generatorWatts` to 110
+   1. `position` is a number representing the rover's position.
+   1. Sets `this.position` to `position`
+   1. Sets `this.mode` to `'NORMAL'`
+   1. Sets the default value for `generatorWatts` to 110
 
-2. `receiveMessage(message)`
-- `message` is a `Message` object
-- Returns an object containing at least two properties:
-    - `message`: the name of the original `Message` object
-    - `results`: an array of *results*. Each element in the array is an object that corresponds to one `Command` in `message.commands`.
-- Updates certain properties of the rover object
-    - Details about how to respond to different commands are in the [Command Types table](#rover-command-types).
+1. `receiveMessage(message)`
+   1. `message` is a `Message` object
+   1. Returns an object containing at least two properties:
+      1. `message`: the name of the original `Message` object
+      1. `results`: an array of *results*. Each element in the array is an object that corresponds to one `Command` in `message.commands`.
+   1. Updates certain properties of the rover object
+      1. Details about how to respond to different commands are in the [Command Types table](#rover-command-types).
 
 {{% notice blue Example "rocket" %}}
 ```javascript

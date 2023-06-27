@@ -1,5 +1,5 @@
 ---
-title: "Intro and Starter Code"
+title: "1. Intro and Starter Code"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 1
@@ -13,8 +13,6 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 This task puts your unit testing, modules making, and exception handling knowledge to use by writing tests and classes for the Mars rover named Curiosity.
-
-/home/john/Desktop/launchcode/curriculum/hugo/javascript/content/assignments/mars-rover/starter-code/pictures/curiosity-rover-selfie.jpg
 
 {{< rawhtml >}}
    <img src="pictures/curiosity-rover-selfie.png" alt="Curiosity rover taken by the rover on Mars." width=30% />
