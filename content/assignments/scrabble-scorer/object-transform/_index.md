@@ -71,12 +71,12 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
    won't pass. And you'll lose an opportunity to practice this skill.
    {{% /notice %}}
 
-1. Once you've defined `newPointStructure`, use it to finish writing the `scrabbleScore()` function and then replace 
+1. Once you've defined `newPointStructure`, use it to finish writing the `scrabbleScorer()` function and then replace 
    the `oldScrabbleScorer()` function in `scoringAlgorithms` with this new function.
 
    {{% notice green "Tip" "rocket" %}}
 
    `oldScrabbleScorer()` uses `oldPointStructure` and returns a score for each letter in a word. You'll want to write
-   `scrabbleScore()` to use `newPointStructure` and return a cumulative score for the whole word entered.
+   `scrabbleScorer()` to use `newPointStructure` and return a cumulative score for the whole word entered.
    
    {{% /notice %}}

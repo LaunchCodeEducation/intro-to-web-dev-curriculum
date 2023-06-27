@@ -14,9 +14,9 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 Your job here is to write two other scoring algorithms for the Scrabble player.
 
-1. `simpleScore`: Define a function that takes a word as a parameter and
+1. `simpleScorer`: Define a function that takes a word as a parameter and
    returns a numerical score. Each letter within the word is worth 1 point.
-1. `vowelBonusScore`: Define a function that takes a word as a parameter and
+1. `vowelBonusScorer`: Define a function that takes a word as a parameter and
    returns a score. Each vowel within the word is worth 3 points, and each
    consonant is worth 1 point.
 
