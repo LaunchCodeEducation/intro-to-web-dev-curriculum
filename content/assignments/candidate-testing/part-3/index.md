@@ -31,5 +31,20 @@ Some tips:
 
       _(Number of Correct Answers) / (Number of Quiz Questions) * 100_
 
+## Testing Part 3
 
-You are now ready for the [final steps of the assignment]({{< relref "../running-tests/index.md" >}}).
+In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
+
+   > To pass Part 3, you need to pass tests 11-17.  
+
+You should still pass tests 1-10 from Parts 1 and 2. 
+
+{{< rawhtml >}}
+   <img src="../images/AllTests-Pass.png" alt=" " width=60% />
+{{< /rawhtml >}}
+
+When you pass all 17 tests, push up your work.  Your repo should receive a green check mark. Let your TA know you have this checkmark.  You need to walk your TA through your code in order to be marked complete.
+
+## Congratulations!  
+
+You have completed Graded Assignment 1!  Great Work!

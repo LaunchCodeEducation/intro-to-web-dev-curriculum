@@ -38,5 +38,12 @@ Now that your small app is working, expand it to deal with multiple questions. T
    This is also a great time to save, commit, and push up your work.
    {{% /notice %}}
 
+## Testing Part 2
+
+In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
+
+   > To pass Part 2, you need to pass tests 7-10.  
+
+You should still pass tests 1-6 from Part 1. 
 
 Move on to [Part 3]({{< relref "../part-3/index.md" >}})

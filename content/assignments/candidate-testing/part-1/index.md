@@ -44,7 +44,7 @@ For the sake of this assignment, look for the `TODO` statements. Some are outsid
    1. `question` should be initialized to the following string: `"Who was the first American woman in space? "`.
 
    {{% notice blue "Note" "rocket" %}} 
-   Note the trailing space at the end of this string is required.
+   Don't forget the trailing space at the end of this string! It is required.
    {{% /notice %}}
 
    1. `correctAnswer` should be initialized to `"Sally Ride"`.
@@ -54,6 +54,24 @@ For the sake of this assignment, look for the `TODO` statements. Some are outsid
 
 Under `TODO 1.2c`, check the candidate's answer to see if it is correct. Provide basic feedback to the candidate, letting them know if their answer is correct or not.
 
+## Testing Part 1
+
+In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
+
+{{< rawhtml >}}
+   <img src="../images/Part1-tests.png" alt="Results of tests with only part 1 completed" width=50% />
+{{< /rawhtml >}}
+
+   > To pass Part 1, you need to pass tests 1-6. 
+
+To see which tests you passed, scroll up in your terminal.  You will see details of each test.  At the top of the test results, you will find a list that displays all of the tests and each status.  This can be used a quick reference.  The detailed outputs can help you explore the cause of a failure which can help you debug and improve your code.
+
+{{< rawhtml >}}
+   <img src="../images/Part1-tests-list.png" alt="Results of tests with only part 1 completed" width=50% />
+{{< /rawhtml >}}
+
+The rest of the tests are for Parts 2 and 3.  
+
    {{% notice blue "Note" "rocket" %}} 
    Make sure your small app works properly before moving on to part 2.
 
@@ -61,10 +79,6 @@ Under `TODO 1.2c`, check the candidate's answer to see if it is correct. Provide
    {{% /notice %}}
 
 
-### Troubleshooting Tips
 
-1. Readline-sync not working?
-   1. run the following in your terminal inside your project directory:
-      `npm i readline-sync`
 
 Ready for [Part 2]({{< relref "../part-2/index.md" >}})
