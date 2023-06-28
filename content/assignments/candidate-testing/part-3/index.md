@@ -12,7 +12,7 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-Finally, calculate the candidate's score and print the results. Look for `TODO 3.2a` and `TODO 3.2b`.  The rest of the steps involve updating code you have written and adding more code. 
+Finally, calculate the candidate's score and print the results. Look for `TODO 3.2`.  The rest of the steps involve updating code you have written and adding more code. 
 
 Don't remove anything in the file that you haven't written. Doing so may cause your program to behave unexpectedly - and we might not be able to grade it!
 
