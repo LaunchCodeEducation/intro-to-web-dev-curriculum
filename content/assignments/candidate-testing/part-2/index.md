@@ -33,7 +33,7 @@ Now that your small app is working, expand it to deal with multiple questions. T
 {{% /notice %}}
 
    {{% notice blue "Note" "rocket" %}} 
-   Make sure your loops work properly before moving on to part 2.
+   Make sure your loops work properly before moving on to part 3.
 
    This is also a great time to save, commit, and push up your work.
    {{% /notice %}}
