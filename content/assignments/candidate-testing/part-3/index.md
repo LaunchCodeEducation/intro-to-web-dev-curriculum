@@ -27,9 +27,7 @@ Don't remove anything in the file that you haven't written. Doing so may cause y
 Some tips:
    1. Checking for the correct answer should be case insensitive (e.g. "Orbit" is the same as "orbit").
 
-   1. `TODO 3.2a` you should see a variable declaration for `grade`. Use this to calculate the candidate's score.   
-
-   1. Below `TODO 3.2b`, calculate the candidate's percentage, using this equation:
+   1. `TODO 3.2` you should see a variable declaration for `grade`. Use this to calculate the candidate's score as a percentage, using this equation:
 
       _(Number of Correct Answers) / (Number of Quiz Questions) * 100_
 
