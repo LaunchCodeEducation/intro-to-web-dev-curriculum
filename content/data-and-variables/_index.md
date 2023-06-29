@@ -15,5 +15,37 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ## Learning Objectives
 
 ## Key Terminology
+1. PEMDAS
+1. assignment
+1. initialization
+1. compund assignment
+1. const, constant
+1. camel case
+1. `readline-sync`
+
+### Keywords
+1. `let`
+1. `const`
+1. `var`
+1. `typeof`
+
+### Values and Data Types
+1. String
+1. Number
+1. Object
+
+### Variables
+1. let
+1. var
+
+### Operators
+1. Additon: `+`
+1. Subtraction: `-`
+1. Multiplication: `*`
+1. Division: `/`
+1. Modulus: `%`
+1. Exponentation: `**`
+1. Increment: `++`
+1. Decrement: `--`
 
 {{% children %}}
