@@ -1,8 +1,8 @@
 ---
-title: "Variables"
+title: "Other Operators"
 date: 2023-05-25T12:55:09-05:00
 draft: false
-weight: 3
+weight: 7
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
