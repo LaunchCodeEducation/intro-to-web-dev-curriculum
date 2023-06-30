@@ -2,7 +2,7 @@
 title: "Html Me Something, Part 2"
 date: 2023-06-28T13:06:26-05:00
 draft: false
-weight: 2
+weight: 3
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: # to be set by the page reviewer

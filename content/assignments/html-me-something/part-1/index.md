@@ -44,13 +44,26 @@ Your mission is to build a page that:
    1. Talk about one of your hobbies or passions.
 1. Does each of the following:
 
-   1. Uses each of the following structural HTML5 tags: `<p>`, `<header>`, `<footer>`, `<main>`, `<article>`. If you need to review any of these tags, check out the [HTML tag reference](https://www.w3schools.com/tags/default.asp) at w3schools.
+   1. Uses each of the following structural HTML5 tags: 
+      1. `<p>`
+      1. `<header>`
+      1. `<footer>`
+      1. `<main>`
+      1. `<article>`. 
+      
+      If you need to review any of these tags, check out the [HTML tag reference](https://www.w3schools.com/tags/default.asp) at w3schools.
 
-   1. Uses at least one `<img>` tag (hopefully more). When placing images in your page, put them in a new subfolder called images within your `html-me-something` directory.
+   1. Uses at least one `<img>` tag (hopefully more). 
+   
+      When placing images in your page, put them in a new subfolder called images within your `html-me-something` directory.
 
-   1. Uses at least one [HTML entity](https://www.w3schools.com/html/html_entities.asp). Hint: putting a copyright notice in your footer will afford you the opportunity to use `&copy;`, but you should also try to get creative here.
+   1. Uses at least one [HTML entity](https://www.w3schools.com/html/html_entities.asp). 
+      
+      Hint: putting a copyright notice in your footer will afford you the opportunity to use `&copy;`, but you should also try to get creative here.
 
-   1. Demonstrates creativity. Don’t stop with these items or tags. Have some ideas for your page, and make it great. And dig into the [w3schools HTML reference](https://www.w3schools.com/tags/default.asp) to learn more about other tags, their usage and attributes!
+   1. Demonstrates creativity. 
+   
+      Don’t stop with these items or tags. Have some ideas for your page, and make it great. And dig into the [w3schools HTML reference](https://www.w3schools.com/tags/default.asp) to learn more about other tags, their usage and attributes!
 
 ## Notes and Tips
 
