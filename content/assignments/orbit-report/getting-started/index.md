@@ -26,7 +26,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
       1. `Table.js` contains a very basic table structure.  You will expand the table so that it displays the required data for each satellite.  
          1. "TBD" stands for "To Be Determined" 
          <!-- TODO: link to styling step -->
-      1. `styling.css` contains CSS stylings.  Styling is **_optional_** for this assignment.  If you want to use the styling provided, read the [LINK TO STEP] to see where to import this file.
+      1. `styling.css` contains CSS stylings.  Styling is **_optional_** for this assignment.  If you want to use the styling provided, read the [Optional Styling]({{< relref "../../../assignments/orbit-report/styling/" >}}) section to see where to import this file.
       
 1. If you have not started the project yet, run `npm start` in the terminal.  You should see the following:
 
