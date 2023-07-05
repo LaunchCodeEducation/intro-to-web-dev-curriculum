@@ -18,9 +18,11 @@ We've included our solutions to some (but not all) of the exercises so that you 
 
 You don't need to show proof of completing the exercises to pass, so do them for your own benefit. And if they're hard or you get some answers wrong on the first try, keep going! Your future self will thank you. 
 
-Unlike the concept checks, you will need a code editor to complete the exercises. Fortunately, you :ref:`created a free account <hello-world>` on Repl.it as part of the prep work.
+Unlike the concept checks, you will need a code editor to complete the exercises. We will be using `Visual Studio Code` as our code editor.
 
-Use this `Repl.it link <https://repl.it/@launchcode/Exercises-Data-and-Variables>`__ to get started solving.
+{{% notice blue Note "rocket" %}}
+Fork and Clone the following github repository to get started: [JavaScript Projects](https://github.com/LaunchCodeEducation/javascript-projects)
+{{% /notice %}}
 
 ## The Data
 
@@ -62,6 +64,16 @@ const milesPerKm = 0.621;
 1. For each variable you declared in part A, use the ``typeof`` operator to print its type to the console, one item per line.
 
 1. Verify your code works as expected by running the program. Once you have the correct output move on to [Calculate a space mission!]({{< relref "#calculate-a-space-mission" >}})
+
+{{% notice blue Note "rocket" %}}
+In order to run your program, open a terminal and navigate to the directory containing your `data-and-variables-exercises.js` file.
+
+The following command will run any code within the file:
+
+```javascript
+node data-and-variables-exercises.js
+```
+{{% /notice %}}
 
 ### Calculate a space mission!
 
