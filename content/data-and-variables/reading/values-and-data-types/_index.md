@@ -77,7 +77,7 @@ console.log(typeof "3.2");
 ```
 {{% /notice %}}
 
-{{% notice blue Question "rocket" %}}
+{{% notice green Question "rocket" %}}
 What is the data type of the values `"17"` and `"3.2"`?
 {{% /notice %}}
 
