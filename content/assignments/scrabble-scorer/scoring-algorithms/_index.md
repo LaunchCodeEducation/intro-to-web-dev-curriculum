@@ -1,5 +1,5 @@
 ---
-title: "Task Two: Add and Organize Scoring Algorithms"
+title: "Task 2: Add and Organize Scoring Algorithms"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 2

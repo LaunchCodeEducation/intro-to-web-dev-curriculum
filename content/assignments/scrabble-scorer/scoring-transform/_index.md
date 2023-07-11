@@ -1,5 +1,5 @@
 ---
-title: "Task Three: Transform Scrabble Scoring"
+title: "Task 3: Transform Scrabble Scoring"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 3
