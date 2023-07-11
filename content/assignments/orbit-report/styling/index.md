@@ -1,5 +1,5 @@
 ---
-title: "6: Optional Styling"
+title: "Task 6: Optional Styling"
 date: 2023-05-25T11:39:25-05:00
 draft: false
 weight: 7

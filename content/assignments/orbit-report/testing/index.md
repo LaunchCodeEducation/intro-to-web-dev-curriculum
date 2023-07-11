@@ -1,5 +1,5 @@
 ---
-title: "7: Running the Auto-grading Tests"
+title: "Task 7: Running the Auto-grading Tests"
 date: 2023-05-25T11:39:25-05:00
 draft: false
 weight: 8
