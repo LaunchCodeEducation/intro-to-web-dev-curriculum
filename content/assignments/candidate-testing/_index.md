@@ -1,8 +1,8 @@
 ---
-title: "Assignment 6: Orbit Report"
-date: 2023-05-25T11:39:25-05:00
+title: "Assignment 1: Candidate Testing"
+date: 2023-06-20T10:39:25-05:00
 draft: false
-weight: 7
+weight: 2
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
