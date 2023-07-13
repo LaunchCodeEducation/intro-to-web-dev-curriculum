@@ -13,7 +13,7 @@ lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Getting Started:
-Check out the [starter branch](https://github.com/LaunchCodeEducation/react-exercises-and-studios/tree/exercises2-starter)
+Check out the [starter branch](https://github.com/LaunchCodeEducation/react-exercises-and-studios)
 
 ### Code Review
 1. `App` is returning 2 components: `Profile` and `Banner`.
