@@ -14,6 +14,8 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Learning Objectives
 
+After completing this chapter you should should understand the various data types covered, how to initialize variables, and use the `typeof` operator to determine their value. You should also be familiar with `operators`, `operands`, and how to receive input from users using `readline-sync`.
+
 ## Key Terminology
 1. PEMDAS
 1. assignment
@@ -47,5 +49,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 1. Exponentation: `**`
 1. Increment: `++`
 1. Decrement: `--`
+
+## Content Links
 
 {{% children %}}

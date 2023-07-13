@@ -101,7 +101,7 @@ Double-quoted strings can contain single quotes inside them, as in `"Bruce's bea
 
 JavaScript doesn't care whether you use single or double quotes to surround your strings. Once it has parsed the text of your program or command, the way it stores the value is identical in all cases, and the surrounding quotes are not part of the value.
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 If a string contains a single quote (such as `"Bruce's beard"`) then surrounding it with single quotes gives unexpected results. 
 
 What happens if you run the following piece of code? 
@@ -169,4 +169,6 @@ Which of these is *not* a data type in JavaScript?
 1. string
 1. letter
 1. object
+
+<!-- solution: letter -->
 {{% /notice %}}

@@ -55,7 +55,7 @@ It is possible to declare *and* initialize a variable with a single line of code
 let programmingLanguage = "JavaScript";
 ```
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 You will see some programmers use ``var`` to create a variable in JavaScript, like this:
 
 ```javascript
@@ -89,7 +89,7 @@ Don't say:
 `programmingLanguage` equals `'JavaScript'`.
 {{% /notice %}}
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 What if, by mistake, you leave off `let` when declaring a variable?
 
 ```javascript
@@ -206,6 +206,8 @@ console.log(day);
 2. `Thursday`
 3. `32.5`
 4. `19`
+
+<!-- solution: 19; -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
@@ -215,6 +217,8 @@ How can you determine the type of a variable?
 2. Use `typeof`.
 3. Use it in a known equation and print the result.
 4. Look at the declaration of the variable.
+
+<!-- solution: use `typeof` -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
@@ -225,4 +229,6 @@ Which line is an example of variable initialization? (*Note: only one line is su
 2: a = 42;
 3: a = a + 3;
 ```
+
+<!-- solution: let a; -->
 {{% /notice %}}

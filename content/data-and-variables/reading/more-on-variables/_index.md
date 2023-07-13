@@ -189,7 +189,7 @@ Our last note on naming variables has to do with a collection of words that are 
 
 Any word that is formally part of the JavaScript language syntax is a keyword. So far, we have seen only four keywords: `let`, `const`, `var`, and `typeof`.
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 While `console` and `console.log` may seem like keywords, they are actually slightly different things. They are entities (an object and a function, respectively) that are available by default in most JavaScript environments.
 {{% /notice %}}
 
@@ -225,4 +225,6 @@ Which is the best keyword for declaring a variable in most situations?
 1. `let`
 1. `const`
 1. (no keyword)
+
+<!-- Solution: let -->
 {{% /notice %}}

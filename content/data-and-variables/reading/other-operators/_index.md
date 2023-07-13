@@ -38,7 +38,7 @@ console.log("1" + "1");
 
 This example demonstrates that **the operator + behaves differently based on the data type of its operands.**
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 So far we have only seen examples of operators working with data of like type. For the examples `1 + 1` and `"1" + "1"`, both operands are of type `number` and `string`, respectively.
 
 It is possible, however, to mix types with an expression such as `1 + "1"`. The results of doing so can be unexpected, and at this stage of your coding journey we strongly advise against creating such expressions.

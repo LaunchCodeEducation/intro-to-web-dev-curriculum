@@ -1,5 +1,5 @@
 ---
-title: "Studio: Data and Variables"
+title: "Studio: Goal Setting and Getting into the Right Mindset"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 3
@@ -12,110 +12,46 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # Wed Jul 5 08:49:19 AM CDT 2023
 ---
 
-In this studio, you are going to write code to display the *very important*
-**Launch Checklist LC04**.
+During this studio, we will ask you to think about your mindset when it comes to facing challenges. Do challenges deter you or delight you? If challenges are something you delight in, you might have a growth mindset.
 
-**LC04** displays information related to the space shuttle, astronauts, and
-rockets before launch.
+A **growth mindset** can be powered by one word, "yet". The word "yet" allows us to acknowledge that we don't know something AND that we are capable of learning it. With "yet", the sentence "I don't understand booleans" becomes "I don't understand booleans `yet`."
 
-## Before You Start
+Growth must occur over an entire career. As technology evolves, even the most senior developers have to learn new skills. Creating a framework for learning, which includes setting achievable goals, is important for being a developer. Technology will change and adapt, and we should learn to do the same!
 
-Locate the `data-and-variables-studio.js` file within your `JavaScript Projects` directory.
+When setting goals, those goals should be SMART. SMART stands for:
 
-{{% notice blue Note "rocket" %}}
-Remember that in order to run any code within the file to navigate to the `javascript-projects/studio` directory and run the following command:
+- **Specific**
+- **Measurable**
+- **Attainable**
+- **Relevant**
+- **Time Bound**
 
-```javascript
-node data-and-variables-studio.js
-```
-{{% /notice %}}
+We will be discussing your goals for this class and your career. While you don't have to do any prior goal setting or preparation to make the most of this activity, please take the time to write down some goals before class if it would make you more comfortable.
 
-## Declare and Initialize Variables
+**Note:**
+If you have a place where you like to write down your goals and inspiration, such as a journal, feel free to bring it to class!
 
-Declare and initialize a variable for every data point listed below.
-Remember to account for the different data types.
+## Activity
 
-| Variable | Value |
-|----------|-------|
-| `date` | Monday 2019-03-18 |
-| `time` | 10:05:34 AM |
-| `astronautCount` | 7 |
-| `astronautStatus` | ready |
-| `averageAstronautMassKg` | 80.7 |
-| `crewMassKg` | `astronautCount` * `averageAstronautMassKg` |
-| `fuelMassKg` | 760,000 |
-| ``shuttleMassKg`| 74842.31 |
-| `totalMassKg` | `crewMassKg` + `fuelMassKg` + `shuttleMassKg` |
-| ``fuelTempCelsius` | -225 |
-| `fuelLevel` | 100% |
-| `weatherStatus` | clear |
+After your TA reviews the relevant topics, we will have a discussion covering the following:
 
+1. Your goals for taking this class.
+    1. You probably have many reasons why this class is something you want to complete.
+    1. Please share 1 to 2 of your goals and keep them SMART!
 
-## Generate the LC04 Form
+2. Your goals for your career.
+    1. How does this class assist you in your career and where do you want to go?
+    1. Please share 1 to 2 goals for your career.
 
-Display **LC04** to the console using the variables you declared and
-initialized.
+3. Your inspirational statements.
+    1. This can be anything that motivates you from stories to quotes to ideas.
+    1. Please share 1 to 2.
 
-The generated report should look *exactly* like the example below---including
-spaces and symbols (-, >, and \*).
+After the studio, make sure to write your goals and inspirational statements somewhere where you will regularly see them!
 
-### Example Output
-
-Note that your output should change when you assign different values to
-`astronautCount`, `fuelMassKg`, etc. The point is to AVOID coding specific
-values into the `console.log` statements. Use your variable names instead.
-
-```bash
--------------------------------------
-> LC04 - LAUNCH CHECKLIST
--------------------------------------
-Date: Monday 2019-03-18
-Time: 10:05:34 AM
-
--------------------------------------
-> ASTRONAUT INFO
--------------------------------------
-* count: 7
-* status: ready
-
--------------------------------------
-> FUEL DATA
--------------------------------------
-* Fuel temp celsius: -225 C
-* Fuel level: 100%
-
--------------------------------------
-> MASS DATA
--------------------------------------
-* Crew mass: 564.9 kg
-* Fuel mass: 760000 kg
-* Shuttle mass: 74842.31 kg
-* Total mass: 835407.21 kg
-
--------------------------------------
-> FLIGHT PLAN
--------------------------------------
-* weather: clear
-
--------------------------------------
-> OVERALL STATUS
--------------------------------------
-* Clear for takeoff: YES
-```
-
-## Show Off Your Code
-
-When finished, show your code to your TA so they can verify your work.
-
-If you do not finish before the end of class, login to Repl.it and save your
-work. Complete the studio at home, then copy the URL for your project and
-submit it to your TA.
-
-## Bonus Mission
-
-Use `readline-sync` to prompt the user to enter the value for
-`astronautCount`.
-
-The values printed for `astronautCount`, `crewMassKg`, and `totalMassKg`
-should change based on the number of astronauts on the shuttle. (Don't forget
-to convert the input value from a string to a number).
+## Resources
+<!-- TODO: Update Learning to Code link when able. -->
+1. [Best Practices: Learning to Code](best-practices)
+2. [The Power of Believing that You can Improve](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve/)
+3. [What Having a Growth Mindset Actually Means](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means/)
+4. [Golden Rules of Goal Setting](https://www.mindtools.com/pages/article/newHTE_90.htm)

@@ -164,4 +164,6 @@ console.log(typeof info);
 1. `number`
 1. `info`
 1. `25`
+
+<!-- solution: string -->
 {{% /notice %}}

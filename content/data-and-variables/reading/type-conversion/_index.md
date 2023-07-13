@@ -81,4 +81,6 @@ Which of the following strings result in `NaN` when passed to `Number`? (Feel fr
 2. `'three'`
 3. `'3 3'`
 4. `'33'`
+
+<!-- solution: three and 3 3 -->
 {{% /notice %}}

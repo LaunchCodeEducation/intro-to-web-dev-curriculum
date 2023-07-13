@@ -170,6 +170,8 @@ What is the value of the following expression?
 1. 24
 1. 3
 1. 13.666666666666666
+
+<!-- TODO: option 4 (13.666666666666666) -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
@@ -178,6 +180,8 @@ What is the output of the code below?
 ```javascript
 console.log(1 + 5 % 3);
 ```
+
+<!-- solution: 3 -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
@@ -191,4 +195,6 @@ What is the value of the following expression?
 1. 128
 1. 12
 1. 256
+
+<!-- solution: 768 -->
 {{% /notice %}}
