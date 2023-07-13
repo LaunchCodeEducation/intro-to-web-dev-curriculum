@@ -81,27 +81,30 @@ We need to determine how many days it will take to reach Mars.
 
 1. Create and assign a miles to Mars variable. You can get the miles to Mars by multiplying the distance to Mars in kilometers by the miles per kilometer.
 
-{{% expand "Check Your Solution" %}}
-```javascript
-let milesToMars = kilometersToMars * milesPerKilometer;
-```
-{{% /expand %}}
+   {{% expand "Check your solution" %}}
+
+   ```javascript
+   let milesToMars = kilometersToMars * milesPerKilometer;
+   ```
+   {{% /expand %}}
 
 1. Next, we need a variable to hold the hours it would take to get to Mars. To get the hours, you need to divide the miles to Mars by the shuttle's speed.
 
-{{% expand "Check Your Solution" %}}
-```javascript
-let hoursToMars = milesToMars / shuttleSpeedMph;
-```
-{{% /expand %}}
+   {{% expand "Check your solution" %}}
+
+   ```javascript
+   let hoursToMars = milesToMars / shuttleSpeedMph;
+   ```
+   {{% /expand %}}
 
 1. Finally, declare a variable and assign it the value of days to Mars. In order to get the days it will take to reach Mars, you need to divide the hours it will take to reach Mars by 24.
 
-{{% expand "Check Your Solution" %}}
-```javascript
-let daysToMars = hoursToMars / 24;
-```
-{{% /expand %}}
+   {{% expand "Check your solution" %}}
+
+   ```javascript
+   let daysToMars = hoursToMars / 24;
+   ```
+   {{% /expand %}}
 
 ### Print out the results of your calculations
 
