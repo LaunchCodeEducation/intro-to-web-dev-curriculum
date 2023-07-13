@@ -2,9 +2,9 @@
 title: "Next Steps"
 date: 2023-06-28T13:06:26-05:00
 draft: false
-weight: 4
-originalAuthor: <no value> # to be set by page creator
-originalAuthorGitHub: <no value> # to be set by page creator
+weight: 5
+originalAuthor: Courtney Frey # to be set by page creator
+originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: # to be set by the page reviewer
 reviewerGitHub: # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
@@ -19,7 +19,7 @@ Github provides free hosting for any “static” web content (like this project
 
 1. In a browser, go to the Github page for your repository.
 1. Click on the Settings tab
-1. Scroll down to the GitHub Pages section and enable the GitHub Pages feature by choosing your main branch from the dropdown. Hit Save.
+1. Scroll down to the GitHub Pages section and enable the GitHub Pages feature by choosing your `main` branch from the dropdown. Hit Save.
 1. In any browser, you should now be able to visit `YOUR_USERNAME.github.io/html-me-something` and see your web page!
 
 Remember, Bonus Missions are always optional.
