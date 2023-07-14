@@ -8,6 +8,8 @@ weight: 1
 
 ## Setting Up Git
 
+Git will help us track changes and versions of our code.
+
 ### Mac Users
 
 1. Open a new terminal window.
