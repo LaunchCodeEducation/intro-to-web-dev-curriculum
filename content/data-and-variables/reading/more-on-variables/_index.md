@@ -74,7 +74,7 @@ appName = "Best TODO application Ever!";
 
 **Console Output**
 
-```bash
+```console
 TypeError: Assignment to constant variable.
 ```
 {{% /notice %}}
@@ -96,7 +96,7 @@ let application name;
 
 **Console Output**
 
-```bash
+```console
 SyntaxError: Unexpected identifier
 ```
 {{% /notice %}}
@@ -202,7 +202,7 @@ let const;
 
 **Console Output**
 
-```bash
+```console
 let const
 ^^^^^
 

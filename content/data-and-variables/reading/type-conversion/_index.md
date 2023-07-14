@@ -27,7 +27,7 @@ console.log(Number(17));
 
 **Console Output**
 
-```bash
+```console
 2345
 number
 17
@@ -43,7 +43,7 @@ console.log(Number("23bottles"));
 
 **Console Output**
 
-```bash
+```console
 NaN
 ```
 {{% /notice %}}
@@ -65,7 +65,7 @@ console.log(typeof String(123.45));
 
 **Console Output**
 
-```bash
+```console
 17
 123.45
 string

@@ -41,7 +41,7 @@ console.log(typeof 3.14);
 
 **Console Output**
 
-```bash
+```console
 string
 number
 number
@@ -91,7 +91,7 @@ console.log(typeof "And so is this");
 
 **Console Output**
 
-```bash
+```console
 string
 string
 ```
@@ -123,7 +123,7 @@ console.log(42,000);
 
 **Console Output**
 
-```bash
+```console
 42000
 42 0
 ```
@@ -139,7 +139,7 @@ console.log(3.4, "hello", 45);
 
 **Console Output**
 
-```bash
+```console
 42 17 56 34 11 4.35 32
 3.4 hello 45
 ```

@@ -133,7 +133,7 @@ console.log(pi);
 
 **Console Output**
 
-```bash
+```console
 What's up, Doc?
 17
 3.14159
@@ -157,7 +157,7 @@ console.log(typeof pi);
 
 **Console Output**
 
-```bash
+```console
 string
 number
 number

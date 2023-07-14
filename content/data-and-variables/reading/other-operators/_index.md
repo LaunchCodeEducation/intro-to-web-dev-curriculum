@@ -30,7 +30,7 @@ console.log("1" + "1");
 
 **Console Output**
 
-```bash
+```console
 2
 11
 ```
@@ -60,7 +60,7 @@ console.log(x);
 
 **Console Output**
 
-```bash
+```console
 2
 ```
 {{% /notice %}}
@@ -79,7 +79,7 @@ console.log(x);
 
 **Console Output**
 
-```bash
+```console
 2
 ```
 {{% /notice %}}

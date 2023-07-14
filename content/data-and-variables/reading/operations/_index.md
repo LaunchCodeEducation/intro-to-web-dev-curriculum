@@ -42,7 +42,7 @@ console.log(3 ** 2);
 
 **Console Output**
 
-```bash
+```console
 5
 -1
 6
@@ -64,7 +64,7 @@ console.log(hours);
 
 **Console Output**
 
-```bash
+```console
 10.75
 ```
 {{% /notice %}}
@@ -151,7 +151,7 @@ console.log((2 ** 3) ** 2)
 
 **Console Output**
 
-```bash
+```console
 512
 64
 ```

@@ -27,7 +27,7 @@ console.log(1 + 1);
 
 **Console Output**
 
-```bash
+```console
 2
 ```
 {{% /notice %}}
@@ -44,7 +44,7 @@ console.log(sum);
 
 **Console Output**
 
-```bash
+```console
 3
 ```
 {{% /notice %}}
