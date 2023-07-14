@@ -22,6 +22,9 @@ Every starter code repository (repo) in this course will contain instructions.  
 
 We suggest reading the rest of this page before diving into the code.  Since this is the first time you are pulling from our GitHub repository, you will need to set up your new PAT, create a directory on your computer to store your work, and practice with the terminal.  You will do great!
 
+### Starter Code
+When you have finished reading through the instructions, use this [starter code](https://github.com/LaunchCodeEducation/js-hello-world) to complete your first program.
+
 ## Open your terminal
 
 You will use the terminal to create a location to store the code repos.  The terminal will also communicate with GitHub.
@@ -96,7 +99,7 @@ Run the following command: `git clone <paste-the-URL-here>`
    computer:LaunchCode username: git clone https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME.git
    ```
 
-Your PAT will act as your password to perform HTTPS Git operations. For example, if you are working on a repo with the URL, https://github.com/username/repo.git, your terminal might look like the following:
+Your PAT will act as your password to perform HTTPS Git operations. For example, if you are working on a repo with the example URL, https://github.com/username/repo.git, your terminal might look like the following:
 
    ```bash
    $ git clone https://github.com/username/repo.git
