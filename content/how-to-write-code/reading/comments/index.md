@@ -48,9 +48,14 @@ that stretch over multiple lines, the text falls between the symbols
 
       console.log("Comments make your code more readable by others.");
    ```
-1. Remember to run the program, you should use the command, `node comments`.
 
-Notice that when you run the program, it still prints the phrase `Hello,
-World`, but none of the comments appear. Also notice the blank lines left in
+1. Try removing or un-commenting some code first. Then try adding both a single-line and multi-line comment. 
+
+   {{% notice green "Tip" "rocket" %}}
+   Remember to run the program, you should use the command, `node comments`.
+   {{% /notice %}}
+
+Notice that when you first run the program, it still prints the phrase `Hello,
+World!`, but none of the comments appear. Also notice the blank lines left in
 the code, which are also ignored by the compiler. Comments and blank lines make
 your programs much easier for humans to understand. Use them frequently!
