@@ -23,9 +23,7 @@ Your completed assignment will have the following features:
 1. Multiple **buttons** that show satellites in an orbit path. When a user clicks a button the table will render the satellites with that designated orbit path.
 
 ## Getting Started
-<!-- TODO create github classroom and link -->
-In [Canvas] (LINK HERE), Graded Assignment #6: Orbit Report contains a GitHub Classroom assignment invitation link. Refer back to the GitHub Classroom instructions from Graded Assignment #0: Hello World for submission instructions.
-
+Fork and clone the Graded Assignment's [starter code](https://github.com/LaunchCodeEducation/orbitReport-React). Open the project in Visual Studio Code.
 
 ### Starter Code Check
 
