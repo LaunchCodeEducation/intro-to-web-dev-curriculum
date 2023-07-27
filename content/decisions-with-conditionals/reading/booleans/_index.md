@@ -132,7 +132,7 @@ Although these operations are probably familiar, the JavaScript symbols are diff
 
 An equality test is *symmetric*, meaning that we can swap the places of the operands and the result is the same. For a variable `a`, if `a == 7` is `true` then `7 == a` is also `true`. However, an assignment statement is not symmetric: `a = 7` is legal while `7 = a` is not.
 
-{{% notice red Warning "rocket" %}}
+{{% notice orange Warning "rocket" %}}
 If you explore the equality operator in more depth, you will find some surprises. For example, the following comparisons return `true`:
 
 - `7 == "7"`
