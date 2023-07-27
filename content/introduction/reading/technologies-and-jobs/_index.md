@@ -1,5 +1,5 @@
 ---
-title: "Technologies and Career Opportunities"
+title: "Technologies in This Course"
 date: 2023-03-22T11:39:25-05:00
 draft: false
 weight: 7
