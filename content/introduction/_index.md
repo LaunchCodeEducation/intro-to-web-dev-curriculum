@@ -13,8 +13,19 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Learning Objectives
+After completing the reading in this chapter, you should have a good understanding of the following:
+1. Why someone would want to learn how to code
+1. Why learn how to code using JavaScript
+1. The structure of LaunchCode programs
+1. The concept of blended learning
+1. What platforms this class utilizes
+1. How to use this book
 
 ## Key Terms
+1. JavaScript
+1. blended-learning
+1. Canvas
+1. Concept Checks
 
 ## Content Links
 
