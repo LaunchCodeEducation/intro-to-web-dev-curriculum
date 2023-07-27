@@ -15,7 +15,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 For Task  1, you will get comfortable with writing markup, and with separating _content_ from _design and layout_.
 
 ## Getting Started
-Open your `index.html` file.  It is located inside the `public` directory of this project.
+Open your `index.html` file. 
 
 Your `index.html` comes with a simplified HTML5 boilerplate:
 

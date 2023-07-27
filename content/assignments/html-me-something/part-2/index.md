@@ -36,8 +36,8 @@ Your CSS must:
 1. Follow these rules:
 
    1. Use the element selector to give the `<body>` element a `margin` value of `8px` and a `display` type of `block`.
-   1. Give a heading on your page the `id` of `myHeader` and use the id selector in `styles.css` to apply a styling of your choosing.
-   1. Give a paragraph on your page the id of `myId` and a class name of `myClass`. Use the class selector in `styles.css` and give it a styling of your choosing.  
+   1. Give a heading on your page the `id` of `mainHeading` and use the id selector in `styles.css` to apply a styling of your choosing.
+   1. Give a paragraph on your page the id of `testP` and a class name of `funParagraph`. Use the class selector in `styles.css` and give it a styling of your choosing.  
 
    You will be asked to explain and point out your styling choices to your TA during your code review.  Have fun with creating your assignment.
 
