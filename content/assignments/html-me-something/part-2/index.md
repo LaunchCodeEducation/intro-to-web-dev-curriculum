@@ -5,8 +5,8 @@ draft: false
 weight: 3
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -15,9 +15,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 For Task 2, you’ll get comfortable with using CSS selectors and rules to dictate display, while keeping your styles separate from your content.
 
 ## Getting Started
-Inside the `public` directory of your project's file tree you will find `styles.css`. 
-
-Open this file and start adding design elements to your project.
+Open the file named `styles.css` in your `html-me-something/` directory.
 
 ## Getting to Work
 Go ahead and start adding styles in your `styles.css` file!
