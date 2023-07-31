@@ -192,7 +192,9 @@ allow us to easily move items around the framework.
 
    {{% /expand %}}
    
-Your final page should have this format (the dashed lines are optional):
+Your final page should have this format:
+
+![Screenshot of what final page should look like](pictures/rearrange-components.png?classes=border)
 
 ### Optional Final Touches
 
