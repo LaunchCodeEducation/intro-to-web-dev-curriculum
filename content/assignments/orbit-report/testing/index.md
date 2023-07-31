@@ -1,5 +1,5 @@
 ---
-title: "7: Running the Auto-grading Tests"
+title: "Task 7: Running the Auto-grading Tests"
 date: 2023-05-25T11:39:25-05:00
 draft: false
 weight: 8
@@ -20,7 +20,11 @@ files you create and their behavior.
 
 Run the tests when you reach this section of the instructions. You may run them as you work on the project. These tests are looking to see if your components render. They do not provide help in creating the project.
 
-### To Run the Tests
+{{% notice orange "Warning" "rocket" %}} 
+ In order to pass this assignment, you must pass the workflow tests in [GitHub Actions]({{< relref "../../../assignments/github-actions/" >}}) .  
+{{% /notice %}}
+
+### To Run the Tests in Your Terminal
 Use these steps to start the tests:
 
 1. In the terminal, `cd` into the project directory.
