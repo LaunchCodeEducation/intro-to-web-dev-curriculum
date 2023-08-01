@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["main", "dev"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -56,10 +56,17 @@ jobs:
           hugo \
             --minify \
             --baseURL "https://education.launchcode.org/intro-to-web-dev-curriculum/"
+            echo "$ {{ github.event.repository.name }}" > public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+
+      - name: Check broken links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://education.launchcode.org/${{ github.event.repository.name }}
+          cmd_params: '--max-connections-per-host=5 --color=always --rate-limit=5 --header="User-Agent:curl/7.54.0" --skip-tls-verification'
 
   # Deployment job
   deploy:
