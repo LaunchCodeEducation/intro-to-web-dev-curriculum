@@ -9,7 +9,7 @@ We will need `Node.js` to run JavaScript code in our IDE.
 
 ## Setting up Node
 <!-- TODO: Link to terminal chapter -->
-Installing Node on your computer also installs the NPM Command Line Interface (CLI), which allows you to run specialized commands in the [terminal](#terminal-chapter).
+Installing Node on your computer also installs the NPM Command Line Interface (CLI), which allows you to run specialized commands in the terminal.
 
 1. Follow this link to the [Node website](https://nodejs.org/en/download/), and examine the selection screen:
 

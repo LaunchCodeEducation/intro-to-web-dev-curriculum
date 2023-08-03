@@ -87,7 +87,7 @@ You will be provided links to all of the repos in the course.  You will need to 
 
 
 
-GitHub has documentation on [Forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [Cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo) if you would like more guidance. 
+GitHub has documentation on [Forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [Cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) if you would like more guidance. 
 
 ## Back to the Terminal
 
@@ -129,7 +129,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 
 1. Double click on `hello.js` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
    1. Enter your code on line 7 to print 'Hello, World!
-   1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]({{< relref "../../../installations/terminal-setup/_index.md" >}}).
+   1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]({{< relref "../../../installations/install-visual-studio/_index.md" >}}).
    1. Inside your terminal type the following commands
       1. `npm install` (We will explore this more in future chapters).  You will see that more files and directories have been added to your project. That is expected.
       1. Next type the command `node hello.js`.  This should run the program, which in this case prints your message in the terminal.  
@@ -201,7 +201,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
    1. Line 1 `git status` used to check on the latest version of the project. 
    1. Line 6 notes Changes not staged for commit.  We need to add these.
    1. Line 17 `git add .` will add these to GitHub when we are ready to push up.
-   1. Line 18 `git commit -m "now says Hello World"` A commit is like taking a photo of the latest version of your code.  The message (`-m`) acts like a caption to keep track of the changes. 
+   1. Line 28 `git commit -m "now says Hello World"` A commit is like taking a photo of the latest version of your code.  The message (`-m`) acts like a caption to keep track of the changes. 
    1. Line 32 `git push` sends our latest code up to GitHub.
 
    We will learn more about these in a later chapter.
