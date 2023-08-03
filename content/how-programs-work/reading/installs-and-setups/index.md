@@ -48,7 +48,7 @@ The Git language is best used to help you track and manage changes in your code.
 
 We have created a Git [installation guide]({{< relref "../../../installations/install-git/_index.md" >}}) for you to follow.
 
-## Creating Your GitHub Account
+### Creating Your GitHub Account
 
 GitHub is an online software development platform that can store your code and help you track changes in its development using Git. The majority of the code you will use in this course is stored in GitHub.  As an online platform, GitHub makes it easy to share code between developers, development teams, and potential employers.
 
@@ -57,7 +57,13 @@ We use GitHub to hold all of the **starter code** for this course.  Starter code
 You will need to sign up for a free account using your email.
 
 {{% notice blue Note "rocket" %}}
-In order to work with the starter code for this course, you will need to create either a [Personal Access Token]({{< relref "#creating-your-github-personal-access-token-pat" >}}) or [SSH key]({{< relref "#creating-your-github-ssh-key" >}}) to work with GitHub. This will allow you to fork and clone course repositories using _HTTPS_. Think of it like a password just for GitHub. We suggest creating a _Classic PAT_ for this course.
+In order to work with the starter code for this course, you will need to create either a [Personal Access Token]({{< relref "#creating-your-github-personal-access-token-pat" >}}) or [SSH key]({{< relref "#creating-your-github-ssh-key" >}}) to work with GitHub. This will allow you to fork and clone course repositories using _HTTPS_ or _SSH_. 
+
+The `Github Personal Access Token` will act as a password when you are sending requests to `Github`. Should you decide to create a personal access token you will need to enter in your username and password when pushing new code to your repositories.
+
+Should you choose to create a new `ssh-key` you will not need to enter in your github username or personal access token when sending requests to github from your local development environment.
+
+Only one of the above methods of authentication is required.
 {{% /notice %}}
 
 {{% notice green "Tip" "rocket" %}} 
@@ -76,6 +82,8 @@ A few tips when creating your PAT:
 1. When you are asked to _Select scopes_ the only checkbox you should need is the _repo_ box.  This is the only scope you will need for this class.
 1. Scroll down to the bottom of the page and click the green box to generate your new token.
 1. You will see your new token.  Be sure to save your PAT somewhere secure, like a password manager and not a word document.  You will need to enter it in your terminal in order to access course repositories.  You will use it on the next page of this book, so keep it close.
+
+Once you have created a new `Personal Access Token` be sure to read information about [how to use a personal access token on the command line](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line)
 
 ### Creating Your Github SSH Key
 
