@@ -12,7 +12,15 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-## Major Concepts 
+## Major Concepts
+
+After completing this chapter, you should be able to do the following:
+1. Explain what an algorithm is.
+1. Explain what a programming language is.
+1. Explain why one programming language might be chosen over another.
+1. Exaplin how a program runs, including the differences between compiled and interpreted languages.
+1. Run a program and locate its output in the console.
+1. Understand some basic debugging practices.
 
 ## Key Terminology
 
