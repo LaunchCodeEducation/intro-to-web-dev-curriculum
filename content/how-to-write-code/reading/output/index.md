@@ -29,7 +29,7 @@ into a format that the machine understands.
 
 ## Examples
 
-Open the `ConsoleLogExamples01` file in `how-to-write-code`. Run the code with `node consolelogexamples01` and note the difference between the
+Open the `ConsoleLogExamples01.js` file in `how-to-write-code`. Run the code with `node consolelogexamples01.js` and note the difference between the
 outputs:
 
 ```js {linenos=table}
@@ -68,7 +68,7 @@ character with the special representation `\n`.
 
 {{% notice blue "Example" "rocket" %}}
 
-   Experiment with the newline character by opening up `ConsoleLogExamples02` and running the code.
+   Experiment with the newline character by opening up `ConsoleLogExamples02.js` and running the code.
 
    ```js {linenos=table}
       console.log("Some Programming Languages:");
