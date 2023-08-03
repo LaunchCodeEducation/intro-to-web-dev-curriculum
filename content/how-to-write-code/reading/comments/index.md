@@ -28,10 +28,10 @@ that stretch over multiple lines, the text falls between the symbols
 
 ## Experiment with Comments
 
-1. On your own computer, in `javascript-web-dev-projects`, locate the `how-to-write-code` folder. Within that folder, you will find an example called `Comments`. *You should use the terminal to do so.* Here are the steps:
-   1. Use `cd` to locate `javascript-web-dev-projects`. If your work is in `LaunchCode/Unit1`, then the command would be `cd LaunchCode/Unit1`. Run the command, `ls`, to make sure that you have found `javascript-web-dev-projects`.
-   1. To navigate inside the `how-to-write-code` folder, use the command `cd javascript-web-dev-projects/how-to-write-code`.
-   1. Open up the required example in Visual Studio Code by running the command, `code Comments`.
+1. On your own computer, in `javascript-projects`, locate the `how-to-write-code` folder. Within that folder, you will find an example called `Comments.js`. *You should use the terminal to do so.* Here are the steps:
+   1. Use `cd` to locate `javascript-projects`. If your work is in `LaunchCode/Unit1`, then the command would be `cd LaunchCode/Unit1`. Run the command, `ls`, to make sure that you have found `javascript-projects`.
+   1. To navigate inside the `how-to-write-code` folder, use the command `cd javascript-projects/how-to-write-code`.
+   1. Open up the required example in Visual Studio Code by running the command, `code Comments.js`.
 1. You are ready to add and remove comments! Here is where the code starts out at:
 
    ```js {linenos=table}
