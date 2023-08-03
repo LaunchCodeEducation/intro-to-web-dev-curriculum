@@ -29,7 +29,7 @@ Installing Node on your computer also installs the NPM Command Line Interface (C
    ```
 
    {{% notice blue "Note" "rocket" %}} 
-   At the time of writing this walkthrough the `LTS` version of node is `18.16.0`. As long as your node version is `18.x.x` then you should not encounter any issues within this book.
+   At the time of writing this walkthrough the `LTS` version of node is `18.17.0`. As long as your node version is `18.x.x` then you should not encounter any issues within this book.
    {{% /notice %}}
 
 
