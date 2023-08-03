@@ -38,7 +38,7 @@ That was a lot.  Here is a quick version of the workflow.
       1. `git status`
       1. `git add .`
       1. `git status` - make sure you added things you wanted
-      1. `git commit -m "<with a message">`
+      1. `git commit -m "with a message"`
       1. `git push`
 
 ## 6. Verify your changes are in your GitHub repo
