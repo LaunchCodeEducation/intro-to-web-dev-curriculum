@@ -2,7 +2,7 @@
 title: "Output with console.log"
 date: 2023-07-13T14:00:03-05:00
 draft: false
-weight: 4
+weight: 5
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
 reviewer: # to be set by the page reviewer
