@@ -89,6 +89,28 @@ You will be provided links to all of the repos in the course.  You will need to 
 
 GitHub has documentation on [Forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [Cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) if you would like more guidance. 
 
+### Handling Changes to the Original Repo
+
+Occasionally, a change is made to the original repo that you forked. These changes may be additions to the code, updates to a package version that you are using, or something else that you would really like to be included in your forked repo.
+
+To get these changes, Git has a process in place called "fetching the upstream". You do NOT have to do any of this right now or even be able to explain exactly how this works, but we encourage you to bookmark this page in case you are ever directed to fetch the upstream.
+
+Now what is the upstream? The upstream here is the repo you forked, in this case, `LaunchCodeEducation/js-hello-world`. Your repo (`speudusa/js-hello-world` in the above example image) is set up as the origin. With this distinction in place, let's look at the commands required.
+
+1. Run the command, `git remote -v`. If you only see the origin repo listed, you need to add an upstream. You can do so with the command `git remote add upstream <PASTE-UPSTREAM-URL-HERE>`. Run `git remote -v` to make sure that you now have both an origin repo and an upstream repo listed.
+1. With an upstream set up, run the command `git fetch upstream`.
+1. Once this command is done running, run the command `git merge upstream/main`.
+
+Now if you compare your code, you should see the change that was made in your upstream repo in your origin repo too. Just a reminder that we are sharing this information with you now in case you need it, not because it is a required portion of this walkthrough.
+
+{{% notice blue "Note" "rocket" %}}
+
+You may be wondering what `main` is in the above command. `main` is what we call a branch and we will be learning more about what a branch is later in this book!
+
+{{% /notice %}}
+
+Check out this article from [Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) for more information on each of these steps!
+
 ## Back to the Terminal
 
 Return to your terminal.  You should be in the directory for your course work.

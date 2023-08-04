@@ -61,7 +61,7 @@ In order to work with the starter code for this course, you will need to create 
 
 The `Github Personal Access Token` will act as a password when you are sending requests to `Github`. Should you decide to create a personal access token you will need to enter in your username and password when pushing new code to your repositories.
 
-Should you choose to create a new `ssh-key` you will not need to enter in your github username or personal access token when sending requests to github from your local development environment.
+Should you choose to create a new `ssh-key` you will not need to enter in your Github username or personal access token when sending requests to Github from your local development environment.
 
 Only one of the above methods of authentication is required.
 {{% /notice %}}
@@ -96,7 +96,7 @@ With an SSH key, you can connect to your GitHub repositories without needing to
 enter your username and PAT each time you push, pull, or perform some other
 action. This sounds great! The drawback is that it takes more work to set up.
 
-As we mentioned before, this book assumes the HTTPS protocol. However, the
+As we mentioned before, this book assumes that you are using the HTTPS protocol. However, the
 GitHub developers make it easy to use either one. If you would like to explore
 how to create an SSH key, here are the relevant instructions:
 
