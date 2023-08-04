@@ -1,5 +1,5 @@
 ---
-title: "React, Part 2"
+title: "Chapter 30: React, Part 2"
 date: 2023-05-03T11:39:25-05:00
 draft: false
 weight: 31
@@ -7,12 +7,10 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
 reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
-lastEditor: Courtney Frey # update any time edits are made after review
-lastEditorGitHub: speudusa # update any time edits are made after review
-lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-08-03 # UPDATE ANY TIME CHANGES ARE MADE
 ---
-
-JavaScript in React, Conditional Rendering, and the `map` function
 
 ## Learning Objectives
 
