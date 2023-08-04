@@ -51,9 +51,9 @@ Press *enter* when you are finished. If you're attempting to run a command from 
 
 1. In order to get your CLI up and running, you have to first install [Git Bash](https://git-scm.com/downloads/).
 
-{{% notice blue Note "rocket" %}}
-When you are doing your Git Bash setup, you only need to leave the default selected.
-{{% /notice %}}
+   {{% notice blue Note "rocket" %}}
+   When you are doing your Git Bash setup, you only need to leave the default selected.
+   {{% /notice %}}
 
-2. Once Git Bash is installed on your machine, you can find the folder for it through the Home screen.
-3. Inside the folder, simply select Git Bash to open the appropriate CLI.
+1. Once Git Bash is installed on your machine, you can find the folder for it through the Home screen.
+1. Inside the folder, simply select Git Bash to open the appropriate CLI.

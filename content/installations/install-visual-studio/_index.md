@@ -7,7 +7,7 @@ weight: 10
 
 ## Setting Up Visual Studio Code
 
-Before we start coding on our computer, we need to make sure we have the right tools! Programmers use **integrated development environments** (IDE) to write and run their code. The development environment we will be using for this class is Visual Studio Code
+Before we start coding on our computer, we need to make sure we have the right tools! Programmers use **integrated development environments (IDE)** to write and run their code. The development environment we will be using for this class is Visual Studio Code
 .
 In addition to simply writing and running code, Visual Studio Code has tools that recognize errors in our code and has an integrated terminal so we can navigate through our filesystem to find the files that need our attention.
 
@@ -17,17 +17,17 @@ Visual Studio Code is very customizable. Once you have everything set up, you ca
 
 Go to the Visual Studio Code [download page](https://code.visualstudio.com/download/) and download the appropriate version.
 
-{{% notice blue Note "rocket" %}}
-`Mac` users please ensure that you download the correct version depending on if your mac is using an `M1` or `M2` silicon chip.
-{{% /notice %}}
+## Mac Users
 
-Open your new copy of Visual Studio Code. To open one of your coding projects, go to **File > Open** and select the project you want to work on.
+Please ensure that you download the correct version depending on your chip type.  If you have an _M1_ or _M2_ you are running on _Apple Silicon_.  If you have a different chip, you are most likely running on an _Intel_ chip. If you are not sure, click on the Apple icon in the top left of your screen.  Select "About this Mac".  You should see information regarding your _Chip_.  And don't hesitate to do an internet search about your chip if you are still not sure.
 
-To start working with the terminal, go to **Terminal > New Terminal**. The new terminal window will open on the bottom of your screen.
+Open your new copy of Visual Studio Code. To open one of your coding projects, go to _File > Open_ and select the project you want to work on.
+
+To start working with the terminal, look for the _Terminal_ tab in the top menu.  To open at new terminal,  _Terminal > New Terminal_. The new terminal window will open on the bottom of your IDE.
 
 ## Windows Users
 
-The terminal is in powershell, not Git Bash. To change this, open the Command Palette by going to **View > Command Palette**. Type "Select Default Profile" in the search window and select "Terminal: Select Default Profile" from the menu.
+The terminal is in powershell, not Git Bash. To change this, open the Command Palette by going to _View > Command Palette_. Type "Select Default Profile" in the search window and select "Terminal: Select Default Profile" from the menu.
 Change the default to Git Bash.
 
 Now every time you open the terminal, it will default to bash!
@@ -38,6 +38,6 @@ Now every time you open the terminal, it will default to bash!
 1. Restart Visual Studio Code and then go into the Command Palette again to change the terminal profile.
 {{% /notice %}}
 
-{{% notice blue Note "rocket" %}}
-You can further explore resources within `visual studio code` by viewing the [documentation here](https://code.visualstudio.com/docs)
-{{% /notice %}}
+## More Resources
+You can further explore resources within Visual Studio Code by viewing the [documentation](https://code.visualstudio.com/docs).
+
