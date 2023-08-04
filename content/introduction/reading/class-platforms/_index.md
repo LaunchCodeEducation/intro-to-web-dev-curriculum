@@ -5,8 +5,8 @@ draft: false
 weight: 5
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Sally Steuterman # to be set by the page reviewer
+reviewerGitHub: gildedgardenia # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -70,3 +70,9 @@ Even though much of the course content can be accessed without logging in, the
 best choice is to begin your course work from within Canvas. That way your progress gets
 recorded and your scores will update smoothly as you complete quizzes. Also,
 submitting files for the larger assignments should only be done through Canvas.
+
+{{% notice blue "Note" "rocket" %}}
+
+If you are in a part-time class, your assignments will be organized into modules for each class. The modules are locked in order so you have to work in the order of the class. Past students have reported that the system with modules have helped them stay on task and helped them more easily keep track of the structure of the class.
+
+{{% /notice %}}

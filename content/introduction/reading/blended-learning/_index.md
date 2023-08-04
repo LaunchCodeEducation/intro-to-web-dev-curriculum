@@ -5,8 +5,8 @@ draft: false
 weight: 4
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: Sally Steuterman # to be set by the page reviewer
+reviewerGitHub: gildedgardenia # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -28,4 +28,4 @@ During the large group time, the whole class participates in the lesson, led by 
 
 ## Small Group Time
 
-After the large group time, we break up into small groups, each led by a teaching assistant. During small group time, we do in-class coding activities called studios. This is a time to ask for individual support if you need it. It is meant to be a place where you can feel comfortable talking openly about concepts you are struggling with.
+After the large group time, we break up into small groups, each led by a teaching assistant. During small group time, we do our studios. This is a time to ask for individual support if you need it. It is meant to be a place where you can feel comfortable talking openly about concepts you are struggling with.

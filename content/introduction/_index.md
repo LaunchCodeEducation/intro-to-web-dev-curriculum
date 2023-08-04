@@ -21,12 +21,23 @@ After completing the reading in this chapter, you should have a good understandi
 1. What platforms this class utilizes
 1. How to use this book
 
-## Key Terms
-1. JavaScript
-1. blended-learning
-1. Canvas
-1. Concept Checks
+## Key Terminology
 
-## Content Links
+Here is a list of key terms that appear throughout this chapter organized by the page the term first appears on. Make note of each one and their definition! You may notice that the key terms in this book are bolded. So as you are reading, keep an eye out for those bolded words!
+
+### Why Learn JavaScript?
+
+1. JavaScript
+
+### Blended Learning 
+
+1. blended learning model
+
+### Class Platforms 
+
+1. Canvas
+1. dashboard
+
+## Chapter Content
 
 {{% children %}}
