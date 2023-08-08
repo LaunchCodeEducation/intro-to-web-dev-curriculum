@@ -5,8 +5,8 @@ draft: false
 weight: 31
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: Kimberly Horan # to be set by the page reviewer
-reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
+reviewer: Rob Thomas 
+reviewerGitHub: icre8FreeCode 
 lastEditor: Sally Steuterman # update any time edits are made after review
 lastEditorGitHub: gildedgardenia # update any time edits are made after review
 lastMod: 2023-08-03 # UPDATE ANY TIME CHANGES ARE MADE
