@@ -1,15 +1,15 @@
 ---
-title: "The Modern JavaScript Landscape"
+title: "Chapter 28: The Modern JavaScript Landscape"
 date: 2023-03-22T11:39:25-05:00
 draft: false
 weight: 28
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: Kimberly Horan # to be set by the page reviewer
-reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+reviewer: Rob Thomas 
+reviewerGitHub: icre8FreeCode 
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-08-03 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Learning Objectives
