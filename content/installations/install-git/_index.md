@@ -17,7 +17,12 @@ Git will help us track changes and versions of our code.
 1. If the output includes a Git version, like the code below, then you are ready to use Git!
 
    ```bash
-   LaunchCode-Super-Computer:~ launchcode-student$ git --version
+   git --version
+   ```
+   
+   **Console Output**
+   
+   ```console
    git version 2.6.4 (Apple Git-63)
    ```
 

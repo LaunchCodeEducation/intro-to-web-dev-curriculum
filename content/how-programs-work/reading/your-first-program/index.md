@@ -34,7 +34,12 @@ This will list any files or directories (folders) at the level of your terminal.
 
    It may look like this:
    ```bash
-   computer:~ username$ ls
+   ls
+   ```
+
+   **Console Output**
+
+   ```console
    Applications   
    Desktop
    Downloads
@@ -45,17 +50,16 @@ This will list any files or directories (folders) at the level of your terminal.
 
    1. Use the following command to move into that location: `cd <location-name>`
       ```bash
-      computer:~ username$ cd Desktop
+      cd Desktop
       ```
    1. Create a directory (folder) to save your course work: `mkdir <directory-name>`
       ```bash
-      computer:~ username$ mkdir LaunchCode
+      mkdir LaunchCode
       ```
    1. To verify if your directory exists run the `ls` command again.  You should see your new directory listed.
    1. Move into your new directory with the following command: `cd <directory-name>`
       ```bash
-      computer:~ username$ cd LaunchCode
-      computer:LaunchCode username:
+      cd LaunchCode
       ```
 
 You are now ready to add the repo to your directory.  
@@ -118,13 +122,17 @@ Return to your terminal.  You should be in the directory for your course work.
 Run the following command: `git clone <paste-the-URL-here>`
 
    ```bash
-   computer:LaunchCode username: git clone https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME.git
+   git clone https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME.git
    ```
 
 Your PAT will act as your password to perform HTTPS Git operations. For example, if you are working on a repo with the example URL, https://github.com/username/repo.git, your terminal might look like the following:
 
+{{% notice blue Note "rocket" %}}
+If you set up your github account to work with `SSH` instead of a personal-access token then you will not be asked to enter your username or password.
+{{% /notice %}}
+
    ```bash
-   $ git clone https://github.com/username/repo.git
+   git clone https://github.com/username/repo.git
    Username: your_username
    Password: your_token
    ```
@@ -132,7 +140,7 @@ Your PAT will act as your password to perform HTTPS Git operations. For example,
 If you will be pushing and pulling from a repository multiple times in quick succession, you can save your PAT in memory for a short time. Run the command:
 
    ```bash
-   $ git config credential.helper 'cache --timeout=3600'
+   git config credential.helper 'cache --timeout=3600'
    ```
 The next time you access your remote repo, Git will ask for your username and PAT. It will then remember your credentials for a certain amount of time. In the example above, `timeout=3600` saves your information for 1 hour (3600 seconds). You can adjust the amount of time up or down as needed.
 
@@ -156,7 +164,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
       1. `npm install` (We will explore this more in future chapters).  You will see that more files and directories have been added to your project. That is expected.
       1. Next type the command `node hello.js`.  This should run the program, which in this case prints your message in the terminal.  
       ```bash
-      computer:js-hello-world username: node hello.js
+      node hello.js
       Hello World!
       ```
       1. Another way to run your program is to use the _Run and Debug_ button found on the left icon menu of Visual Studio Code.  Set it to `Node.js` for this project.
@@ -176,7 +184,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
    Colors may not match exactly as in your terminal.
 
    ```bash{linenos=table,hl_lines=[],linenostart=1}
-   computer:js-hello-world username$ git status
+   git status
    On branch main
    Your branch is ahead of 'origin/main' by 1 commit.
    (use "git push" to publish your local commits)
@@ -192,8 +200,8 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 
    no changes added to commit (use "git add" and/or "git commit -a")
 
-   scomputer:js-hello-world username$ git add .
-   computer:js-hello-world username$ git status
+   git add .
+   git status
    On branch main
    Your branch is ahead of 'origin/main' by 1 commit.
       (use "git push" to publish your local commits)
@@ -203,7 +211,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
          modified:   hello.js
          new file:   package-lock.json
 
-   computer:js-hello-world username$ git commit -m "now says Hello World"
+   git commit -m "now says Hello World"
    [main b1bb194] now says Hello World
    2 files changed, 3457 insertions(+), 1 deletion(-)
     create mode 100644 package-lock.json
@@ -217,7 +225,6 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
    remote: Resolving deltas: 100% (3/3), completed with 1 local object.
    To https://github.com/USERNAME/js-hello-world.git
       408d555..b1bb194  main -> main
-   computer:js-hello-world username$ 
    ```
 
    1. Line 1 `git status` used to check on the latest version of the project. 
