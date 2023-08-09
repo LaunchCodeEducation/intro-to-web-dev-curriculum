@@ -12,6 +12,6 @@ lastEditorGitHub: speudusa # update any time edits are made after review
 lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-## Content Links
+## Reading Content
 
 {{% children %}}
