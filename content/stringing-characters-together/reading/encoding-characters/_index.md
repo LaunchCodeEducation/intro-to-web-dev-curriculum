@@ -37,7 +37,7 @@ of which can be used to represent a decimal integer, from 0 to 255.
 
 {{% notice blue Note "rocket" %}}
 We will not go into binary to decimal number conversion. If you are
-interested in learning more, there are [many](https://www.csetutor.com/how-to-convert-binary-to-decimal-examples/) [tutorials](https://www.youtube.com/watch?v=wPvI19DmWQw) [online](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/decimal-to-binary) that can show you the way.
+interested in learning more, there are [many](https://www.binaryhexconverter.com/binary-to-decimal-converter) [tutorials](https://www.youtube.com/watch?v=wPvI19DmWQw) [online](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/decimal-to-binary) that can show you the way.
 {{% /notice %}}
 
 In this way, the bits in a computer can be viewed as integers. If you want to
