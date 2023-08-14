@@ -29,7 +29,7 @@ that stretch over multiple lines, the text falls between the symbols
 ## Experiment with Comments
 
 {{% notice blue Note "rocket" %}}
-In order to launch Visual Studio Code from the command line as referenced in the section below you will need to add install the `code` command in your PATH. The following articles will help you navigate this process:
+In order to launch Visual Studio Code from the command line as referenced in the section below you will need to install the `code` command in your PATH. The following articles will help you navigate this process:
 
 1. [freecodecame.org article](https://www.freecodecamp.org/news/how-to-open-visual-studio-code-from-your-terminal/)
 1. [Launch From the command line with macOS](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
