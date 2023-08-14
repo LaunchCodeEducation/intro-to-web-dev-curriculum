@@ -22,7 +22,6 @@ A generic function call looks like this:
 
 ```console
 functionName(argument1, argument2,...,argumentN);
-
 ```
 
 Every function provides a **return value**, which can be used by the calling program---for example, to store in a variable or print to the console.
