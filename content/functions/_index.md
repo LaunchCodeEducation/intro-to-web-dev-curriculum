@@ -30,7 +30,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Key Terminology
 1. scope
-1. function
+1. function: `call`, `argument`, `invocation`, `input`
 1. method
 1. encapsulation
 1. TypeScript
