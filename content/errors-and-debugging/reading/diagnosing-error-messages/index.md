@@ -31,8 +31,8 @@ Let's consider a small program with a couple of syntax errors.
 {{% notice blue "Example" "rocket" %}}
 
    ```js
-      let name = Julie;
-      console.log("Hello, name);
+   let name = Julie;
+   console.log("Hello, name);
    ```
 
 {{% /notice %}}
@@ -45,21 +45,21 @@ examine the error messages produced.
 Running the program at this stage results in the message:
 
 ```console
-   /Users/chris/dev/sandbox/js/syntax.js:2
-   console.log("Hello, name);
-               ^^^^^^^^^^^^^^
+/Users/chris/dev/sandbox/js/syntax.js:2
+console.log("Hello, name);
+            ^^^^^^^^^^^^^^
 
-   SyntaxError: Invalid or unexpected token
-      at new Script (vm.js:85:7)
-      at createScript (vm.js:266:10)
-      at Object.runInThisContext (vm.js:314:10)
-      at Module._compile (internal/modules/cjs/loader.js:698:28)
-      at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
-      at Module.load (internal/modules/cjs/loader.js:630:32)
-      at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
-      at Function.Module._load (internal/modules/cjs/loader.js:562:3)
-      at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
-      at internal/main/run_main_module.js:21:11
+SyntaxError: Invalid or unexpected token
+   at new Script (vm.js:85:7)
+   at createScript (vm.js:266:10)
+   at Object.runInThisContext (vm.js:314:10)
+   at Module._compile (internal/modules/cjs/loader.js:698:28)
+   at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
+   at Module.load (internal/modules/cjs/loader.js:630:32)
+   at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
+   at Function.Module._load (internal/modules/cjs/loader.js:562:3)
+   at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
+   at internal/main/run_main_module.js:21:11
 ```
 
 
@@ -69,8 +69,8 @@ everything we need to know.
 The first portion identifies where in our code the error exists:
 
 ```console
-   console.log("Hello, name);
-               ^^^^^^^^^^^^^^
+console.log("Hello, name);
+            ^^^^^^^^^^^^^^
 ```
 
 For many simple syntax errors, we will quickly be able to spot the mistake once
@@ -80,7 +80,7 @@ If knowing the location of the error isn't enough, the next line provides more
 information:
 
 ```console
-   SyntaxError: Invalid or unexpected token
+SyntaxError: Invalid or unexpected token
 ```
 
 This line identifies that actual issue that JavaScript found. It makes it clear
@@ -93,8 +93,8 @@ always easy to decipher at first glance. However, a second look at the line in
 question helps us make sense of this message.
 
 ```console
-   console.log("Hello, name);
-               ^^^^^^^^^^^^^^
+console.log("Hello, name);
+            ^^^^^^^^^^^^^^
 ```
 
 JavaScript is telling us that in the area of `"Hello, name);` it encountered
@@ -106,8 +106,8 @@ However, the string does not have a closing `"`, making it invalid.
 Fixing this error gives us a program with correct syntax:
 
 ```js {linenos=table}
-   let name = Julie;
-   console.log("Hello", name);
+let name = Julie;
+console.log("Hello", name);
 ```
 
 {{% notice blue "Note" "rocket" %}}
@@ -127,8 +127,6 @@ For example, here is a screenshot of our flawed code taken within Visual Studio 
 
 ![A screenshot with two lines of code. Syntax errors on each line cause highlighting to differ from what is expected. On line 1, the string "Julie" is green instead of red, because it is missing quotes. On line 2, the symbols ); are red instead of black, because the preceding string "Hello, World" doesn't have a closing double-quote.](./figures/syntax-highlighting.png)
 
-   Screenshot of a program with two syntax errors
-
 Notice that the string `Hello` is colored red, while *most* of the symbols
 (`=`, `;`, `.`, and `(`) are colored black. At the end of line 2,
 however, the final `)` and `;` are both red rather than black. Since we
@@ -141,20 +139,20 @@ difference in color is a clue that something is wrong with our syntax.
 Having fixed the syntax error, we can now run our program again. Doing so displays yet another error.
 
 ```console
-   Hello
-   /Users/chris/dev/sandbox/js/syntax.js:1
-   let name = Julie;
-              ^
+Hello
+/Users/chris/dev/sandbox/js/syntax.js:1
+let name = Julie;
+            ^
 
-   ReferenceError: Julie is not defined
-      at Object.<anonymous> (/Users/chris/dev/sandbox/js/syntax.js:1:74)
-      at Module._compile (internal/modules/cjs/loader.js:738:30)
-      at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
-      at Module.load (internal/modules/cjs/loader.js:630:32)
-      at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
-      at Function.Module._load (internal/modules/cjs/loader.js:562:3)
-      at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
-      at internal/main/run_main_module.js:21:11
+ReferenceError: Julie is not defined
+   at Object.<anonymous> (/Users/chris/dev/sandbox/js/syntax.js:1:74)
+   at Module._compile (internal/modules/cjs/loader.js:738:30)
+   at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
+   at Module.load (internal/modules/cjs/loader.js:630:32)
+   at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
+   at Function.Module._load (internal/modules/cjs/loader.js:562:3)
+   at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
+   at internal/main/run_main_module.js:21:11
 ```
 
 We have a new error message, this time involving line 1 of our code. We didn't see this error before because it is a runtime error. Due to the syntax error on line 2, the program stopped during the parsing phase. Even though the current error involves the line *before* the original syntax error, the syntax error still gets reported first.
@@ -162,8 +160,8 @@ We have a new error message, this time involving line 1 of our code. We didn't s
 Once again, we are told where the error occurs:
 
 ```console
-   let name = Julie;
-              ^
+let name = Julie;
+            ^
 ```
 
 There appears to be an issue with the assignment statement. You might be able to see what it is, but let's inspect the error message anyway. Doing so will help us understand JavaScript errors more generally.
@@ -171,7 +169,7 @@ There appears to be an issue with the assignment statement. You might be able to
 The message is:
 
 ```console
-   ReferenceError: Julie is not defined
+ReferenceError: Julie is not defined
 ```
 
 The type of error is `ReferenceError`. If we search the web for "JS ReferenceError" then one of the first results is the [MDN documentation for ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError). No need to read the entire document, however. The first sentence on this page tells us what we need to know:

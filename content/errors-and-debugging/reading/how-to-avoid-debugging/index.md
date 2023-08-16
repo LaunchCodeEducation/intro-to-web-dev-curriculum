@@ -32,6 +32,6 @@ Once you have a small part of your program working, the next step is to figure o
 
 Here is your new mantra, "Get something working and keep it working." Repeat this throughout your career as a programmer. It's a great way to avoid frustration and reduce stress while creating amazing (and working) code.
 
-   Get something working and keep it working.
+> Get something working and keep it working.
 
 Research has shown that with every little success, your brain releases a tiny bit of a chemical that makes you happy. So you can keep yourself happy and make programming more enjoyable by creating lots of small victories for yourself.

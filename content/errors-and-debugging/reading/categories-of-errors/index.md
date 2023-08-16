@@ -132,7 +132,7 @@ The characteristic of logic errors is that the program you wrote is not the prog
    **Console Output**
 
    ```console
-      85.71428571428571
+   85.71428571428571
    ```
 
 {{% /notice %}}

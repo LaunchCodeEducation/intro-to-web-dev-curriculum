@@ -30,16 +30,16 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    Fix the mistake, and then re-run the code to check it.
 
    ```js {linenos=table}
-      let launchReady = false;
-      let fuelLevel = 17000;
+   let launchReady = false;
+   let fuelLevel = 17000;
 
-      if (fuelLevel >= 20000 {
-         console.log('Fuel level cleared.');
-         launchReady = true;
-      } else {
-         console.log('WARNING: Insufficient fuel!');
-         launchReady = false;
-      }
+   if (fuelLevel >= 20000 {
+      console.log('Fuel level cleared.');
+      launchReady = true;
+   } else {
+      console.log('WARNING: Insufficient fuel!');
+      launchReady = false;
+   }
    ```
 
    {{% expand "Check your solution" %}}
@@ -54,26 +54,26 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    find the mistakes. 
    
    ```js {linenos=table}
-      let launchReady = false;
-      let crewStatus = true;
-      let computerStatus = 'green';
+   let launchReady = false;
+   let crewStatus = true;
+   let computerStatus = 'green';
 
-      if (crewStatus &&& computerStatus === 'green') {
-         console.log('Crew & computer cleared.');
-         launchReady = true;
-      } else {
-         console.log('WARNING: Crew or computer not ready!');
-         launchReady = false;
-      }
+   if (crewStatus &&& computerStatus === 'green') {
+      console.log('Crew & computer cleared.');
+      launchReady = true;
+   } else {
+      console.log('WARNING: Crew or computer not ready!');
+      launchReady = false;
+   }
 
-      if (launchReady) {
-         console.log(("10, 9, 8, 7, 6, 5, 4, 3, 2, 1...");
-         console.log("Fed parrot...");
-         console.log("Ignition...");
-         console.log("Liftoff!");
-      } else {
-         console.log("Launch scrubbed.");
-      }
+   if (launchReady) {
+      console.log(("10, 9, 8, 7, 6, 5, 4, 3, 2, 1...");
+      console.log("Fed parrot...");
+      console.log("Ignition...");
+      console.log("Liftoff!");
+   } else {
+      console.log("Launch scrubbed.");
+   }
    ```
 
    {{% notice green "Tip" "rocket" %}}
@@ -90,16 +90,16 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    the mistake in the code.
 
    ```js {linenos=table}
-      let launchReady = false;
-      let fuelLevel = 17000;
+   let launchReady = false;
+   let fuelLevel = 17000;
 
-      if (fuellevel >= 20000) {
-         console.log('Fuel level cleared.');
-         launchReady = true;
-      } else {
-         console.log('WARNING: Insufficient fuel!');
-         launchReady = false;
-      }
+   if (fuellevel >= 20000) {
+      console.log('Fuel level cleared.');
+      launchReady = true;
+   } else {
+      console.log('WARNING: Insufficient fuel!');
+      launchReady = false;
+   }
    ```
 
    {{% expand "Check your solution" %}}
@@ -114,27 +114,27 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    Now find and fix the runtime error in a longer code sample.
 
    ```js {linenos=table}
-      let launchReady = false;
-      let fuelLevel = 27000;
+   let launchReady = false;
+   let fuelLevel = 27000;
 
-      if (fuelLevel >= 20000) {
-         console.log('Fuel level cleared.');
-         launchReady = true;
-      } else {
-         console.log('WARNING: Insufficient fuel!');
-         launchReady = false;
-      }
+   if (fuelLevel >= 20000) {
+      console.log('Fuel level cleared.');
+      launchReady = true;
+   } else {
+      console.log('WARNING: Insufficient fuel!');
+      launchReady = false;
+   }
 
-      if (launchReady) {
-         console.log("10, 9, 8...");
-         console.log("Fed parrot...");
-         console.log("6, 5, 4...");
-         console.log("Ignition...");
-         consoul.log("3, 2, 1...");
-         console.log("Liftoff!");
-      } else {
-         console.log("Launch scrubbed.");
-      }
+   if (launchReady) {
+      console.log("10, 9, 8...");
+      console.log("Fed parrot...");
+      console.log("6, 5, 4...");
+      console.log("Ignition...");
+      consoul.log("3, 2, 1...");
+      console.log("Liftoff!");
+   } else {
+      console.log("Launch scrubbed.");
+   }
    ```
 
 1. Solve **logic errors** last. Logic errors do not generate warning
@@ -145,33 +145,33 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    1. Open up `DebuggingLogicErrors1.js`. First, run this sample code as-is and examine the output.
 
       ```js {linenos=table}
-         let launchReady = false;
-         let fuelLevel = 17000;
-         let crewStatus = true;
-         let computerStatus = 'green';
+      let launchReady = false;
+      let fuelLevel = 17000;
+      let crewStatus = true;
+      let computerStatus = 'green';
 
-         if (fuelLevel >= 20000) {
-            console.log('Fuel level cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Insufficient fuel!');
-            launchReady = false;
-         }
+      if (fuelLevel >= 20000) {
+         console.log('Fuel level cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Insufficient fuel!');
+         launchReady = false;
+      }
 
-         if (crewStatus && computerStatus === 'green'){
-            console.log('Crew & computer cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Crew or computer not ready!');
-            launchReady = false;
-         }
+      if (crewStatus && computerStatus === 'green'){
+         console.log('Crew & computer cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Crew or computer not ready!');
+         launchReady = false;
+      }
 
-         if (launchReady) {
-            console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
-            console.log('Liftoff!');
-         } else {
-            console.log('Launch scrubbed.');
-         }
+      if (launchReady) {
+         console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
+         console.log('Liftoff!');
+      } else {
+         console.log('Launch scrubbed.');
+      }
       ```
 
       Should the shuttle have launched? Did it?
@@ -194,18 +194,18 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
       Add `console.log(launchReady)` after this block, then run the program.
 
       ```js {linenos=table}
-         let launchReady = false;
-         let fuelLevel = 17000;
-         // let crewStatus = true;
-         // let computerStatus = 'green';
+      let launchReady = false;
+      let fuelLevel = 17000;
+      // let crewStatus = true;
+      // let computerStatus = 'green';
 
-         if (fuelLevel >= 20000) {
-            console.log('Fuel level cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Insufficient fuel!');
-            launchReady = false;
-         }
+      if (fuelLevel >= 20000) {
+         console.log('Fuel level cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Insufficient fuel!');
+         launchReady = false;
+      }
       ```
 
       Given the `fuelLevel` value, should `launchReady` be `true` or `false` after the check? Is the program behaving as expected?
@@ -214,26 +214,26 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
       Add another `console.log(launchReady)` after this block and run the program.
 
       ```js {linenos=table}
-         let launchReady = false;
-         // let fuelLevel = 17000;
-         let crewStatus = true;
-         let computerStatus = 'green';
+      let launchReady = false;
+      // let fuelLevel = 17000;
+      let crewStatus = true;
+      let computerStatus = 'green';
 
-         // if (fuelLevel >= 20000) {
-         //    console.log('Fuel level cleared.');
-         //    launchReady = true;
-         // } else {
-         //    console.log('WARNING: Insufficient fuel!');
-         //    launchReady = false;
-         // }
+      // if (fuelLevel >= 20000) {
+      //    console.log('Fuel level cleared.');
+      //    launchReady = true;
+      // } else {
+      //    console.log('WARNING: Insufficient fuel!');
+      //    launchReady = false;
+      // }
 
-         if (crewStatus && computerStatus === 'green'){
-            console.log('Crew & computer cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Crew or computer not ready!');
-            launchReady = false;
-         }
+      if (crewStatus && computerStatus === 'green'){
+         console.log('Crew & computer cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Crew or computer not ready!');
+         launchReady = false;
+      }
       ```
 
       Given `crewStatus` and `computerStatus`, should `launchReady` be `true` or `false` after this check? 
@@ -249,28 +249,28 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
    1. Now consider both `if/else` blocks together (keeping the added `console.log` lines). Run the code in `DebuggingLogicErrors4.js` and examine the output.
 
       ```js {linenos=table}
-         let launchReady = false;
-         let fuelLevel = 17000;
-         let crewStatus = true;
-         let computerStatus = 'green';
+      let launchReady = false;
+      let fuelLevel = 17000;
+      let crewStatus = true;
+      let computerStatus = 'green';
 
-         if (fuelLevel >= 20000) {
-            console.log('Fuel level cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Insufficient fuel!');
-            launchReady = false;
-         }
-         console.log(launchReady);
+      if (fuelLevel >= 20000) {
+         console.log('Fuel level cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Insufficient fuel!');
+         launchReady = false;
+      }
+      console.log(launchReady);
 
-         if (crewStatus && computerStatus === 'green'){
-            console.log('Crew & computer cleared.');
-            launchReady = true;
-         } else {
-            console.log('WARNING: Crew or computer not ready!');
-            launchReady = false;
-         }
-         console.log(launchReady);
+      if (crewStatus && computerStatus === 'green'){
+         console.log('Crew & computer cleared.');
+         launchReady = true;
+      } else {
+         console.log('WARNING: Crew or computer not ready!');
+         launchReady = false;
+      }
+      console.log(launchReady);
       ```
 
       Given the values for `fuelLevel`, `crewStatus` and `computerStatus`, should `launchReady` be `true` or `false`? Is the program behaving as expected?
@@ -286,35 +286,33 @@ To get started, check out the `exercises` directory in `javascript-projects/erro
       Update your code to do this. Verify that your change works
       by updating the `console.log` statements.
 
-     {{% expand "Check your solution" %}}
+   {{% expand "Check your solution" %}}
+   ```js {linenos=table}
+   let launchReady = false;
+   let crewReady = false;
+   let fuelLevel = 17000;
+   let crewStatus = true;
+   let computerStatus = 'green';
 
-     ```js {linenos=table}
-     let launchReady = false;
-      let crewReady = false;
-      let fuelLevel = 17000;
-      let crewStatus = true;
-      let computerStatus = 'green';
+   if (fuelLevel >= 20000) {
+      console.log('Fuel level cleared.');
+      launchReady = true;
+   } else {
+      console.log('WARNING: Insufficient fuel!');
+      launchReady = false;
+   }
+   console.log("launchReady = ", launchReady);
 
-      if (fuelLevel >= 20000) {
-         console.log('Fuel level cleared.');
-         launchReady = true;
-      } else {
-         console.log('WARNING: Insufficient fuel!');
-         launchReady = false;
-      }
-      console.log("launchReady = ", launchReady);
-
-      if (crewStatus && computerStatus === 'green'){
-         console.log('Crew & computer cleared.');
-         crewReady = true;
-      } else {
-         console.log('WARNING: Crew or computer not ready!');
-         crewReady = false;
-      }
-      console.log("crewReady = ", crewReady);
-      ```
-
-     {{% /expand %}}
+   if (crewStatus && computerStatus === 'green'){
+      console.log('Crew & computer cleared.');
+      crewReady = true;
+   } else {
+      console.log('WARNING: Crew or computer not ready!');
+      crewReady = false;
+   }
+   console.log("crewReady = ", crewReady);
+   ```
+   {{% /expand %}}
 
    1. Almost done, so wipe the sweat off your brow! Add a final `if/else` block
       to print a countdown and "Liftoff!" if all the checks pass, or print "Launch

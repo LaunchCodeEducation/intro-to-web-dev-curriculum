@@ -17,21 +17,21 @@ An **error type** is the classification that JavaScript uses to group errors bas
 Each error that JavaScript reports has an error type, and the type is included in the error message. For example, an earlier message reported the error type as `SyntaxError`.
 
 ```console
-   /Users/chris/dev/sandbox/js/syntax.js:2
-   console.log("Hello, name);
-               ^^^^^^^^^^^^^^
+/Users/chris/dev/sandbox/js/syntax.js:2
+console.log("Hello, name);
+            ^^^^^^^^^^^^^^
 
-   SyntaxError: Invalid or unexpected token
-      at new Script (vm.js:85:7)
-      at createScript (vm.js:266:10)
-      at Object.runInThisContext (vm.js:314:10)
-      at Module._compile (internal/modules/cjs/loader.js:698:28)
-      at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
-      at Module.load (internal/modules/cjs/loader.js:630:32)
-      at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
-      at Function.Module._load (internal/modules/cjs/loader.js:562:3)
-      at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
-      at internal/main/run_main_module.js:21:11
+SyntaxError: Invalid or unexpected token
+   at new Script (vm.js:85:7)
+   at createScript (vm.js:266:10)
+   at Object.runInThisContext (vm.js:314:10)
+   at Module._compile (internal/modules/cjs/loader.js:698:28)
+   at Object.Module._extensions..js (internal/modules/cjs/loader.js:749:10)
+   at Module.load (internal/modules/cjs/loader.js:630:32)
+   at tryModuleLoad (internal/modules/cjs/loader.js:570:12)
+   at Function.Module._load (internal/modules/cjs/loader.js:562:3)
+   at Function.Module.runMain (internal/modules/cjs/loader.js:801:12)
+   at internal/main/run_main_module.js:21:11
 ```
 
 We have now seen two error types, `ReferenceError` and `SyntaxError`. There are several other [error types in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects#Fundamental_objects), such as `TypeError` and `RangeError`. 

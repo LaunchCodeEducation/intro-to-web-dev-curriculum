@@ -25,19 +25,19 @@ Let's look at a program that has a logical bug.
 <!-- TODO: Add Degrees-C-to-K-Logic-Error -->
 
 ```js {linenos=table}
-   const input = require('readline-sync');
+const input = require('readline-sync');
 
-   let degreesC = input.question('Temp in degrees C:');
-   let degreesK = degreesC + 273.15;
+let degreesC = input.question('Temp in degrees C:');
+let degreesK = degreesC + 273.15;
 
-   console.log('Degrees K:', degreesK);
+console.log('Degrees K:', degreesK);
 ```
 
 This program asks the user for a temperature in degrees celsius and attempts to convert it to degrees Kelvin. Degrees Kelvin differs from degrees celsius by 273.15. So if we enter 100 (in celsius) we should see a converted value of 373.15 (in Kelvin). However, running the program as-is and entering 100 gives the message:
 
 ```console
-   Temp in degrees C:  100
-   Degrees K: 100273.15
+Temp in degrees C:  100
+Degrees K: 100273.15
 ```
 
 This is clearly incorrect. But the program does not generate an error, so it is not immediately clear what the issue is. To figure it out, we'll use `console.log` to see what the values of key variables are when the program runs. 
@@ -45,21 +45,21 @@ This is clearly incorrect. But the program does not generate an error, so it is 
 Let's first make sure that the `degreesC` variable looks like it should by adding a `console.log` statement just after we create this variable.
 
 ```js {linenos=table}
-   const input = require('readline-sync');
+const input = require('readline-sync');
 
-   let degreesC = input.question('Temp in degrees C: ');
-   console.log(degreesC);
-   let degreesK = degreesC + 273.15;
+let degreesC = input.question('Temp in degrees C: ');
+console.log(degreesC);
+let degreesK = degreesC + 273.15;
 
-   console.log('Degrees K:', degreesK);
+console.log('Degrees K:', degreesK);
 ```
 
 Running this with an input of 100 gives the output:
 
 ```console
-   Temp in degrees C:  100
-   100
-   Degrees K: 100273.15
+Temp in degrees C:  100
+100
+Degrees K: 100273.15
 ```
 
 The second line is the value of `degreesC`, which appears to be correct. But the final answer is still incorrect, so we need to keep digging for more information.
@@ -67,21 +67,21 @@ The second line is the value of `degreesC`, which appears to be correct. But the
 Looking at the line in which we set `degreesK`, we see that we use `degreesC` as a numeric value in our calculation. Let's see what the data type of `degreesC` is. In the end, we want it to be a number.
 
 ```js {linenos=table}
-   const input = require('readline-sync');
+const input = require('readline-sync');
 
-   let degreesC = input.question('Temp in degrees C: ');
-   console.log(typeof degreesC);
-   let degreesK = degreesC + 273.15;
+let degreesC = input.question('Temp in degrees C: ');
+console.log(typeof degreesC);
+let degreesK = degreesC + 273.15;
 
-   console.log('Degrees K:', degreesK);
+console.log('Degrees K:', degreesK);
 ```
 
 Running this with an input of 100 gives the output:
 
 ```console
-   Temp in degrees C:  100
-   string
-   Degrees K: 100273.15
+Temp in degrees C:  100
+string
+Degrees K: 100273.15
 ```
 
 That's it! The variable `degreesC` has the value `100`, but it is a string rather than a number. So when we set `degreesK` with the formula `degreesC + 273.15`, we are actually performing string concatenation instead of addition: `"100" + 273.15` is `"100273.15"`.
@@ -89,20 +89,20 @@ That's it! The variable `degreesC` has the value `100`, but it is a string rathe
 We can fix our program by converting the user's input to the number data type.
 
 ```js {linenos=table}
-   const input = require('readline-sync');
+const input = require('readline-sync');
 
-   let degreesC = input.question('Temp in degrees C: ');
-   degreesC = Number(degreesC);
-   let degreesK = degreesC + 273.15;
+let degreesC = input.question('Temp in degrees C: ');
+degreesC = Number(degreesC);
+let degreesK = degreesC + 273.15;
 
-   console.log('Degrees K:', degreesK);
+console.log('Degrees K:', degreesK);
 ```
 
 Running this with an input of 100 gives the output:
 
 ```console
-   Temp in degrees C:  100
-   Degrees K: 373.15
+Temp in degrees C:  100
+Degrees K: 373.15
 ```
 
 Note that after debugging we removed all of our `console.log` statements. Be sure to do the same when using this debugging technique.
