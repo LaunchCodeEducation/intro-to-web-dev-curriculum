@@ -93,5 +93,5 @@ In some cases, you may see a yellow dot grading status instead of the green chec
 When you see a green check, your code passes and you are all finished with the assignment.
 
 {{% notice blue Note "rocket" %}}
-If your program is outputting "Hello world!", but you are still not seeing a green check mark, make sure you did not edit any file other than `hello.js`. An accidental space or extra character can cause problems with the tests. To double check that you have not done so, you can click on the 7-digit code next to the check mark or x. This will bring up which files have been changed and any changes made. If any other files other than `hello.js` were changed, make sure to undo the changes in Repl.it and commit to Github.
+If your program is outputting "Hello world!", but you are still not seeing a green check mark, make sure you did not edit any file other than `hello.js`. An accidental space or extra character can cause problems with the tests. To double check that you have not done so, you can click on the 7-digit code next to the check mark or x. This will bring up which files have been changed and any changes made. If any other files other than `hello.js` were changed, make sure to undo the changes and commit to Github.
 {{% /notice %}}
