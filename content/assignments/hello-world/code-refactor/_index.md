@@ -53,7 +53,6 @@ Take a look at the `hello.js` file. This is the only file in your starter code t
 ```JavaScript
 function hello() {
 	// TODO: change this string so that your program prints "Hello world!" 
-	// when you hit the replit run button
 	return "Hello!";
 }
  

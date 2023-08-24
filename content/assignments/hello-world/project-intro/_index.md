@@ -21,7 +21,7 @@ In order to complete this assignment there are a few things that you will need t
 1. [Installed Node]({{< relref "../../../installations/install-node/" >}})
 {{% /notice %}}
 
-Programming jobs often require you to get familiar with, or at least make use of, additional technologies. Here, you'll be using a few web applications, like GitHub and Repl.it, to write your code, run it, save it, and submit your assignment.
+Programming jobs often require you to get familiar with, or at least make use of, additional technologies. Here, you'll be Github to write your code, run it, save it, and submit your assignment.
 
 So while the coding task may appear straightforward, you'll be introduced to a set of instructions, or **workflow**, that is important for the rest of your success in this class.
 
