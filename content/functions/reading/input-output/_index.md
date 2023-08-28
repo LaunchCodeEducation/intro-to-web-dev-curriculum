@@ -12,7 +12,7 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-In the introduction to this chapter, we used the metaphor of the :ref:`function machine <function-machine>`, noting that the machine takes *input* and provides *output*. This section focuses on the details of these two aspects of function behavior.
+In the introduction to this chapter, we used the metaphor of the [function machine]({{< relref "../introduction/_index.md#function-machine" >}}), noting that the machine takes *input* and provides *output*. This section focuses on the details of these two aspects of function behavior.
 
 ## Return Statements
 

@@ -20,22 +20,28 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 1. Write a function with no parameters, a single parameter, and multiple parameters
 1. Call a function, with and without parameters
 1. Understand the behavior of parameters that are not provided by the caller
-1. Use a return statement to complete execution of a function
-1. Use a return statement to provide a value to the function caller
-1. Explain what a return statement does
+1. Use a `return` statement to complete execution of a function
+1. Use a `return` statement to provide a value to the function caller
+1. Explain what a `return` statement does
 1. Understand variable scope as it pertains to functions
 1. Explain what variable shadowing is
 1. Write a function that calls another function
 1. Use properly descriptive names when defining functions
 
 ## Key Terminology
-1. scope
-1. function: `call`, `argument`, `invocation`, `input`
+
+### Introduction
+1. function
 1. method
+1. `indexOf`
 1. encapsulation
+
+### Creating Functions
 1. TypeScript
 1. abstraction
-1. indexOf
+
+### Parameters and Variables
+1. scope
 
 ## Content Links
 

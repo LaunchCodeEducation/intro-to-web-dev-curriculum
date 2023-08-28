@@ -62,7 +62,7 @@ The variable num is of type number and has value 42
 {{% /notice %}}
 
 {{% notice blue Example "rocket" %}}
-Many array and string methods also return values. This program uses the string method ``split`` to break a string into separate components.
+Many array and string methods also return values. This program uses the string method `split` to break a string into separate components.
 
 ```javascript
 let commaSeparatedValues = "Smith,Jane,100 Cherry Blossom Lane";
@@ -82,6 +82,8 @@ Functions are extremely powerful. They allow us to repeat actions without repeat
 When we want to print a message to the console using `console.log`, we don't have to know what the console is, or how a string can be displayed on it. The behavior is wrapped up within the function itself. This is an example of a broader programming concept known as **encapsulation**. Encapsulation is the process of packaging up code in a reusable way, without the programmer needing to be concerned with how it works.
 
 A commonly-used analogy for describing the concept of a function is that of a machine that takes input, carries out an action, and gives back a result. This is known as the **function machine** analogy.
+
+### function machine
 
 ![A "function machine," consisting of a box which takes inputs, and from which output emerges.](pictures/function-machine.png?classes=border)
 
