@@ -25,40 +25,42 @@ can be found here:
 1. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 To see detailed examples for a particular method, control-click
-(or right-click) on its name.
+(or right-click) on its name to open the view in a new tab.
 
 ### Methods That Return Information About The Array
 
+[]()
+
 | Method            | Syntax                           | Description                                 |
 | ----------------- | -------------------------------- | ------------------------------------------- |
-| includes          | `arrayName.includes(item)`       | Checks if an array contains the specified item. |
-| indexOf           | `arrayName.indexOf(item)`        | Returns the index of the first occurrence of an item in the array. If the item is not in the array, -1 is returned. |
+| [.includes()]({{< relref "../../../appendices/array-method-examples/includes-examples/_index.md" >}})          | `arrayName.includes(item)`       | Checks if an array contains the specified item. |
+| [.indexOf()]({{< relref "../../../appendices/array-method-examples/indexOf-examples/_index.md" >}})           | `arrayName.indexOf(item)`        | Returns the index of the first occurrence of an item in the array. If the item is not in the array, -1 is returned. |
 
 ### Methods That Rearrange The Entries In The Array
 
 | Method            | Syntax                     | Description                                 |
 | ----------------- | -------------------------- | ------------------------------------------- |
-| reverse           | `arrayName.reverse()`      | Reverses the order of elements in an array. |
-| sort              | `arrayName.sort()`         | Arranges elements of an array in increasing order (kinda). |
+| [.reverse()]({{< relref "../../../appendices/array-method-examples/reverse-examples/_index.md" >}})           | `arrayName.reverse()`      | Reverses the order of elements in an array. |
+| [.sort()]({{< relref "../../../appendices/array-method-examples/sort-examples/_index.md" >}})              | `arrayName.sort()`         | Arranges elements of an array in increasing order (kinda). |
 
 ### Methods That Add Or Remove Entries From An Array
 
 | Method                    | Syntax                                | Description                                            |
 | ------------------------- | ------------------------------------- | ------------------------------------------------------ |
-| pop                       | `arrayName.pop()`                     | Removes and returns the LAST element in an array.     |
-| push                      | `arrayName.push(item1, item2, ...)`   | Adds one or more items to the END of an array and returns the new length. |
-| shift                     | `arrayName.shift()`                   | Removes and returns the FIRST element in an array.    |
-| splice                    | `arrayName.splice(index, number, ...)` | Adds, removes, or replaces one or more elements anywhere in the array. |
-| unshift                   | `arrayName.unshift(item1, item2, ...)` | Adds one or more items to the START of an array and
+| [.pop()]({{< relref "../../../appendices/array-method-examples/push-pop-examples/_index.md" >}})                       | `arrayName.pop()`                     | Removes and returns the LAST element in an array.     |
+| [.push()]({{< relref "../../../appendices/array-method-examples/push-pop-examples/_index.md" >}})                      | `arrayName.push(item1, item2, ...)`   | Adds one or more items to the END of an array and returns the new length. |
+| [.shift()]({{< relref "../../../appendices/array-method-examples/shift-unshift-examples/_index.md#shift" >}})                     | `arrayName.shift()`                   | Removes and returns the FIRST element in an array.    |
+| [.splice()]({{< relref "../../../appendices/array-method-examples/splice-examples/_index.md" >}})                    | `arrayName.splice(index, number, ...)` | Adds, removes, or replaces one or more elements anywhere in the array. |
+| [.unshift()]({{< relref "../../../appendices/array-method-examples/shift-unshift-examples/_index.md#unshift" >}})                   | `arrayName.unshift(item1, item2, ...)` | Adds one or more items to the START of an array and returns the new length
 
 ### Methods that Create New Arrays
 
 | Method                          | Syntax                            | Description                                       |
 | ------------------------------- | --------------------------------- | ------------------------------------------------- |
-| [concat](concat-examples)       | `arr.concat(otherArray1, ...)`    | Combines two or more arrays into a new array.    |
-| [join](join-examples)           | `arr.join('connecter')`           | Combines all elements of an array into a string. |
-| [slice](slice-examples)         | `arr.slice(start index, end index)` | Copies selected entries of an array to a new array. |
-| [split](split-examples)         | `stringName.split('delimiter')`    | Divides a string into smaller pieces stored in a new array. |
+| [.concat()]({{< relref "../../../appendices/array-method-examples/concat-examples/_index.md" >}})       | `arr.concat(otherArray1, ...)`    | Combines two or more arrays into a new array.    |
+| [.join()]({{< relref "../../../appendices/array-method-examples/join-examples/_index.md" >}})           | `arr.join('connecter')`           | Combines all elements of an array into a string. |
+| [.slice()]({{< relref "../../../appendices/array-method-examples/slice-examples/_index.md" >}})         | `arr.slice(start index, end index)` | Copies selected entries of an array to a new array. |
+| [.split()]({{< relref "../../../appendices/array-method-examples/split-examples/_index.md" >}})         | `stringName.split('delimiter')`    | Divides a string into smaller pieces stored in a new array. |
 
 ## Check Your Understanding
 
