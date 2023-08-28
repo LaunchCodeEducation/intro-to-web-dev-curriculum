@@ -101,5 +101,7 @@ let classes = ["science, computer, art"];
 let teachers = ["Jones", "Willoughby", "Rhodes"];
 ```
 
-How can you change the ``classes`` array declaration to have the same number of items as the ``teachers`` array?
+How can you change the `classes` array declaration to have the same number of items as the `teachers` array?
+
+<!-- Solution: Encapsulate all index items with double quotes, similar to the teachers array -->
 {{% /notice %}}
