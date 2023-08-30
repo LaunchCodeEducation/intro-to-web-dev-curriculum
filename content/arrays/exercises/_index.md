@@ -30,13 +30,12 @@ Create an array called `practiceFile` with the following entry: 273.15. Use the 
 ```javascript
 let practiceFile = [273.15];
 ```
-
-### Section 1:
+1. 42
 ```javascript
 practiceFile.push(42);
 console.log(practiceFile);
 ```
-### Section 3:
+3. `false`, -4.6, "87"
 ```javascript
 practiceFile.push(false, -4.6, "87");
 console.log(practiceFile);
@@ -48,7 +47,7 @@ console.log(practiceFile);
 `push`, `pop`, `shift` and `unshift` are used to add/remove elements from the beginning/end of an array. **Bracket notation** can be used to modify any element within an array. Starting with the `cargoHold` array `['oxygen tanks', 'space suits', 'parrot', 'instruction manual',
 'meal packs', 'slinky', 'security blanket']`
 
-write statements to do the following:
+Write statements to do the following:
 
 1. Use bracket notation to replace `'slinky'` in the array with `'space
 tether'`. Print the array to confirm the change.
@@ -70,20 +69,19 @@ from? Which methods require entries inside the `()`?*
 ```javascript
 let cargoHold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
 ```
-
-### Section 1:
+1. Use bracket notation to replace `'slinky'` in the array with `'space
+tether'`. Print the array to confirm the change.
 ```javascript
 cargoHold[5] = 'space tether';
 console.log(cargoHold);
 ```
-
-### Section 3:
+3. Remove the first item from the array with `shift`. Print the element
+removed and the updated array.
 ```javascript
 console.log(cargoHold.shift());
 console.log(cargoHold);
 ```
-
-### Section 5:
+5. Use a template literal to print the final array and its length.
 ```javascript
 console.log(`The array ${cargoHold} has a length of ${cargoHold.length}.`);
 ```
@@ -106,13 +104,14 @@ to avoid manually counting an index).
 `'fob'`, and `'string cheese'`.
 
 {{% expand "Check Your Solution" %}}
-### Section 1:
+1. Insert the string `'keys'` at index 3 without replacing any other
+entries.
 ```javascript
 cargoHold.splice(3,0,'keys');
 console.log(cargoHold);
 ```
-
-### Section 3:
+3. Replace the elements at indexes 2 - 4 with the items `'cat'`,
+`'fob'`, and `'string cheese'`.
 ```javascript
 cargoHold.splice(2,3,'cat','fob','string cheese');
 console.log(cargoHold);
@@ -151,13 +150,15 @@ between these two methods? Do the methods alter the original arrays?
 *Good progress, cadet. Here are two more methods for you to examine.*
 
 {{% expand "Check Your Solution" %}}
-### Section 1:
+1. Print the result of using `concat` on the two arrays. Does `concat`
+alter the original arrays? Verify this by printing `holdCabinet1`
+after using the method.
 ```javascript
 console.log(holdCabinet1.concat(holdCabinet2));
 console.log(holdCabinet1);
 ```
-
-### Section 3:
+3. `reverse` the first array, and `sort` the second. What is the difference
+between these two methods? Do the methods alter the original arrays?
 ```javascript
 holdCabinet1.reverse();
 holdCabinet2.sort();
@@ -187,15 +188,20 @@ sword,batteries", and then combine them into a new string.
 *Nicely done, astronaut. Now it's time to bring you fully up to speed.*
 
 {{% expand "Check Your Solution" %}}
-### Section 1:
+1. Try it! Given the string `str = 'In space, no one can hear you code.'`,
+see what happens when you print `str.split()` vs. `str.split('e')`
+vs. `str.split(' ')` vs. `str.split('')`. What is the purpose of the
+parameter inside the `()`?
 ```javascript
 console.log(str.split());
 console.log(str.split('e'));
 console.log(str.split(' '));
 console.log(str.split(''));
 ```
-
-### Section 3:
+3. The benefit, cadet, is that we can take a string with **delimiters**
+(like commas) and convert it into a modifiable array. *Try it!*
+Alphabetize these hold contents: "water,space suits,food,plasma
+sword,batteries", and then combine them into a new string.
 ```javascript
 console.log(cargoHold.split(',').sort().join(','));
 ```
@@ -226,14 +232,20 @@ name/symbol/mass values. **Experiment!** Create a 3-dimensional array and
 print out one entry from each level in the array.
 
 {{% expand "Check Your Solution" %}}
-### Section 1:
+1. Define and initialize the following arrays, which hold the name, chemical
+symbol and mass for different elements:
+
+- `element1 = ['hydrogen', 'H', 1.008]`
+- `element2 = ['helium', 'He', 4.003]`
+- `element26 = ['iron', 'Fe', 55.85]`
 ```javascript
 let element1 = ['hydrogen', 'H', 1.008];
 let element2 = ['helium', 'He', 4.003];
 let element26 = ['iron', 'Fe', 55.85];
 ```
-
-### Section 3:
+3. Use bracket notation to examine the difference between printing
+`table[1]` and `table[1][1]`. Don't just nod your head! I want to
+HEAR you describe this difference. Go ahead, talk to your screen.
 ```javascript
 console.log(table[1], table[1][1]);
 ```

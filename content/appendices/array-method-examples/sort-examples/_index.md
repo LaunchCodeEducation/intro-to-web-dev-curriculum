@@ -79,7 +79,7 @@ console.log(numbers);
 [ 10, 2, 30, 400, 8 ]
 ```
 
-Here JavaScript gets truly bizarre. How is 8 larger than 400?
+Here, JavaScript gets truly bizarre. How is 8 larger than 400?
 
 When JavaScript sorts, it converts all entries into strings by default. Just
 like 'Apple' comes before 'Pear' because 'A' comes before 'P', the string '400'

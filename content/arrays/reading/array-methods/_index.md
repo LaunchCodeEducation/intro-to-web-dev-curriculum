@@ -87,10 +87,10 @@ console.log(charles);
 {{% notice green Question "rocket" %}}
 Which statement converts the string `str = 'LaunchCode students rock!'` into the array `['LaunchCode', 'students', 'rock!']`?
 
-a. `str.join(" ");`
-b. `str.split(" ");`
-c. `str.join("");`
-d. `str.split("");`
+1. `str.join(" ");`
+1. `str.split(" ");`
+1. `str.join("");`
+1. `str.split("");`
 
 <!-- Solution: None of the above, the .join method cannot be used on a string -->
 {{% /notice %}}
