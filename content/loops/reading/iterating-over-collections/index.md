@@ -5,8 +5,8 @@ draft: false
 weight: 3
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -89,8 +89,8 @@ items in the array and the given language is printed.
    Inside `chapter-examples` in the `loops` directory in `javascript-projects`, you will find `for-Loop-Practice-With-Arrays.js`. In this file, try writing a program that prints the name of each member of your family on a different line.
 
    ```js {linenos=table}
-      // create an array variable containing the names
+   // create an array variable containing the names
 
-      // write a for loop that prints each name on a different line
+   // write a for loop that prints each name on a different line
    ```
 {{% /notice %}}

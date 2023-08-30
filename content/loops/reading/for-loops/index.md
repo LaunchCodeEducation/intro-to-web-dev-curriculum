@@ -5,8 +5,8 @@ draft: false
 weight: 2
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -19,9 +19,9 @@ The `for` loop is the first JavaScript tool for iteration that we will explore. 
 We have already seen the basic syntax of a `for` loop.
 
 ```js {linenos=table}
-   for (let i = 0; i < 51; i++) {
-      console.log(i);
-   }
+for (let i = 0; i < 51; i++) {
+   console.log(i);
+}
 ```
 
 This program prints the integers 0 through 50, one number per line. In the language of definite iteration, we say that the loop has a data set of 0-50, and its action is to print a value to the console.
@@ -31,9 +31,9 @@ Let's break down this syntax piece by piece, so we can begin to understand how `
 A `for` loop always contains the following components:
 
 ```console
-   for (initial expression; loop condition; update expression) {
-      loop body
-   }
+for (initial expression; loop condition; update expression) {
+   loop body
+}
 ```
 
 Notice that in the first line, within parentheses, the components **initial expression**, **loop condition**, and **update expression** are separated by semicolons. Let's look at these components in detail.
@@ -41,9 +41,8 @@ Notice that in the first line, within parentheses, the components **initial expr
 1. The statement `let i = 0` is executed exactly once, at the *beginning* of loop execution. The variable `i` is the **loop variable**.
 1. The boolean expression `i < 51` is the **loop condition**. This condition is evaluated before each loop iteration, or repetition.
 
-   a. If the condition is `true` then the loop executes again.
-   b. If the condition is `false` then the loop ceases execution, and the
-      program moves on to the code below the loop.
+   - If the condition is `true` then the loop executes again.
+   - If the condition is `false` then the loop ceases execution, and the program moves on to the code below the loop.
 
 1. The statement `i++` is the **update expression**. This expression is executed at the *end* of each loop iteration.
 1. The block of code surrounded with brackets (`{ }`) is the **loop body**.
@@ -54,9 +53,9 @@ Notice that in the first line, within parentheses, the components **initial expr
 In just a few lines of code, a `for` loop contains a lot of detailed logic, so let's spend some time breaking down the flow of execution for the particular loop that we've been looking at.
 
 ```js {linenos=table}
-   for (let i = 0; i < 51; i++) {
-      console.log(i);
-   }
+for (let i = 0; i < 51; i++) {
+   console.log(i);
+}
 ```
 
 Here is a step-by-step description of how this loop executes:
@@ -71,5 +70,5 @@ Here is a step-by-step description of how this loop executes:
 In general, we can visualize the flow of execution of a `for` loop as a flowchart.
 
 {{< rawhtml >}}
-   <img alt="Flow diagram showing how the condition is checked before loop body is executed again" src="pictures/for-loop-flow.png" width="70%" />
+<img alt="Flow diagram showing how the condition is checked before loop body is executed again" src="pictures/for-loop-flow.png" width="70%" />
 {{< /rawhtml >}}

@@ -5,8 +5,8 @@ draft: false
 weight: 4
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -18,9 +18,9 @@ in more depth.
 Recall the first example of a `for` loop that we looked at.
 
 ```js {linenos=table}
-   for (let i = 0; i < 51; i++) {
-      console.log(i);
-   }
+for (let i = 0; i < 51; i++) {
+   console.log(i);
+}
 ```
 
 We broke down the flow of execution of this loop, noting that the loop executes
@@ -30,9 +30,9 @@ how this loop executes. So far, we have only seen `for` loops with this exact
 form:
 
 ```js {linenos=table}
-   for (let i = 0; i < upperBound; i++) {
-      // loop body
-   }
+for (let i = 0; i < upperBound; i++) {
+   // loop body
+}
 ```
 
 However, the three components of a `for` loop statement can take different
@@ -162,9 +162,9 @@ A bad choice of update expression can also cause an *infinite loop*.
    iteration and thus is never greater than or equal to 51.
 
    ```js {linenos=table}
-      for (let i = 0; i < 51; i--) {
-         console.log(i);
-      }
+   for (let i = 0; i < 51; i--) {
+      console.log(i);
+   }
    ```
 {{% /notice %}}
 

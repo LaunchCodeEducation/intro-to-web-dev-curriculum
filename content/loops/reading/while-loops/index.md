@@ -5,8 +5,8 @@ draft: false
 weight: 6
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -22,10 +22,10 @@ have initial and update expressions.
 
 The general syntax of a `while` loop looks like this:
 
-```console
-   while (boolean expression) {
-      body
-   }
+```javascript
+while (boolean expression) {
+   body
+}
 ```
 
 A `while` loop will continue to repeat as long as its boolean expression
@@ -97,15 +97,15 @@ of the loop. As long as the user continues to input non-positive numbers, the
 loop will continue to iterate.
 
 ```js {linenos=true}
-   const input = require('readline-sync');
+const input = require('readline-sync');
 
-   let num = input.question('Please enter a positive number:');
+let num = input.question('Please enter a positive number:');
+num = Number(num);
+
+while (num <= 0) {
+   num = input.question('Invalid input. Please enter a positive number:');
    num = Number(num);
-
-   while (num <= 0) {
-      num = input.question('Invalid input. Please enter a positive number:');
-      num = Number(num);
-   }
+}
 ```
 
 This example illustrates the additional flexibility provided by `while`

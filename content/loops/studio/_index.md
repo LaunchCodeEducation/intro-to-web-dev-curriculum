@@ -5,8 +5,8 @@ draft: false
 weight: 3
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -56,9 +56,9 @@ Your work will go into `solution.js`, but please feel free to explore the progra
    The computer needs to know how many crew members to prepare food for and what ingredients. Consider creating a nested loop that will create a meal for each crew member and then add it into a larger collection of meals.
    {{% /notice %}}
 
-   1. Each ingredient can only be used ONCE.
-   1. Add each meal to the `meals` array once it is assembled.
-   1. To test your own solution, scroll down to another function defined in this file called `runProgram()`. Uncomment the lines that call the `mealAssembly` function and print the result. Run the command `node solution` to see how your work is progressing.
+   2. Each ingredient can only be used ONCE.
+   3. Add each meal to the `meals` array once it is assembled.
+   4. To test your own solution, scroll down to another function defined in this file called `runProgram()`. Uncomment the lines that call the `mealAssembly` function and print the result. Run the command `node solution` to see how your work is progressing.
 
 ## Part B: Collect User Input
 
@@ -73,7 +73,7 @@ Update `askForNumber()` to add user input and validation.
 If you want to make sure that you have checked all the boxes, run the following command in your terminal.
 
 ```console
-   npm test
+npm test
 ```
 
 This command runs the Jest tests that are checking your work for you. If you have a test that fails, check out the name of the test to get a hint as to what you are missing.

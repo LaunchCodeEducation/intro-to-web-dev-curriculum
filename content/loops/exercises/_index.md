@@ -5,8 +5,8 @@ draft: false
 weight: 2
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: # to be set by the page reviewer
-reviewerGitHub: # to be set by the page reviewer
+reviewer: John Woolbright # to be set by the page reviewer
+reviewerGitHub: jwoolbright23 # to be set by the page reviewer
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -18,9 +18,9 @@ WAIT!!!  Why type "Repetition is a good thing," four times when we can code
 a better result?  How about printing the phrase 100 times instead?
 
 ```js {linenos = true}
-   for (let i = 0; i < 100; i++){
-      console.log("Repetition is a good thing.");
-   }
+for (let i = 0; i < 100; i++){
+   console.log("Repetition is a good thing.");
+}
 ```
 
 Loops simplify repetitive tasks!
