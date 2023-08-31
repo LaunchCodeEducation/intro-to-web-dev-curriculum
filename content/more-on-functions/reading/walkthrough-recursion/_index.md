@@ -14,7 +14,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 To ease into the concept of recursion, let's start with a loop task.
 
-In the Arrays chapter, we examined  the :ref:`join method <join-examples>`,
+In the Arrays chapter, we examined [the join method]({{< relref "../../../appendices/array-method-examples/join-examples/_index.md" >}}),
 which combines the elements of an array into a single string. If we have
 `arr = ['L', 'C', '1', '0', '1']`, then `arr.join('')` returns the string
 `'LC101'`.
