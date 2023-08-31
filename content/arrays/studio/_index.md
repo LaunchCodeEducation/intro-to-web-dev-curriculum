@@ -28,6 +28,12 @@ perform some useful actions.
 
 ## String Modification
 
+{{% notice blue Note "rocket" %}}
+This portion of the studio can be found at the following location: `javascript-projects/arrays/studio/string-modification.js`.
+
+Dont forget to run `npm i` or `npm install` within your studio directories.
+{{% /notice %}}
+
 Use string methods to convert a word into pseudo-pig latin.
 
 1. Remove the first three characters from a string and add them to the end. Ex: `'LaunchCode'` becomes `'nchCodeLau'`. Use a template literal to print the original and modified string in a descriptive phrase.
@@ -57,6 +63,10 @@ array, then modify the array and convert it back to a printable string.
 1. Use the `commaSpace()` function to code the following.  *Consider*: What if the string uses 'comma spaces' (, ) to separate the list? Modify your code to produce the same result as part "b", making sure that the extra spaces are NOT part of the final string.
 
 ## Bonus Mission: Multi-dimensional Arrays
+
+{{% notice blue Note "rocket" %}}
+This portion of the studio can be found at the following location: `javascript-projects/arrays/studio/multi-dimensional-arrays.js`
+{{% /notice %}}
 
 Arrays can store other arrays!
 

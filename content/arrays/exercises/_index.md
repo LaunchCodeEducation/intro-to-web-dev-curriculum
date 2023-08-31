@@ -16,6 +16,12 @@ OK, rookie. It's time to train you on how to modify the shuttle's cargo
 manifest. The following actions will teach you how to add, remove, modify and
 rearrange our records for the items stored in our hold.
 
+{{% notice blue Note "rocket" %}}
+All of the following exercise files can be found in the `javascript-projects` directory at the following location:
+
+`javascript-projects/arrays/exercises/part-(one-six)-arrays.js`
+{{% /notice %}}
+
 ## Part 1
 
 Create an array called `practiceFile` with the following entry: 273.15. Use the `push` method to add the following elements to the array. Add items 1 & 2 one at a time, then use a single `push` to add the items within section 3. Print the array after each step to confirm the changes.
