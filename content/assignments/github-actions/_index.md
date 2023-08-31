@@ -97,4 +97,4 @@ Keep coding until you pass all of the tests.
 
 Testing in the terminal will vary by project.  Instructions are included in each Graded Assignments for running tests in the terminal.
 
-Most Graded Assignment will use the command `npm test` to run the tests locally.  If any other instructions are needed, they will be found in the actual assignment section.
+Most Graded Assignments will use the command `npm test` to run the tests locally.  If any other instructions are needed, they will be found in the actual assignment section.
