@@ -36,10 +36,8 @@ Use string methods to convert a word into pseudo-pig latin.
 
 ## Array and String Conversion
 
-<!-- TODO: Bring in Tested Code section from old textbook. In the meantime it still links to old book. -->
-
 {{% notice blue Note "rocket" %}}
-The starter code for this section contains unit tests.  You will see a lot of new code in the starter code. The directions will tell you which function to work in. Look for the `TODO` and `NOTE` comments for guidance and direction. The [Tested Code](https://education.launchcode.org/intro-to-professional-web-dev/appendices/tested-code.html#tested-code) page provides more information and tips for working inside code like this.
+The starter code for this section contains unit tests. You will see a lot of new code in the starter code. The directions will tell you which function to work in. Look for the `TODO` and `NOTE` comments for guidance and direction. The [Autograding Your Tests]({{< relref "../../assignments/github-actions/_index.md" >}}) page provides more information and tips for working inside code like this.
 
 Open the `javascript-projects/arrays/studio/array-string-conversion` directory and run `npm i` to install the required dependences.
 {{% /notice %}}

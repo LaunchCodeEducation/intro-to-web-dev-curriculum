@@ -14,6 +14,8 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 ## Learning Objectives
 
+Upon completion of this chapter, you should be able to do the following:
+
 1. Understand arrays, like strings, are indexed collections
 1. Create an array literal
 1. Create an array of size n with Array(n)
@@ -31,6 +33,8 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 
 ## Key Terminology
+
+While reading this chapter, you will notice the following key terms listed by the page they first appear on. As you read, you should make note of the definitions of these terms.
 
 ### Arrays Are Like Strings
 1. array
