@@ -13,6 +13,9 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Learning Objectives
+
+Upon completing all the content in this chapter, you should be able to do the following:
+
 1. Create and use anonymous functions
 1. Explain how an anonymous function can be called, even though it doesn’t have a defined name
 1. Explain common uses of anonymous functions
@@ -22,6 +25,8 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 1. Explain how base cases are important in preventing infinite recursion
 
 ## Key Terminology
+
+Here is a list of key terms for this chapter broken down by the page the term first appears on. You should make note of these terms and their definitions.
 
 ### Functions as Values
 1. function; as a value
