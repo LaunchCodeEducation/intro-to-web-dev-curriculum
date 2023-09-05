@@ -12,6 +12,10 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # Wed Jul 5 08:49:19 AM CDT 2023
 ---
 
+{{% notice blue Note "rocket" %}}
+Work on the following studio within your `javascript-projects/more-on-functions/exercises` directory.
+{{% /notice %}}
+
 Arrr! Welcome back, pirates. 
 
 ## Practice Your Skills
