@@ -13,8 +13,20 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Learning Objectives
+Upon completing all the content in this chapter, you should be able to do the following:
 
 ## Key Terminology
+Here is a list of key terms for this chapter broken down by the page the term first appears on. You should make note of these terms and their definitions.
+
+### What are Modules
+
+### Require Modules
+
+### NPM
+
+### Exporting Modules
+
+### Wrap-up
 
 ## Content Links
 
