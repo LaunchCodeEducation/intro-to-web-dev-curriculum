@@ -199,6 +199,8 @@ A module in Node.js is:
 1. One line of code in a program.
 1. A function.
 1. A file that contains documentation about functions in JavaScript.
+
+<!-- Solution: file containing JavaScript code -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
@@ -226,4 +228,6 @@ from within your project?
 1. `circleStuff.circumference(argument)`
 1. `circleStuff(circumference(argument))`
 1. `circumference(argument)`
+
+<!-- Solution: Option 2: circleStuff.circumference(argument) -->
 {{% /notice %}}
