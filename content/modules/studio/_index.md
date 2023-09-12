@@ -84,7 +84,7 @@ Here are some tips that we recommend to help boost your confidence:
 1. *Review your accomplishments*. Think about your life prior to programming when *string*, *object* and *function* all meant something much simpler. Your learning has been real!
 1. *Share with a trusted friend, teacher or mentor*. Other people with more experience can provide reassurance, and they probably felt similar doubts when they started.
 1. *Accept compliments*. Luck will not earn you your tech job. There will be LOTS of candidates, and you will shine enough to set you apart. When someone compliments your effort or the quality of your work, graciously accept!
-1. *Voice your worth*. Many people use daily exercises to affirm their  abilities. [Here's an example.](https://www.youtube.com/watch?v=qR3rK0kZFkg&ab_channel=dmchatster).
+1. *Voice your worth*. Many people use daily exercises to affirm their  abilities. [Here is an example.](https://www.youtube.com/watch?v=qR3rK0kZFkg&ab_channel=dmchatster).
 1. *Teach*. This is a great way to reinforce your learning, and it helps you recognize how much you know.
 1. *Remember the power of 'Yet'*. You are not the master of all skills, of course, but you do know how to learn. With more practice, you will fill in any gaps in your knowledge.
 

@@ -29,49 +29,82 @@ Lucky you! Some of your teammates have already coded the necessary functions
 in the `averages.js` and `display.js` files.
 
 1. In `averages.js`, add code to export all of the functions within an object.
+
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   module.exports = {
+      averageForStudent: averageForStudent,
+      averageForTest: averageForTest
+   };
+   ```
+   {{% /expand %}}
+
 1. In `display.js`, add code to export ONLY `printAll` as a function.
-
-{{% expand "Check Your Solution" %}}
-
-{{% /expand %}}
 
 ## Code & Export New Module
 
 `randomSelect.js` requires your attention.
+<!-- TODO: Add proper link to chapter once able (chapter 12 content required) -->
+1. Add code to complete the `randomFromArray` function. It should take an array as an argument and then return a [randomly selected element]() from that array.
 
-1. Add code to complete the `randomFromArray` function. It should take an array as an argument and then return a :ref:`randomly selected element <random-array-item>` from that array.
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   function randomFromArray(arr){
+      let index = Math.floor(Math.random()*arr.length);
+      return arr[index];
+   }
+   ```
+   {{% /expand %}}
+
 1. Do not forget to export the `randomFromArray` function so you can use it in your project.
-
-{{% expand "Check Your Solution" %}}
-
-{{% /expand %}}
 
 ## Import Required Modules
 
 The project code is in `index.js`. Start by importing the required modules:
 
 1. Assign `readline-sync` to the `input` variable.
+
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   const input = require('readline-sync');
+   ```
+   {{% /expand %}}
+
 1. Assign the functions from `averages.js` to the `averages` variable.
+
 1. Assign the `printAll` function from `display.js` to the `printAll` variable.
+
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   const printAll = require('./display.js');
+   ```
+   {{% /expand %}}
+
 1. Assign the function from `randomSelect.js` to the `randomSelect` variable.
-
-{{% expand "Check Your Solution" %}}
-
-{{% /expand %}}
 
 ## Finish the Project
 
-Now complete the project code. (Note - The line references assume that you added no blank lines during your work in the previous section. If you did, no
-worries. The comments in `index.js` will still show you where to add code).
+Now complete the project code. The comments in `index.js` will still show you where to add code for the following tasks:
 
-1. Line 21 - Call `printAll` to display all of the tests and student scores. Be sure to pass in the correct arguments.
-1. Line 24 - Using dot notation, call `averageForTest` to print the class average for each test. Use `j` and `scores` as arguments.
-1. Line 29 - Call `averageForStudent` (with the proper arguments) to print each astronaut's average score.
-1. Line 33 - Call `randomSelect` to pick the next spacewalker from the `astronauts` array.
+1. Call `printAll` to display all of the tests and student scores. Be sure to pass in the correct arguments.
 
-{{% expand "Check Your Solution" %}}
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   printAll(astronauts, testTitles, scores);
+   ```
+   {{% /expand %}}
 
-{{% /expand %}}
+1. Using dot notation, call `averageForTest` to print the class average for each test. Use `j` and `scores` as arguments.
+
+1. Call `averageForStudent` (with the proper arguments) to print each astronaut's average score.
+
+   {{% expand "Check Your Solution" %}}
+   ```javascript
+   let avg = averages.averageForStudent(j, scores);
+   ```
+   {{% /expand %}}
+   
+1. Call `randomSelect` to pick the next spacewalker from the `astronauts` array.
 
 ## Sanity check!
 
