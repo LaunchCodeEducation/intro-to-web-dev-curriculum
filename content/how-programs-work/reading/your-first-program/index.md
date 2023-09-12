@@ -172,12 +172,12 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
          <img src="../images/run-and-debug.png" alt="icon for the Run and Debug button" width=10%/>
       {{< /rawhtml >}}
    1. Try out the other prompts starting at line 10.
-   1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This will keep track of your changes.
+   1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This is how you use git to track each change in your code.
       1. `git status` This will show you all the files you changed in red.
-      1. `git add .` This will add all the files your changed inside this directory to your repo soon.
-      1. `git status` This will show you all the files ready to send to GitHub in green.
-      1. `git commit -m "<type a message here>"` Between the quote replace the text between the `< >` with a short message.  This will help you remember what you did as you work in a project.
-      1. `git push` This will actually push your latest code that you staged into your GitHub repo. 
+      1. `git add .` This will 'stage', or prepare all the changed files in this directory to be updated in your GitHub repo.
+      1. `git status` This will show you all your staged files in green, which are now ready to update in GitHub.
+      1. `git commit -m "<type a message here>"` This will 'commit', or finalize your changes in git. Between the quotes, replace the text and carrot symbols `< >` with a short message describing your changes.  This will help you remember what you did while looking through many commits later.
+      1. `git push` This will actually send the committed changes to your GitHub repo.
 
    {{% notice blue "Example of staging and pushing up your latest commit" "rocket" %}} 
    
