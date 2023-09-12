@@ -52,9 +52,9 @@ in a computer's *terminal* to install modules into a Node project.
 
 For now, recall that we coded many Node projects inside of Visual Studio Code.
 
-Even though we added `readline-sync` to existing `package.json` files, our code still
-required additional configuration because `input` is not defined automatically. The final step of requiring
-`readline-sync` is to assign it to a variable. You may have noticed the following line or something very similar in previous chapters within your starter code for exercises, studios, or assignments.
+## Example
+
+Even though we added the `readline-sync` dependency to existing `package.json` files, our code still required additional configuration because `input` (or whatever you may decide to name your variable) is not defined automatically. The final step of requiring `readline-sync` is to assign it to a variable in addition to the `require` command. You may have noticed the following line or something very similar in previous chapters within your starter code for exercises, studios, or assignments.
 
 ```javascript
 const input = require("readline-sync");
@@ -68,3 +68,5 @@ const input = require("readline-sync");
 const name = input.question("What is your name?");
 console.log(`hello ${name}`);
 ```
+
+Once dependencies are installed into a project there may need to be additional configuration done on the user's behalf within their project.
