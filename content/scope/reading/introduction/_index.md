@@ -149,22 +149,21 @@ Now, let's consider the execution context for each step.
 
 1. First, the global execution context is entered as the compiler executes the code.
 
-
 ![Figure showing global execution context at the bottom of the stack.](pictures/globalexecutioncontext.png?classes=border)
 
-1. Once `coolFunction()` is hit, the compiler creates and executes `coolFunction()` under the `coolFunction()` execution context.
+2. Once `coolFunction()` is hit, the compiler creates and executes `coolFunction()` under the `coolFunction()` execution context.
 
 ![Figure showing coolFunction on top of global execution context.](pictures/coolFunction.png?classes=border)
 
-1. Upon completion, the compiler returns to the global execution context.
+3. Upon completion, the compiler returns to the global execution context.
 
 ![Figure showing global execution context at the bottom of the stack.](pictures/globalexecutioncontext.png?classes=border)
 
-1. The compiler stays at the global execution context until the creation and execution of `coolerFunction()`.
+4. The compiler stays at the global execution context until the creation and execution of `coolerFunction()`.
 
 ![Figure showing coolerFunction on top of the global execution context.](pictures/coolerFunction.png?classes=border)
 
-1. Inside of `coolerFunction()` is a call to `coolFunction()`. The compiler will go up in execution context to `coolFunction()` before returning down to `coolerFunction()`'s execution context. Upon completion of that function, the compiler returns to the global execution context.
+5. Inside of `coolerFunction()` is a call to `coolFunction()`. The compiler will go up in execution context to `coolFunction()` before returning down to `coolerFunction()`'s execution context. Upon completion of that function, the compiler returns to the global execution context.
 
 ![Figure showing coolFunction on top of coolerFunction on top of the global execution context.](pictures/coolandcoolerFunction.png?classes=border)
 
