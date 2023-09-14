@@ -56,7 +56,7 @@ We want to make sure that the following conditions are met in order for our shut
 1. if `fuelLevel` is at `100%`
 1. if `weatherStatus` is `clear`
 
-## Very Shuttle is Cleared for LiftOff
+## Verify the Shuttle is Cleared for LiftOff
 
 Once you have completed the above conditions, print out the following shuttle information below and wish your astronauts a safe flight! If the above conditions are not met, shut down the launch operations.
 1. date
