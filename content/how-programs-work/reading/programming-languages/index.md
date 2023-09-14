@@ -43,7 +43,7 @@ These _high-level languages_ can be written and understood by humans, and each o
 
 ### How Computers Run Programs
 
-Since computers only understand binary code, every programming language contains a special set if instructions that translate a programmer's work into the 0s and 1s that the machines need.
+Since computers only understand binary code, every programming language contains a special set of instructions that translate a programmer's work into the 0s and 1s that the machines need.
 
 If we want to print `Hello, World!` on the screen, we would write the instructions in our chosen programming language, then select "Run". Our code gets **compiled** or **interpreted**, which converts our typed commands into something the computer can use. The instructions are then executed by the machine, and we observe the results.
 
