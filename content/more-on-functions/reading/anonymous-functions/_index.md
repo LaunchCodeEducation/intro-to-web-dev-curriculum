@@ -41,7 +41,7 @@ Anonymous functions are often assigned to variables when they are created, which
 {{% notice blue Example "rocket" %}}
 Let's create and use a simple anonymous function that returns the sum of two numbers.
 
-```javascript
+```javascript {linenos = true}
 let add = function(a, b) {
     return a + b;
 };
@@ -58,9 +58,9 @@ console.log(add(1, 1));
 
 The variable `add` refers to the anonymous function created on lines 1 through 3. We call the function using the *variable* name, since the function doesn't have a name.
 
-The visual analogy here is the same as that of a variable referring to a named function.
+<!-- The visual analogy here is the same as that of a variable referring to a named function.
 
-![The variable add on the left refers to an anonymous function on the right](pictures/function-var-anonymous.png?classes=border)
+![The variable add on the left refers to an anonymous function on the right](pictures/function-var-anonymous.png?classes=border) -->
 
 {{% notice orange Warning "rocket" %}}
 Like other variable declarations, an assignment statement using an anonymous function should be terminated by a semi-colon, `;`. This is easy to overlook, since named functions do *not* end with a semi-colon.
