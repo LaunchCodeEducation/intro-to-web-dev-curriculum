@@ -20,8 +20,8 @@ This cool feature allows immediate updates to your profile when you post a statu
 
 The ins and outs of how the internet works will be covered throughout this book. While important to understand why we are learning JavaScript, we won’t quiz you on servers and front-end development now!
 
-## Front-End vs. Back-End Changes
+## Client Machine vs. Web Server
 
 {{< rawhtml >}}
-   <img src="../images/Front-vs-back-end.png" alt="Front-end changes with a click while Back-end changes pass through a server before rendered in a browser" />
+   <img src="../images/client-machine-vs-web-server.png" alt="Front-end changes with a click while Back-end changes pass through a server before rendered in a browser" />
 {{< /rawhtml >}}
