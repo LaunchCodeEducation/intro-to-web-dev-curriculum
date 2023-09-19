@@ -1,5 +1,5 @@
 ---
-title: "Functions as Values"
+title: "Functions as Objects"
 date: 2023-05-25T12:55:09-05:00
 draft: false
 weight: 1
@@ -16,9 +16,9 @@ Functions are powerful tools in any programming language, and JavaScript uses th
 
 ## Functions Are Objects
 
-We [defined a value]({{< relref "../../../data-and-variables/reading/values-and-data-types/_index.md" >}}) as "a specific piece of data." Some examples are the number `42`, the string `"LC101"`, and the array `["MO", "FL", "DC"]`. *Functions are also values*, and while they appear to be very different from other values we have worked with, they share many core characteristics.
+We [defined a value]({{< relref "../../../data-and-variables/reading/values-and-data-types/_index.md" >}}) as "a specific piece of data." Some examples are the number `42`, the string `"LC101"`, and the array `["MO", "FL", "DC"]`. *Functions appear to be very different from other keywords we have worked with, they share many core characteristics.
 
-In particular, functions have a data type, just like all other values. Recall that a **data type** is a group of values that share characteristics, such as strings and numbers. Strings share the characteristics of having a length, while numbers don't. Numbers can be manipulated in ways that strings cannot, via operations like division and subtraction. 
+In particular, functions have a data type, similar too other javascript objects. Recall that a **data type** is a group of values that share characteristics, such as strings and numbers. Strings share the characteristics of having a length, while numbers don't. Numbers can be manipulated in ways that strings cannot, via operations like division and subtraction. 
 
 {{% notice blue Example "rocket" %}}
 The data type of the type conversion function `Number` is `function`. In fact, all functions are of type `function`.
@@ -61,7 +61,7 @@ When we use a variable *name*, we are really using its *value*. If the variable 
 
 <!-- ![The variable helloFunc on the left *referst to* the function hello on the right](pictures/function-var.png?classes=border) -->
 
-Again, *functions are values*. They can be used just like general values. For example:
+Again, functions can be used in different ways. For example:
 
 - Functions may be assigned to variables.
 - Functions may be used in expressions, such as comparisons.
