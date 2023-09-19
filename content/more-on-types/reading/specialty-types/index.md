@@ -13,7 +13,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 In JavaScript, data types can fall into one of two categories: primitive or object types.
-A **primitive** data type is a basic building block.
+A primitive data type specifies the size and type of variable values, and it has no additional methods.
 Using primitive data types, we can build more complex data structures or object data types.
 
 While object types such as objects and arrays are mutable, primitive data types are immutable.
