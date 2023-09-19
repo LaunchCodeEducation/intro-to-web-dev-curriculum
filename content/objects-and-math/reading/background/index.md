@@ -66,7 +66,7 @@ The values can be any of the data types that we have previously discussed.
    We start with our first tortoise. His name is Pete! He is an 85 year old, 919 lb Galapagos Tortoise, who prefers a diet of veggies.
    Our object literal for all of this important data about Pete would be: 
 
-   ```js {linenos}
+   ```js {linenos=true}
    let tortoiseOne = {
          species: "Galapagos Tortoise",
          name: "Pete",
