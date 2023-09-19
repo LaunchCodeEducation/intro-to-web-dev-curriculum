@@ -2,7 +2,7 @@
 title: "Exercises"
 date: 2023-05-25T12:55:09-05:00
 draft: false
-weight: 1
+weight: 2
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: to be set by page reviewer

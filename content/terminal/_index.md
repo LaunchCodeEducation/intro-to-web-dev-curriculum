@@ -1,8 +1,8 @@
 ---
-title: "Chapter 15: Scope"
+title: "Chapter 19: Terminal"
 date: 2023-05-25T12:55:09-05:00
 draft: false
-weight: 15
+weight: 19
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: # set by page reviewer
