@@ -49,5 +49,21 @@ The following screenshot was taken on a `Linux` machine where the absolute path 
 
 ## Relative Path
 
+{{% notice blue Example "rocket" %}}
+Using the image below we will cover an example for a relative path:
+
+![Image of a Desktop file tree that has three subdirectories.](pictures/file-tree-example.png?classes=border)
+
+Envision that the user is located within the `java/spring-boot` directory but they needed to copy the `javascript` file from the `launchcode/curriculum` directory. The relative path for this scenario is `../../launchcode/curriculum/javascript`. 
+
+The following command would accomplish the above task:
+
+```bash
+cp ../../launchcode/curriculum/javascript .
+```
+{{% /notice %}}
+
+Remember that the **relative path** is always going to be the path to your `desired` location from your `current` location.
+
 Many programmers use paths to navigate through the filesystem in the terminal.
 We will discuss the commands to do so in the next section.
