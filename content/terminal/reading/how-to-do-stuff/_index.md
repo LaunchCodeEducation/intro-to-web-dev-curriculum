@@ -68,9 +68,8 @@ out the full name of a directory or simply can't remember it.
 | `.`      | The current directory                  |
 | `..`     | The parent directory of the current directory |
 
-<!-- TODO: Need to create the terminal commands appendices section -->
 For an in-depth tutorial of how to use a CLI to move through your daily life,
-refer to the [terminal commands section]().
+refer to the [terminal commands tutorial]({{< relref "../../../appendices/terminal-commands/_index.md" >}}).
 
 ## Check Your Understanding
 
