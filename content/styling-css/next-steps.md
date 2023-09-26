@@ -12,3 +12,8 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
+Upon completing everything in this chapter, you are ready to move onto the chapter on git. If you would like to read more about `css` before continuing forward, here are some of our favorite resources.
+
+1. [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
+1. [mdn web docs CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
+1. [tutorialspoint CSS Tutorial](https://www.tutorialspoint.com/css/index.htm)
