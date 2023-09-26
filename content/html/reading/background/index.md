@@ -32,9 +32,7 @@ When the browser renders the page, HTML outlines the structure of the page's con
 
 {{% notice blue "Note" "rocket" %}}
 
-Not all browsers handle code the same way.  
-You might notice discrepancies between browsers, such as font or spacing of elements.  
-If you are confident that your code is correct, the discrepancy is likely browser-related. 
+Not all browsers handle code the same way. You might notice discrepancies between browsers, such as font or spacing of elements. If you are confident that your code is correct, the discrepancy is likely browser-related. 
    
 {{% /notice %}}
 
@@ -76,7 +74,7 @@ Each tag has the following structural elements:
 Here is an example of a line of HTML:
 
 ```html
-   <element type>content</element type> 
+<element type>content</element type> 
 ```
 
 ## HTML Writing Style
