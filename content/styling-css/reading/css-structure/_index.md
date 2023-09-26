@@ -162,4 +162,6 @@ What is the order of precedence in CSS?
 1. Inline > Internal > External
 1. Inline > External > Internal
 1. External > Internal > Inline
+
+<!-- Solution: Inline > Interal > External -->
 {{% /notice %}}
