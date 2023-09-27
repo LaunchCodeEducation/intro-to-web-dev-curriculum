@@ -30,7 +30,7 @@ When you have finished reading through the instructions, use this [starter code]
 You will use the terminal to create a location to store the code repos.  The terminal will also communicate with GitHub.
 
 1. Run the following command: `ls`
-This will list any files or directories (folders) at the level of your terminal. 
+This will _list_ any files or directories (folders) wherever you are in the terminal.
 
    It may look like this:
    ```bash
@@ -46,13 +46,13 @@ This will list any files or directories (folders) at the level of your terminal.
    Documents
    ...
    ```
-1. Select a location where you would like to store your course work. The example is storing work on the Desktop, you may choose a different location if you desire.
+1. Choose a folder where you would like to store your course work. This example stores work on the Desktop; you may choose a different location if you desire.
 
-   1. Use the following command to move into that location: `cd <location-name>`
+   1. Use the following command to _change directory_, or move, into that folder: `cd <location-name>`
       ```bash
       cd Desktop
       ```
-   1. Create a directory (folder) to save your course work: `mkdir <directory-name>`
+   1. _Make a directory_ (folder) to save your course work: `mkdir <directory-name>`
       ```bash
       mkdir LaunchCode
       ```
@@ -67,7 +67,7 @@ You are now ready to add the repo to your directory.
 
 ## Go to GitHub
 
-You will be provided links to all of the repos in the course.  You will need to **fork** and **clone** them to your computer.  When you fork a repo, you are making a copy of the original code.  Any changes you make to the forked repo will not be applied to the original code.  This keeps the original starter code in tact for the next student.  Cloning the repo moves the repo code onto your computer.  If the code is not on your computer, you will not be able to work with it.  
+You will be provided links to all of the repos in the course.  You will need to **fork** and **clone** them to your computer.  When you fork a repo, you are making a copy of the original code.  Any changes you make to the forked repo will not be applied to the original code.  This keeps the original starter code intact for the next student.  Cloning the repo moves the repo code onto your computer.  If the code is not on your computer, you will not be able to work with it.  
 
 1. Make sure you are signed into your GitHub account.
 1. Go to the starter code repo and fork it.
