@@ -25,7 +25,7 @@ The following commands might already be familiar to you. Practicing them and usi
 1. In the terminal, use `mkdir` to create a folder on the Desktop called 'my_first_directory'. Look on your Desktop. Do you see it?
 
    {{% expand "Check Your Solution" %}}
-   ![Image of terminal after changing into the desktop directory, making a directory called my_first_directory and listing directory contents](pictures/my-first-directory.png.png?classes=border)
+   ![Image of terminal after changing into the desktop directory, making a directory called my_first_directory and listing directory contents](pictures/my-first-directory.png?classes=border)
    {{% /expand %}}
 
 1. Use `cd my_first_directory/` to move inside that directory.

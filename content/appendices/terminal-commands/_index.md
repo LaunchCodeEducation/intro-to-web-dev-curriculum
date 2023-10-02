@@ -24,6 +24,10 @@ directories.
 
 Let's take a look at a given project opened in your VSCode editor:
 
+{{% notice blue Note "rocket" %}}
+If you would like to follow along with the commands below you can find an identical directory structure within your `javascript-projects/terminal-commands` directory.
+{{% /notice %}}
+
 ![File tree in VSCode](pictures/init_tree.png?classes=border)
 
 Sample file tree in VSCode
