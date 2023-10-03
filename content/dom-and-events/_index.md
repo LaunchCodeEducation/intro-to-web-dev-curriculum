@@ -53,6 +53,11 @@ Here is a list of key terms for this chapter, broken down by the page the term f
 1. jQuery
 1. bubbling
 
+### Event Types
+1. mouseover event
+1. mouseout event
+1. load event
+
 ## Chapter Content
 
 {{% children %}}
