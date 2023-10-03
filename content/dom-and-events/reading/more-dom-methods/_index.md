@@ -28,7 +28,7 @@ the JavaScript code is running.
 | Method or Property              | Syntax                                 | Description                                                                       |
 |--------------------------------|----------------------------------------|-----------------------------------------------------------------------------------|
 | alert                          | `window.alert("String message")`      | Displays a dialog box with a message and an "ok" button to close the box.          |
-| [confirm](#dom-confirm-examples) | `window.confirm("String message")`    | Displays a dialog box with a message and returns `true` if the user clicks "ok" and `false` if the user clicks "cancel". |
+| [confirm]({{< relref "../../../appendices/dom-method-examples/confirm-examples/_index.md" >}}) | `window.confirm("String message")`    | Displays a dialog box with a message and returns `true` if the user clicks "ok" and `false` if the user clicks "cancel". |
 | location                       | `window.location`                      | Object that represents and alters the web address of the window or tab.         |
 | console                        | `window.console`                       | Represents the debugging console. Most common and basic use is `window.console.log()`. |
 
@@ -47,9 +47,9 @@ to find, add, remove, and alter HTML elements inside on the web page.
 | Method or Property                   | Syntax                                     | Description                                                |
 |-------------------------------------|--------------------------------------------|------------------------------------------------------------|
 | title                               | `document.title`                            | Read or set the title of the document.                    |
-| [getElementById](#dom-getElementById-examples) | `document.getElementById("example-id")`   | Returns a reference to the element whose `id` attribute matches the given string value. |
-| [querySelector](#dom-querySelector-examples)   | `document.querySelector("css selector")`   | Returns the first element that matches the given CSS selector. |
-| [querySelectorAll](#dom-querySelectorAll-examples) | `document.querySelectorAll("css selector")` | Returns a list of elements that match the given CSS selector. |
+| [getElementById]({{< relref "../../../appendices/dom-method-examples/get-element-examples/_index.md" >}}) | `document.getElementById("example-id")`   | Returns a reference to the element whose `id` attribute matches the given string value. |
+| [querySelector]({{< relref "../../../appendices/dom-method-examples/querySelector-examples/_index.md" >}})   | `document.querySelector("css selector")`   | Returns the first element that matches the given CSS selector. |
+| [querySelectorAll]({{< relref "../../../appendices/dom-method-examples/querySelector-examples/_index.md#queryselectorall" >}}) | `document.querySelectorAll("css selector")` | Returns a list of elements that match the given CSS selector. |
 
 {{% notice blue Note "rocket" %}}
 `querySelector` and `querySelectorAll` use the CSS selector pattern to find matching elements. The pattern
@@ -67,8 +67,8 @@ HTML documents are made up of a tree of elements. The `Element` class represents
 |--------------------------------|-------------------------------------|-----------------------------------------------|
 | getAttribute                    | `element.getAttribute("id")`        | Returns the value of the attribute.          |
 | setAttribute                    | `element.setAttribute("id", "string-value")` | Sets the attribute to the given value. |
-| [style](#dom-style-object-examples) | `element.style.color`               | Object that allows reading and setting *INLINE* CSS properties. |
-| [innerHTML](#dom-innerHTML-examples) | `element.innerHTML`                 | Reads or sets the HTML inside an element.    |
+| [style]({{< relref "../../../appendices/dom-method-examples/style-property-examples/_index.md" >}}) | `element.style.color`               | Object that allows reading and setting *INLINE* CSS properties. |
+| [innerHTML]({{< relref "../../../appendices/dom-method-examples/innerHTML-examples/_index.md" >}}) | `element.innerHTML`                 | Reads or sets the HTML inside an element.    |
 
 
 ## Check Your Understanding
