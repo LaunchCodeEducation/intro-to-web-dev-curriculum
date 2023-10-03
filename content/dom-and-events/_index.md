@@ -39,12 +39,14 @@ Here is a list of key terms for this chapter, broken down by the page the term f
 1. dynamic
 
 ### The DOM
-1. DOM
+1. DOM (Document Object Model)
 
 ### Events
 1. event
 1. event-driven
 1. inline event handler
+1. Handling
+1. Triggering
 
 ### Event Listeners
 1. listener
