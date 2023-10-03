@@ -17,45 +17,7 @@ The HTML, CSS, and JavaScript files are provided. For each event, the requiremen
 
 ## Getting Started
 
-First, fork the [studio repository](https://github.com/LaunchCodeEducation/DOM-and-Events-Studio/) to your Github account.
-To do so, on the studio repository page on Github, click the "Fork" button.
-
-![Image showing the Fork button is in the top right on the repository page.](pictures/fork-screenshot.png?classes=border)
-
-A popup appears asking where to fork the repository to and you select your profile.
-You should now have a copy of the repository on your own profile!
-
-{{% notice blue Note "rocket" %}}
-Not only is forking repositories an important Git skill, it is especially vital in the class so that everyone has the same starter code!
-Before continuing, make sure that the repository is now on your profile and you are working with your copy of the starter code for the rest of the studio.
-{{% /notice %}}
-
-If you have properly forked a repository, when you click on the forked repository on your profile, you will see the following:
-
-![Image showing that the repository name says Forked from in the top left when the repository has been forked.](pictures/forked-repo-screenshot.png?classes=border)
-
-Once you have properly forked the repository, you can clone the remote repository to your computer.
-To start, click on the green "Clone" button to get the proper HTTPS url for the command. 
-
-![Image showing that a popup appears once the Clone button is clicked with the proper url.](pictures/clone-repository-screenshot.png?classes=border)
-
-Copy the url either by clicking on the button with a clipboard icon or highlighting the whole url and copying.
-
-In the terminal, navigate to the directory where you want to put your new project.
-Use the command, `git clone <url>`, with the url you just copied to put the project on your local machine.
-
-{{% notice blue Note "rocket" %}}
-`git clone` will clone a whole directory including the Git repository on your machine, so there is no need to initialize a Git repository in a new directory to get started this way!
-{{% /notice %}}
-
-Open Visual Studio Code and go to `File > Open` to find your new project and get started!
-
-{{% notice orange Warning "rocket" %}}
-When you push your work up to your Github repository, you may notice the option to create a pull request. Please do NOT do so.
-This pull request will be linking your work back the shared starter code.
-If you accidentally do so, you can navigate to the starter code repository page and find your submission under "Pull Requests".
-Click on your submission and close the pull request at the bottom of the page.
-{{% /notice %}}
+Open the starter code within your `javascript-projects/dom-and-events/studio` directory.
 
 ## The Requirements
 
