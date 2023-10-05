@@ -42,9 +42,7 @@ We have created a `Node.js` [installation guide]({{< relref "../../../installati
 
 ## Setting Up Git
 
-In the terminal we will be using Git.  Git is used for version control.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
-
-The Git language is best used to help you track and manage changes in your code.  We will provide you with the basic commands you need to start coding.  You will learn more about Git in later chapters.
+In the terminal, we will be using Git.  Git is a version control tool, or a way to track and manage changes in your code.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
 
 We have created a Git [installation guide]({{< relref "../../../installations/install-git/_index.md" >}}) for you to follow.
 

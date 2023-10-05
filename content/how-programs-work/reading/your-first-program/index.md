@@ -18,7 +18,7 @@ We are going to walk you through a very simple **workflow**, or sequence of step
 
 ## Read the Instructions
 
-Every starter code repository (repo) in this course will contain instructions.  We strongly suggest you read ALL of the instructions before writing any code.  This will help you understand the output of your code, may explain any processes you should take while creating your code, etc.
+Every starter code repository (repo) in this course will contain instructions.  We strongly suggest you read ALL of the instructions before writing any code.  This will help you understand the goal of your code and may explain any hurdles you might encounter while building your program.
 
 We suggest reading the rest of this page before diving into the code.  Since this is the first time you are pulling from our GitHub repository, you will need to set up your new PAT, create a directory on your computer to store your work, and practice with the terminal.  You will do great!
 
@@ -173,7 +173,7 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
       {{< /rawhtml >}}
    1. Try out the other prompts starting at line 10.
    1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This is how you use git to track each change in your code.
-      1. `git status` This will show you all the files you changed in red.
+      1. `git status` This will show you all the files you changed in red. Note that many of these were added by the `npm install` command. This is expected.
       1. `git add .` This will 'stage', or prepare all the changed files in this directory to be updated in your GitHub repo.
       1. `git status` This will show you all your staged files in green, which are now ready to update in GitHub.
       1. `git commit -m "<type a message here>"` This will 'commit', or finalize your changes in git. Between the quotes, replace the text and carrot symbols `< >` with a short message describing your changes.  This will help you remember what you did while looking through many commits later.
