@@ -12,3 +12,14 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
+## Learning Objectives
+
+Upon completing all the content in this chapter, you should be able to do the following:
+
+## Key Terminology
+
+Here is a list of key terms for this chapter, broken down by the page the term first appears on. As you read along, make note of these terms and their definitions.
+
+## Chapter Content
+
+{{% children %}}
