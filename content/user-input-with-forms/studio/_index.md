@@ -48,8 +48,7 @@ sites.
 
 ## Getting Started
 
-1. Go to the [studio repository](https://github.com/LaunchCodeEducation/HTTP-and-Forms-Studio) and fork to your Github account.
-2. Clone the repository and `cd` into the new directory.
+1. Open the `javascript-projects/user-input-with-forms/studio` directory to get started.
 
 ## Create Form Inputs
 
