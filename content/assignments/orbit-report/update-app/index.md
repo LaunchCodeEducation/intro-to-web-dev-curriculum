@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### In this step, you will create the following:
@@ -19,11 +19,11 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 These variables and this function will be used by the `Buttons` and `Table` components.
 
-### Inside the `App.js` file
+### Inside the `App.jsx` file
 Open the `App.js` file.  
 
 1. Import `useState` from `"react"`.
-1. Import `satData.js` as `satData`.
+1. Import `satData.jsx` as `satData`.
 1. Inside the `App()` function create the first variable.
    ```react{linenos=table,hl_lines=[],linenostart=7}
    function App() {

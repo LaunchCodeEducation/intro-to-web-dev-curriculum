@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### In this step, you will create the following:
@@ -21,7 +21,7 @@ A table that provides the following data about the satellites:
 
 Comments have been provided to help structure the table.  You can keep them or remove them.
 
-### Inside the `Table.js` component:
+### Inside the `Table.jsx` component:
 
 1. Notice that the `Table` function starts with the `sat` prop provided.
 1. Start by updating the table header.  It needs a total of four `<th>` tags.  They need to hold text for the following data points: Name, Type of Satellite, Launch Date, and Status.

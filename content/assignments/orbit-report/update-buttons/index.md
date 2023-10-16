@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### In this step, you will create the following:
@@ -18,7 +18,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
    1. One will display all of the satellites
 
 
-### Inside the `Buttons.js` component:
+### Inside the `Buttons.jsx` component:
 1. Import the `satData` as `satData`.
 1. Pass the props created from the `App()` function: `filterByType`, `setSat`, and `displaySats`.
 1. Update the **first** button:

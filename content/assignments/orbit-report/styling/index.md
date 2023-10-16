@@ -7,19 +7,19 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 Styling has been provided if you would like to add it to your project.
 
 You can start by importing `styling.css` into the following components:
-1. `Banner.js`
-1. `Table.js`
-1. `Buttons.js`
+1. `Banner.jsx`
+1. `Table.jsx`
+1. `Buttons.jsx`
 
-Inside `Buttons.js` update the `<div>` in line 6 so that its `className` is equal to `flex-container`.  
+Inside `Buttons.jsx` update the `<div>` in line 6 so that its `className` is equal to `flex-container`.  
 
 Reminder: This step is optional.
 
