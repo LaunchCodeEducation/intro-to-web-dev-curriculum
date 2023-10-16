@@ -84,7 +84,7 @@ In this example, we are requesting data from `https://handlers.education.launchc
 
 ## `fetch` Example
 
-Now let's add `fetch` in the Launch Status web page.
+Now let's add `fetch` in the Launch Status web page. the following code can be located within the `javascript-projects/fetch/chapter-examples` directory. The file is called `fetch-weather-part-1.html`
 
 {{% notice blue Example "rocket" %}}
 A `<script>` tag has been added that includes:
