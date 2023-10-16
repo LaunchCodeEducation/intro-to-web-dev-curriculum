@@ -12,9 +12,8 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-Now that you have completed The DOM and Events chapter you are ready to learn about `HTTP`!. If you would like some additional resources on the DOM in JavaScript, here are a few of our favorites.
+Now that you have completed the chapter on Fetch you are ready to learn about `The Modern JavaScript Landscape`!. If you would like some additional resources on fetching data in JavaScript, here are a few of our favorites.
 
-1. [DigitalOcean: Understanding the DOM](https://www.digitalocean.com/community/tutorial-series/understanding-the-dom-document-object-model)
-1. [W3Schools HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
-1. [mdn web docs_ Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-1. [geeksforgeeks DOM](https://www.geeksforgeeks.org/dom-document-object-model/)
+1. [mdn web docs_ Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+1. [DigitalOcean: How To Use the JavaScript Fetch API to Get Data](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
+1. [W3Schools JavaScript Fetch API](https://www.w3schools.com/js/js_api_fetch.asp)
