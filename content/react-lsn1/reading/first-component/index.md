@@ -2,7 +2,7 @@
 title: "Make a New Component"
 date: 2023-03-31T09:42:17-05:00
 draft: false
-weight: 4
+weight: 5
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
 reviewer: Rob Thomas

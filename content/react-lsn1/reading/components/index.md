@@ -38,7 +38,7 @@ function SchnucksInfo() {
 }
 ```
 
-If we have a functional component called `SchnucksInfo` in a separate file within the `components` directory, we have to export it and then import it in `App.js`.
+If we have a functional component called `SchnucksInfo` in a separate file within the `components` directory, we have to export it and then import it in `App.jsx`.
 
 ```jsx
 function App() {
@@ -100,7 +100,7 @@ class DierbergsInfo extends React.Component {
 }
 ```
 
-While `SchnucksInfo` and `DierbergsInfo` are structured differently, we can call `DierbergsInfo` the same way in `App.js` that we did `SchnucksInfo`.
+While `SchnucksInfo` and `DierbergsInfo` are structured differently, we can call `DierbergsInfo` the same way in `App.jsx` that we did `SchnucksInfo`.
 
 ```jsx
 function App() {

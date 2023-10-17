@@ -7,9 +7,9 @@ originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: John Woolbright # update any time edits are made after review
+lastEditorGitHub: jwoolbright23 # update any time edits are made after review
+lastMod: 10-17-2023 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 Now that we understand more about React and components, we are ready to build a React app. To make a new React application, we will be using a front-end tool called [Vite](https://vitejs.dev/). This will allow us to scaffold a new `React` project with the required dependencies and launch a local dev server.
