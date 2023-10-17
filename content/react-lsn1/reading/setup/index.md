@@ -12,32 +12,48 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-Now that we understand more about React and components, we are ready to build a React app. To make a new React application, we will first install a tool called **Create React App**. Create React App was developed by Meta to allow developers to easily spin up React apps.
+Now that we understand more about React and components, we are ready to build a React app. To make a new React application, we will be using a front-end tool called [Vite](https://vitejs.dev/). This will allow us to scaffold a new `React` project with the required dependencies and launch a local dev server.
 
-To get started we need to first install Create React App with `npm`.
+To get started we first need to install `vite` within the project directory.
 
 ```console
-   npm i create-react-app
+npm create vite@latest
 ```
 
-Now we are ready to create a new application!
+You will be asked to provide a name for the project. The below example uses the name `react-part-one`.
 
-```console 
-   npx create-react-app new-app
+![Image of creating a new react app with vite](pictures/npm-create-vite.png?classes=border)
+
+You will then use your arrow keys to select the `React` option.
+
+![Image of selecting a variant after running npm create vite@latest command](pictures/select-variant.png?classes=border)
+
+You will then need to select the `JavaScript` variant.
+
+![Image of complete scaffolded React project using Vite](pictures/scaffolded-project-complete.png?classes=border)
+
+Now that your project has scaffolded you can navigate into the project root directory and run the following commands:
+
+```bash
+npm install
 ```
 
-Check that your application was properly created by navigating inside the new directory `new-app` and running the following command.
-
-```console 
-   npm start
+```bash
+npm run dev
 ```
 
-Your application will be up and running! Check out the code that comes with your application by either waiting for React to open a new tab in your browser or by opening a new tab and navigating to `http://localhost:3000`. 
+This will start your local development server and you will see output similar to the below image:
 
-As you begin to edit the application, React will detect the changes you have made and automatically reload the page. To stop the local development server, type the shortcut *control+C*. To get the server going again so you can see your changes, run `npm start` again. 
+![Image of running application on localhost:5173 after executing the npm run dev command](pictures/npm-run-dev.png?classes=border)
 
-## The Initial App
+You can view some useful Shortcuts if you press `h`
 
-Open up your new React application in Visual Studio Code. In the file tree, locate these two directories: `public` and `src`. The first, `public`, holds the page template, `index.html`, and the second, `src`, is home to JavaScript and CSS files, such as `App.js` and `App.css`. When creating new files, your new files need to either go in `public` or `src` to ensure that those files are part of the build.
+![Image of Shortcuts after pressing h which is available after executing the npm run dev command](pictures/help-command.png?classes=border)
 
-For this class, we will be only be editing and creating files in `src`. The `public` directory is only intended for HTML templates. In the `src` directory, you will find `index.js` and `index.css`. These files are instrumental in ensuring the project builds properly. Open up `App.js` and make note of what is already in there, including the `App` component. This is where we will begin to edit the application.
+At this point you can either open a web browser and navigate to `http://localhost:5173` or press `o` if you are within the terminal window running the application.
+
+![Image of running react application scaffolded with Vite](pictures/running-react-application.png?classes=border)
+
+{{% notice blue Note "rocket" %}}
+You do not need to press `h` in order for the shortcuts to work. Once the app is running you can press `o` to view the application within the browser (if you are currently within the terminal window running the application).
+{{% /notice %}}
