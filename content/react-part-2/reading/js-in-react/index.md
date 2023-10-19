@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
 reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
-lastEditor: Courtney Frey # update any time edits are made after review
-lastEditorGitHub: speudusa # update any time edits are made after review
-lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-17 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Using JavaScript in React
@@ -60,7 +60,6 @@ Hello! My name is Willow!
 
 `name` was declared in line 1, as a JavaScript string.  We can render it inside the `Hello` function by using curly braces.  The curly braces let the JSX and HTML know that we want to use the variable `name` and its value.  If we left off the curly braces, the word name would appear in the browser.  The message would read "Hello! My name is name".  
 
-
 ### Template literals
 
 You can use template literals to work with strings.  This can be easier than concatenation and more flexible than hard coding.  These can be very useful with loops, conditionals, and lists. 
@@ -96,8 +95,6 @@ export default TemplateLiteral;
    (4 * 8) is 32 and (4 + 8) is 12
 
 {{% /expand %}}
-
-
 
 ### Arrow Functions
 **Arrow functions** are simplified functions. You can use an arrow function as an argument for other functions.  They do not affect the global scope of the project.  Due to their scope, they can be very useful for defining `props`, loops, and conditionals. These functions will return values without using the `return` keyword.

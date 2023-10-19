@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
 reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
-lastEditor: Courtney Frey # update any time edits are made after review
-lastEditorGitHub: speudusa # update any time edits are made after review
-lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: giledgardenia # update any time edits are made after review
+lastMod: 2023-10-17 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 
@@ -61,8 +61,6 @@ In the `App` function, we use an `if` statement and `props` to render which stat
 {{% expand "Output" %}}
    ## Bring your umbrella!
 {{% /expand %}}
-
-
 
 We don't always need to include the `else` statement if there are only two conditions.  
 In fact, we could even compare two different functions with a single `if` statement.
@@ -282,7 +280,7 @@ Ternary statements are simplified `if/else` blocks.  We could update our `RainOr
             isRainy={true}
             />
          </div>
-      });
+      );
    }
    ```
 {{% /notice %}}
@@ -312,7 +310,7 @@ Let's add some to our `RainOrShine` function.  We will need set the conditional 
          <div className={`${isRainy === true ? "dark" : "light"}`}>
             <RainOrShine />
          </div>
-      });
+      );
    }
    ```
 

@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: Courtney Frey # update any time edits are made after review
-lastEditorGitHub: speudusa # update any time edits are made after review
-lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-17 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Getting Started:
@@ -19,13 +19,13 @@ Check out the starter code for the `exercises-2` in the `part2` directory on the
 1. `App` is returning 2 components: `Profile` and `Banner`.
 1. Open the `components` directory to see what it contains.
    1. You should see the following files:
-      - `Banner.js`
+      - `Banner.jsx`
          - Creates a banner for the application
-      - `Button.js`
+      - `Button.jsx`
          - Creates a button for the application that uses the `alert` Window method.
       - `oceans.json`
          - holds multiple objects, which we will use in our application
-      - `Profile.js`
+      - `Profile.jsx`
          - Will become a list template that holds an image, name, facts, and a button for each `json` object in `oceans.json`.
       - `styles.css` contains the styling we will add to our application.
 
@@ -33,7 +33,7 @@ Check out the starter code for the `exercises-2` in the `part2` directory on the
 
 ### Part 1: The Banner Component
 
-We would like to update the `Banner.js` to fit the application better.
+We would like to update the `Banner.jsx` to fit the application better.
 
 1. Update the `Banner` function to return an <h1> level header that says "The Amazing Ocean" instead of "Hello World!".  
 1. Apply the CSS styling for `header`.
@@ -47,7 +47,7 @@ We would like to update the `Banner.js` to fit the application better.
 ```
 {{% /expand %}}
 
-### Part 2: `Button.js`
+### Part 2: `Button.jsx`
 We would like the button to do something.  Right now, when you click on it nothing happens.  For this application, we will create an [alert method](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) that will share a message with a water or ocean theme.
 
 1. Inside the `Button` function, create a new function called `onLearnMore`.  This function will hold the `alert` method.  Your method should display a message like "Slipsh Splash" or something related to the ocean or water.  
@@ -108,10 +108,7 @@ Each profile object will have an emoji to represent it.
 
 1. We will use `map` to help us iterate through the `image` values in the JSON file.
    1. Declare a variable called `listItem` and instantiate it equal to `oceans.map()`.
-   1. Set the callback parameter of `listItem` to `ocean =>` 
-
-   
-
+   1. Set the callback parameter of `listItem` to `ocean =>`. 
    1. The map function should return `ocean` which will include all elements required to create a profile object.
 1. Each profile will be contained in its own `<div>`.  To keep each `<div>` unique, we will need to add a `key` which is set to the `id` property of each JSON object.  We are working with JSON objects, so you will need curly braces. 
 1. Using an image tag, set the `src` attribute equal to the image's url.  This is stored in the JSON file.  The `alt` attribute should be set to the `name` property.

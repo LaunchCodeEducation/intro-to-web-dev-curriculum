@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Kimberly Horan # to be set by the page reviewer
 reviewerGitHub: codinglikeagirl42 # to be set by the page reviewer
-lastEditor: Courtney Frey # update any time edits are made after review
-lastEditorGitHub: speudusa # update any time edits are made after review
-lastMod: 2023-05-18 # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-17 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## `map()`
@@ -70,7 +70,7 @@ We will chain the `map()` function to `props` in this example. The callback para
 
 **Keys and Arrays**
 
-The example above used a simple array that contained a collection of strings. The `map()` function always uses [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html).  When working with an array, the key becomes the index value of the array element.  You can set the key equal to the index like we did in line 13 of the example above.
+The example above used a simple array that contained a collection of strings. The `map()` function always uses [key-value pairs](https://education.launchcode.org/intro-to-professional-web-dev/chapters/objects-and-math/background.html).  When working with an array, unless otherwise specified, the key becomes the index value of the array element.  You can set the key equal to the index like we did in line 13 of the example above, however, this may cause an issue if items are rearranged or added to the array.
 
 **Keys and Objects**
 
@@ -261,7 +261,7 @@ How best can we correct our code?
    ```
    
 1. ```react
-   <li key={index}>{number}</li>);
+   <li key={index}>{number}</li>;
    ```
 
 1. This will never be resolved when working with arrays.
