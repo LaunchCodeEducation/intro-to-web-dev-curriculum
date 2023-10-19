@@ -12,9 +12,13 @@ lastEditorGitHub: jwoolbright23 # update any time edits are made after review
 lastMod: 10-17-2023 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
+After scaffolding your `React` application with `Vite` there are a couple of things to cover in regards to the structure of the project directory and the default `Vite` config file.
+
 ## Initial Project Structure
 
-After scaffolding your `React` application with `Vite` there are a couple of things to cover in regards to the structure of the project directory. the `index.html` file resides within the root folder of the application. You may have worked with different tools that scaffold the `index.html` file into the `public` directory.
+### index.html
+
+the `index.html` file resides within the root folder of the application. You may have worked with different tools that scaffold the `index.html` file into the `public` directory.
 
 With `Vite`, the `index.html` is the entry point for the entire application. Lets take a look at what is inside of the `index.html` file below:
 
@@ -42,6 +46,9 @@ The above code block should certainly look familiar to boilerplate html starter 
 
 This line references any `JavaScript` code within your application.
 
+### `/src` Directory
+
+The `/src` directory has the following files included. 
 ## Vite Config File
 
 When you are starting your server from the command line, `Vite` will automatically resolve the config file called `vite.config.js` within the root directory of the project. This file is included upon scaffolding a `React` project with `Vite`. The main purpose of this file is to define the or customize how you want to serve or build your application. You can define environment variables here if you have sensitive or specific information you need to provide for the application to build.
@@ -61,3 +68,9 @@ export default defineConfig({
 This is the default `vite.config.js` file included with every project. It is customizable should it not suit your development needs but we will cover the default configuration.
 
 It starts by importing the `defineConfig` function from the `vite` package. The second line imports the `react` plugin to allow `React` support within your project. It then exports the default configuration object (`defineConfig`) that was imported above, with the `react` plugin that enables your `React` code to run.
+
+{{% notice blue Note "rocket" %}}
+While you begin to work more with `Vite` and `React` keep in mind `Vite` is just a tool we are using to scaffold a `React` project. Ultimately our goal is to learn and understand the `React` library and not all of the inner-workings and intracacies of `Vite`. 
+
+If you would like to delve a bit deeper in `Vite` you can find more resources here at the [Vite Homepage](https://vitejs.dev/).
+{{% /notice %}}
