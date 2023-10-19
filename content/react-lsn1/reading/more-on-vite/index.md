@@ -48,7 +48,33 @@ This line references any `JavaScript` code within your application.
 
 ### `/src` Directory
 
-The `/src` directory has the following files included. 
+The `/src` directory has the following default structure when creating a new `React` application:
+
+{{< mermaid >}}
+  graph TD
+    subgraph src
+      subgraph assets
+        react.svg
+      end
+      App.css
+      App.jsx
+      index.css
+      main.jsx
+    end
+{{< /mermaid >}}
+
+Lets discuss the files and what they are responsible for:
+
+1. The `main.jsx` file renders the `App.jsx` component.
+
+   {{% notice blue Note "rocket" %}}
+   Often times you may notice that an application has a `main.jsx` or `index.jsx` file. These are used interchangeably. You may notice that apps you work on in upcoming sections have an `index.jsx` file instead of a `main.jsx` file.
+   {{% /notice %}}
+
+1. The `App.jsx` component is used to call your `React` components and handle your applications routing.
+1. The `App.css` file is styling specifically related to the `React` application. Syling within the `App.css` file are typically used for individual components.
+1. The `index.css` file is styling file that is globally related to your entire application. If there is styling that a user wants to be used globally across the entire application and all components this is where that styling would live.
+
 ## Vite Config File
 
 When you are starting your server from the command line, `Vite` will automatically resolve the config file called `vite.config.js` within the root directory of the project. This file is included upon scaffolding a `React` project with `Vite`. The main purpose of this file is to define the or customize how you want to serve or build your application. You can define environment variables here if you have sensitive or specific information you need to provide for the application to build.
