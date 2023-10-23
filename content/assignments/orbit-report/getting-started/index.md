@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### Explore the Starter Code
@@ -20,9 +20,9 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 1. Open the project and examine the following parts:
    1. `components` directory
-      1. `satData.js` contains the data used for this assignment.  It is an array of objects.  Note the key/value pairs.  
-      1. `Buttons.js` contains two `<button>` tags.  The both `<button>` tags are placeholders.  We will be updating these buttons as we work in this component.  When the project is complete, it will render 4 buttons.
-      1. `Table.js` contains a very basic table structure.  You will expand the table so that it displays the required data for each satellite.  
+      1. `satData.jsx` contains the data used for this assignment.  It is an array of objects.  Note the key/value pairs.  
+      1. `Buttons.jsx` contains two `<button>` tags.  The both `<button>` tags are placeholders.  We will be updating these buttons as we work in this component.  When the project is complete, it will render 4 buttons.
+      1. `Table.jsx` contains a very basic table structure.  You will expand the table so that it displays the required data for each satellite.  
          1. "TBD" stands for "To Be Determined" 
       1. `styling.css` contains CSS stylings.  Styling is **_optional_** for this assignment.  If you want to use the styling provided, read the [Optional Styling]({{< relref "../../../assignments/orbit-report/styling/" >}}) section to see where to import this file.
       

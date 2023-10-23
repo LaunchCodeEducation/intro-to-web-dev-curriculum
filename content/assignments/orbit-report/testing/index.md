@@ -50,20 +50,11 @@ _AFTER_ completing your project, you should see the following test results:
 
 `"Final App function should contain TABLE with values in both headers and cells"` tests use a testing data set to check the behavior of your table.  The test data is passed, and should be rendered into the table correctly using your `map` functions.
 
-## Troubleshooting Jest
+## Troubleshooting Vitest
 
-Create React App uses the [Jest testing framework](https://jestjs.io/).  It should already be part of your project.
+Vite uses [Vitest](https://vitest.dev/) for testing React applications. It should already be part of your project. Vitest is configured in such a way that the tests are the exact same for Vitest and Jest, but it runs slightly differently and will have different output.
 
 1. If you are not able to get the tests to run, make sure you are running the command inside the project repo. 
 
-1. If you see the following output:
-
-   {{< rawhtml >}}
-      <img src="images/test-watching.png" alt="All unit tests pass at the end of the project" width=50% />
-   {{< /rawhtml >}}
-
-   It is likely that you haven't changed anything since your last commit.  To restart the tests, follow the instructions in your terminal:
-   `press 'a' to run all tests`
-
-   You can try any of the commands this output suggests.
+1. Vitest will wait for you to change a file before re-running any tests. If you are trying to make changes and the tests aren't re-running, check that you have saved those changes and exit Vitest with either `q` or `Ctrl+C` and run `npm test` to restart.
 
