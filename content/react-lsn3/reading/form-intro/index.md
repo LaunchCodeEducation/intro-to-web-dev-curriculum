@@ -120,6 +120,6 @@ When working with forms in React, you need to separate out what you would like t
 
 {{% notice blue "Note" "rocket" %}}
 
-   Check our completed manufacturing application on [GitHub](https://github.com/LaunchCodeEducation/react-pt3-example)!
+   Check our completed manufacturing application on [GitHub](https://github.com/LaunchCodeEducation/react-exercises-and-studios/tree/react-part3-forms/part3/react-part3-forms)!
 
 {{% /notice %}}
