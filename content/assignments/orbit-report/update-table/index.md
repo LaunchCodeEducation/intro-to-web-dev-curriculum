@@ -1,5 +1,5 @@
 ---
-title: "Task 5: Update Table.js"
+title: "Task 5: Update Table.jsx"
 date: 2023-05-25T11:39:25-05:00
 draft: false
 weight: 6
