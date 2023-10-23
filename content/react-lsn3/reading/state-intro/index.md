@@ -21,7 +21,7 @@ While state is a built-in concept in React, you as the programmer have to call u
 In the example of a tax application, we might have a state variable for federal taxes called `federalTax`. We can then declare that state variable like so:
 
 ```jsx
-   const [federalTax, setFederalTax] = useState(0);
+const [federalTax, setFederalTax] = useState(0);
 ```
 
 Here we are using the `useState` hook to set the initial value of `federalTax` to 0. We also have declared that the state setter function for `federalTax` is `setFederalTax`. To update the value of `federalTax` to 100, we just have to use `setFederalTax` like so, `setFederalTax(100)`. 
@@ -29,19 +29,19 @@ Here we are using the `useState` hook to set the initial value of `federalTax` t
 You can also set up the state variable to be an object. Here is how we might do it with our tax application.
 
 ```jsx
-   const [taxes, setTaxes] = useState({
-      federal: 0,
-      state: 0
-   });
+const [taxes, setTaxes] = useState({
+   federal: 0,
+   state: 0
+});
 ```
 
 With `useState`, the value of `taxes.federal` is set to 0 and the value of `taxes.state` is also set to 0. To update the value of the state taxes to -10, but not update the value of the federal taxes, then we would pass those values to `setTaxes` like so:
 
 ```jsx
-   setTaxes({
-      federal: taxes.federal,
-      state: -10
-   });
+setTaxes({
+   federal: taxes.federal,
+   state: -10
+});
 ```
 
 State variables are considered read-only, so in order for us to update the state, we have to pass a new object to the state variable.

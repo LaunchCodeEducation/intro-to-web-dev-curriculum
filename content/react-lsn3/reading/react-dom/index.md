@@ -16,31 +16,36 @@ When changing the state, our intended effect may involve using some of the metho
 
 We are at a shoe factory and the mechanism responsible for counting how many shoes come off the line is broken. The factory manager doesn't want to stop production and cause unnecessary delays so they have asked you to sit by the machine and manually count the shoes coming down the line. With your React skills, you can quickly code an application that contains a single button and displays the current shoe count.
 
-1. Create a new React application using Create-React-App. 
-1. Make a new `components` directory.
-1. Make a new file called `ShoeButton.js`.
+1. Create a new React application using Vite. 
+1. Make a new `components` directory within `src`.
+1. Make a new file called `ShoeButton.jsx`.
 1. Add the following code to that file.
 
    ```jsx {linenos=table}
-      import { useState } from 'react';
+   import { useState } from 'react';
 
-      export default function ShoeButton() {
-         const [shoeCount, setShoeCount] = useState(0);
+   export default function ShoeButton() {
+      const [shoeCount, setShoeCount] = useState(0);
 
-         const handleClick = () => {
-            setShoeCount(shoeCount+1);
-         }
-
-         return (
-            <div>
-               <h1>{shoeCount} shoes have come down the line!</h1>
-               <button onClick={handleClick}>Add a shoe!</button>
-            </div>
-         );
+      const handleClick = () => {
+         setShoeCount(shoeCount+1);
       }
+
+      return (
+         <div>
+            <h1>{shoeCount} shoes have come down the line!</h1>
+            <button onClick={handleClick}>Add a shoe!</button>
+         </div>
+      );
+   }
    ```
 
-1. Add a call to your `ShoeButton` component to `App.js`.
+1. Add a call to your `ShoeButton` component inside of `App.jsx`.
+
+{{% notice orange Warning "rocket" %}}
+You may need to remove some of the boilerplate code from the `App.jsx` file that comes along with creating a new `React` application using `Vite`.
+{{% /notice %}}
+
 1. Run the application and start hitting the button to update the state!
 
 This is an example of a counter button, which is one of the simplest ways to update the state of a component. You may have noticed that as you click the button, the page doesn't reload, but the component still re-renders. Here is what is happening:
@@ -57,45 +62,45 @@ In this code, `handleClick()` is our event handler for the `onClick` event. We p
 When we first learned about event handlers, we created a small application that would update some HTML when a button was clicked.
 
 ```html {linenos=table}
-   <!DOCTYPE html>
-   <html>
-      <head>
-         <title>Button click handler</title>
-         <script>
-            function youRang() {
-               document.getElementById("main-text").innerHTML += "you rang...";
-               console.log("you rang...");
-            }
-         </script>
-      </head>
-      <body>
-         <h1>Ring the Doorbell!</h1>
-         <p id="main-text"></p>
-         <button onclick="youRang();">Ring Bell</button>
-      </body>
-   </html>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Button click handler</title>
+      <script>
+         function youRang() {
+            document.getElementById("main-text").innerHTML += "you rang...";
+            console.log("you rang...");
+         }
+      </script>
+   </head>
+   <body>
+      <h1>Ring the Doorbell!</h1>
+      <p id="main-text"></p>
+      <button onclick="youRang();">Ring Bell</button>
+   </body>
+</html>
 ```
 
 With React, we can simplify our code and still accomplish the same task.
 
 ```jsx {linenos=table}
-   import { useState } from 'react';
+import { useState } from 'react';
 
-   export default function Doorbell() {
-      const[bell, setBell] = useState("");
+export default function Doorbell() {
+   const[bell, setBell] = useState("");
 
-      const handleClick = () => {
-         setBell(bell += "you rang...");
-      }
-
-      return(
-         <div>
-            <h1>Ring the Doorbell!</h1>
-            <p>{bell}</p>
-            <button onclick="handleClick">Ring Bell</button>
-         </div>
-      );
+   const handleClick = () => {
+      setBell(bell += "you rang...");
    }
+
+   return(
+      <div>
+         <h1>Ring the Doorbell!</h1>
+         <p>{bell}</p>
+         <button onclick="handleClick">Ring Bell</button>
+      </div>
+   );
+}
 ```
 
 {{% notice blue "Note" "rocket" %}}
