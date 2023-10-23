@@ -18,7 +18,7 @@ We are going to walk you through a very simple **workflow**, or sequence of step
 
 ## Read the Instructions
 
-Every starter code repository (repo) in this course will contain instructions.  We strongly suggest you read ALL of the instructions before writing any code.  This will help you understand the output of your code, may explain any processes you should take while creating your code, etc.
+Every starter code repository (repo) in this course will contain instructions.  We strongly suggest you read ALL of the instructions before writing any code.  This will help you understand the goal of your code and may explain any hurdles you might encounter while building your program.
 
 We suggest reading the rest of this page before diving into the code.  Since this is the first time you are pulling from our GitHub repository, you will need to set up your new PAT, create a directory on your computer to store your work, and practice with the terminal.  You will do great!
 
@@ -30,7 +30,7 @@ When you have finished reading through the instructions, use this [starter code]
 You will use the terminal to create a location to store the code repos.  The terminal will also communicate with GitHub.
 
 1. Run the following command: `ls`
-This will list any files or directories (folders) at the level of your terminal. 
+This will _list_ any files or directories (folders) wherever you are in the terminal.
 
    It may look like this:
    ```bash
@@ -46,13 +46,13 @@ This will list any files or directories (folders) at the level of your terminal.
    Documents
    ...
    ```
-1. Select a location where you would like to store your course work. The example is storing work on the Desktop, you may choose a different location if you desire.
+1. Choose a folder where you would like to store your course work. This example stores work on the Desktop; you may choose a different location if you desire.
 
-   1. Use the following command to move into that location: `cd <location-name>`
+   1. Use the following command to _change directory_, or move, into that folder: `cd <location-name>`
       ```bash
       cd Desktop
       ```
-   1. Create a directory (folder) to save your course work: `mkdir <directory-name>`
+   1. _Make a directory_ (folder) to save your course work: `mkdir <directory-name>`
       ```bash
       mkdir LaunchCode
       ```
@@ -67,7 +67,7 @@ You are now ready to add the repo to your directory.
 
 ## Go to GitHub
 
-You will be provided links to all of the repos in the course.  You will need to **fork** and **clone** them to your computer.  When you fork a repo, you are making a copy of the original code.  Any changes you make to the forked repo will not be applied to the original code.  This keeps the original starter code in tact for the next student.  Cloning the repo moves the repo code onto your computer.  If the code is not on your computer, you will not be able to work with it.  
+You will be provided links to all of the repos in the course.  You will need to **fork** and **clone** them to your computer.  When you fork a repo, you are making a copy of the original code.  Any changes you make to the forked repo will not be applied to the original code.  This keeps the original starter code intact for the next student.  Cloning the repo moves the repo code onto your computer.  If the code is not on your computer, you will not be able to work with it.  
 
 1. Make sure you are signed into your GitHub account.
 1. Go to the starter code repo and fork it.
@@ -172,12 +172,12 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
          <img src="../images/run-and-debug.png" alt="icon for the Run and Debug button" width=10%/>
       {{< /rawhtml >}}
    1. Try out the other prompts starting at line 10.
-   1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This will keep track of your changes.
-      1. `git status` This will show you all the files you changed in red.
-      1. `git add .` This will add all the files your changed inside this directory to your repo soon.
-      1. `git status` This will show you all the files ready to send to GitHub in green.
-      1. `git commit -m "<type a message here>"` Between the quote replace the text between the `< >` with a short message.  This will help you remember what you did as you work in a project.
-      1. `git push` This will actually push your latest code that you staged into your GitHub repo. 
+   1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This is how you use git to track each change in your code.
+      1. `git status` This will show you all the files you changed in red. Note that many of these were added by the `npm install` command. This is expected.
+      1. `git add .` This will 'stage', or prepare all the changed files in this directory to be updated in your GitHub repo.
+      1. `git status` This will show you all your staged files in green, which are now ready to update in GitHub.
+      1. `git commit -m "<type a message here>"` This will 'commit', or finalize your changes in git. Between the quotes, replace the text and carrot symbols `< >` with a short message describing your changes.  This will help you remember what you did while looking through many commits later.
+      1. `git push` This will actually send the committed changes to your GitHub repo.
 
    {{% notice blue "Example of staging and pushing up your latest commit" "rocket" %}} 
    

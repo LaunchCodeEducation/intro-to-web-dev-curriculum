@@ -18,12 +18,12 @@ After completing this chapter, you should be able to do the following:
 1. Explain what an algorithm is.
 1. Explain what a programming language is.
 1. Explain why one programming language might be chosen over another.
-1. Exaplin how a program runs, including the differences between compiled and interpreted languages.
+1. Explain how a program runs, including the differences between compiled and interpreted languages.
 1. Run a program and locate its output in the console.
 1. Understand some basic debugging practices.
 
 ## Key Terminology
-Here are the key terms for this chapter. On the pages that they appear make note of what they are and their definitions.
+Here are the key terms for this chapter. On the pages that they appear, make note of what they are and their definitions.
 
 ### Introduction
 1. Program

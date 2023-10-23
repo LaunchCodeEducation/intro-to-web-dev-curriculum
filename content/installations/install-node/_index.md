@@ -21,12 +21,15 @@ Installing Node on your computer also installs the NPM Command Line Interface (C
    1. Accept the license agreement.
    1. When asked for the installation location, etc., use the default options.
 
-1. Verify that the installation was successful by opening the terminal and running the command `node -v`. The output should match the version you downloaded.
+1. Verify that the installation was successful by opening a new terminal window and running the command `node -v`. The output should match the version you downloaded.
 
    ```bash
    $ node -v
    v##.##.#
    ```
+   {{% notice blue "Note" "rocket" %}} 
+   After installing new programs, you will need to open a new terminal window to run their commands for the first time. This includes node both `Node.js` and `Git`. If you see a '_ is not recognized as an internal or external command' error (Windows) or 'command not found' error (Mac), this might be the case.
+   {{% /notice %}}
 
    {{% notice blue "Note" "rocket" %}} 
    At the time of writing this walkthrough the `LTS` version of node is `18.17.0`. As long as your node version is `18.x.x` then you should not encounter any issues within this book.

@@ -42,32 +42,30 @@ We have created a `Node.js` [installation guide]({{< relref "../../../installati
 
 ## Setting Up Git
 
-In the terminal we will be using Git.  Git is used for version control.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
-
-The Git language is best used to help you track and manage changes in your code.  We will provide you with the basic commands you need to start coding.  You will learn more about Git in later chapters.
+In the terminal, we will be using Git.  Git is a version control tool, or a way to track and manage changes in your code.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
 
 We have created a Git [installation guide]({{< relref "../../../installations/install-git/_index.md" >}}) for you to follow.
 
 ### Creating Your GitHub Account
 
-GitHub is an online software development platform that can store your code and help you track changes in its development using Git. The majority of the code you will use in this course is stored in GitHub.  As an online platform, GitHub makes it easy to share code between developers, development teams, and potential employers.
+GitHub is an online software development platform that can store your code and help you track changes in its development using Git. The majority of the code you will use in this course is stored on GitHub. As an online platform, GitHub makes it easy to share code between developers, development teams, and potential employers.
 
-We use GitHub to hold all of the **starter code** for this course.  Starter code is usually code that is lacking functionality or a complete solution.  We often provide stater code for examples, exercises, studios, and graded assignments. You will work on completing the code as you work through this course.  You will use GitHub a lot in this course.
+We use GitHub to hold all of the **starter code** for this course in 'repositories', or 'repos'.  A repository is just a place to keep code online, where multiple people can see and edit it.  Starter code is usually code that is lacking functionality or a complete solution.  We often provide stater code for examples, exercises, studios, and graded assignments. You will work on completing the code as you work through this course.  You will use GitHub a lot in this course.
 
 You will need to sign up for a free account using your email.
 
-{{% notice blue Note "rocket" %}}
-In order to work with the starter code for this course, you will need to create either a [Personal Access Token]({{< relref "#creating-your-github-personal-access-token-pat" >}}) or [SSH key]({{< relref "#creating-your-github-ssh-key" >}}) to work with GitHub. This will allow you to fork and clone course repositories using _HTTPS_ or _SSH_. 
-
-The `Github Personal Access Token` will act as a password when you are sending requests to `Github`. Should you decide to create a personal access token you will need to enter in your username and password when pushing new code to your repositories.
-
-Should you choose to create a new `ssh-key` you will not need to enter in your Github username or personal access token when sending requests to Github from your local development environment.
-
-Only one of the above methods of authentication is required.
-{{% /notice %}}
-
 {{% notice green "Tip" "rocket" %}} 
 Your GitHub account username is something that you may share with other developers. This [article](https://happygitwithr.com/github-acct.html) can offer you some guidance with deciding on your username. 
+{{% /notice %}}
+
+{{% notice blue Note "rocket" %}}
+In order to work with the starter code for this course, you will need to take some extra authentication steps so your computer can securely communicate with GitHub. This will mean either creating a [Personal Access Token]({{< relref "#creating-your-github-personal-access-token-pat" >}}) or [SSH key]({{< relref "#creating-your-github-ssh-key" >}}).
+
+The `Github Personal Access Token` will act as a password when you are sending requests to `Github`. Should you decide to create a personal access token, you will need to enter in your username and password when pushing new code to your repositories.
+
+Should you choose to create a new `ssh-key`, you will not need to enter in your Github username or personal access token when sending requests to Github from your computer.
+
+Only one of the above methods of authentication is required.
 {{% /notice %}}
 
 ### Creating Your GitHub Personal Access Token (PAT)  
