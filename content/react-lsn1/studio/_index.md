@@ -26,9 +26,10 @@ Before you start coding, find a recipe for some food you would like to eat! It c
 To get started coding, you need to first create an application.
 
 1. Open up your `react-exercises-and-studios` repo and navigate into the `part1` directory.
-1. Create a new React app named `studio` with the command: `npx create-react-app studio`.
-1. Once your application is set up, run `npm start` to verify that your application runs and is ready to go.
-1. Stop the server and start coding!
+1. Create a new React app named `studio` with the command: `npm create vite@latest`.
+- Select the `React` and `JavaScript` options when prompted.
+1. Install all of the required dependencies within the project using `npm install` or `npm i`.
+1. Once your application is set up, run `npm run dev` to verify that your application runs and is ready to go.
 
 ## The Components
 
@@ -36,7 +37,7 @@ First create inside `src`, a folder called `components`. Now tackle creating the
 
 ### The `RecipeDescription` Component
 
-1. Inside the `components` directory, make a new file called `Description.js`.
+1. Inside the `components` directory, make a new file called `Description.jsx`.
 1. Create a new function called `RecipeAuthor()`. For now, this function may not work as expected, but we have more work to do! This function should meet the following requirements:
 
    1. Have no parameters.
@@ -71,22 +72,40 @@ First create inside `src`, a folder called `components`. Now tackle creating the
    }
    ```
 
-1. Return to `Description.js` and add this `import` statement: `import styles from './Description.module.css;`.
+1. Return to `Description.jsx` and add this `import` statement: `import styles from './Description.module.css;`.
 1. Add one more `import` statement: `import React from 'react';`
 1. Add a class called `RecipeDescription` which extends `React.Component`. This class should have only a `render()` method which returns something similar to the following JSX:
 
    ```jsx
-      <div> 
-         <div>
-            <h1>Recipe Title</h1>
-            <p>Short recipe description</p>
-         </div>
-         <RecipeAuthor />
+   <div> 
+      <div>
+         <h1>Recipe Title</h1>
+         <p>Short recipe description</p>
       </div>
+      <RecipeAuthor />
+   </div>
    ```
 
-1. At the bottom of `Description.js`, add `export default RecipeDescription;`.
-1. Head over to `App.js` and remove what is *inside* the `<div>` element with `className="App"`.
+1. At the bottom of `Description.jsx`, add `export default RecipeDescription;`.
+1. Head over to the `App.jsx` file within the root directory and replace what is inside with the following code:
+
+   ```jsx
+   import { useState } from 'react'
+   import './App.css'
+   
+   function App() {
+   
+     return (
+       <>
+         <div className="App">
+         </div>
+       </>
+     )
+   }
+   
+   export default App
+   ```
+
 1. Add a second `<div>` and inside that add `<RecipeDescription />` to call your new component. Add any necessary `import` statements. It should now look something like:
 
    ```jsx
@@ -101,23 +120,23 @@ First create inside `src`, a folder called `components`. Now tackle creating the
 
 ### The `RecipeIngredients` Component
 
-1. Inside your `components` directory, create a new file called `Ingredients.js`.
+1. Inside your `components` directory, create a new file called `Ingredients.jsx`.
 1. Inside this file, add a new function called `RecipeIngredients()`. This function should include the following:
 
    1. An array containing the top 5 ingredients of your recipe.
    1. Return something similar to the following JSX:
 
    ```jsx
-      <div>
-         <h3>Recipe Ingredients</h3>
-         <ul className = {styles.ingredientList}>
-            <li>{ingredients[0]}</li>
-            <li>{ingredients[1]}</li>
-            <li>{ingredients[2]}</li>
-            <li>{ingredients[3]}</li>
-            <li>{ingredients[4]}</li>
-         </ul>
-      </div>
+   <div>
+      <h3>Recipe Ingredients</h3>
+      <ul className = {styles.ingredientList}>
+         <li>{ingredients[0]}</li>
+         <li>{ingredients[1]}</li>
+         <li>{ingredients[2]}</li>
+         <li>{ingredients[3]}</li>
+         <li>{ingredients[4]}</li>
+      </ul>
+   </div>
    ```
 
 1. Now create a new file in the `components` directory called `Ingredients.module.css`. 
@@ -129,24 +148,24 @@ First create inside `src`, a folder called `components`. Now tackle creating the
    }
    ```
 
-1. Return to `Ingredients.js` and add the following `import` statement: `import styles from './Ingredients.module.css';`.
+1. Return to `Ingredients.jsx` and add the following `import` statement: `import styles from './Ingredients.module.css';`.
 1. If you didn't before, add `export default` in front of your `RecipeIngredients()` function declaration.
-1. Head over to `App.js`.
+1. Head over to `App.jsx`.
 1. Right below `<RecipeDescription />`, add `<RecipeIngredients />` and the necessary `import` statement.
 1. Run your application! You should now see a list of ingredients below your recipe description.
 
 ### The `RecipePhoto` Component
 
-1. Create a new file in `components` called `Photos.js`. 
+1. Create a new file in `components` called `Photos.jsx`. 
 1. Add a new function called `RecipePhoto()` and add something similar to the following JSX to your return statement with the correct URL to your chosen recipe's image:
 
    ```jsx
-      <img src="valid URL to recipe photo" alt="recipe photo" className = {styles.imageUpdates} />
+   <img src="valid URL to recipe photo" alt="recipe photo" className = {styles.imageUpdates} />
    ```
 
 1. Add the following `import` statement to the top of your file: `import styles from './Description.module.css';`.
 1. If you haven't already, add `export default` to your function declaraction.
-1. Head over to `App.js` and import the `RecipePhoto` component. 
+1. Head over to `App.jsx` and import the `RecipePhoto` component. 
 1. You will add `<RecipePhoto />` above the inner `<div>`, but inside `<div className="App">`. Wrap `<RecipePhoto />` and the inner `<div>` in another `<div>`. It should look like the following:
 
    ```jsx
@@ -174,7 +193,7 @@ First create inside `src`, a folder called `components`. Now tackle creating the
    }
    ```
 
-1. Return to `App.js` and add `className="recipePhotoBlock"` to the `<div>` that contains `<RecipePhoto />` and the innermost `<div>`.
+1. Return to `App.jsx` and add `className="recipePhotoBlock"` to the `<div>` that contains `<RecipePhoto />` and the innermost `<div>`.
 1. Re-run the application to see the result!
 
 ## Submitting Your Work
