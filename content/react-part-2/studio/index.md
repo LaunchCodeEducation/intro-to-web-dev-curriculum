@@ -17,7 +17,7 @@ In this studio, you will make a second Pinterest-inspired application.  This stu
 The app you complete in this studio will have the following functionality:
    1. A star rating component that can be updated to display 0 - 5 stars.
    1. The ability to mimic the Save vs Saved button on a Pinterest pin using conditional rendering.
-   1. Displaying specific recipe information using the `map` function and a JSON file.
+   1. Displaying specific recipe information using the `map` function, if necessary, and a JSON file.
    1. CSS styling has been created for this project. The instructions will let you know what and how to style elements.  
 
 ## Getting Started
@@ -128,7 +128,7 @@ You will need to create a conditional that will render `SaveButton` or `ClickedB
 
 ## Part 3: Add the Recipe Data
 
-The remaining components will be using the `recipe.json` file.  You will need to import this file into each component.  We will also use the `map` function to find the desired keys.
+The remaining components will be using the `recipe.json` file.  You will need to import this file into each component.  We can also use the `map` function to find the desired keys if it makes sense to you.
 
 ### Recipe Name
 
@@ -143,16 +143,9 @@ _Desired Output_: This function needs to return the recipe name as an `<h1>` lev
 _Desired Output_:  Returns the image of the recipe from the JSON.
 
 1. Import the recipe JSON file.
-1. Use the `map` function to find the `recipeImage`.  
+1. Find the `recipeImage`.  
    1. Use the `<img>` tag.  You can pass the recipe name to the alt text value.
    1. Styling has been created for the image. If you would like to apply it set the `className` equal to `recipeImage`. 
-      ```react{linenos=table,hl_lines=[],linenostart=4}
-      function RecipeImage() {
-         const recipeImage = recipedata.map((data) => (
-            <div key={data.name}>
-            <img src={data.recipeImage} alt={data.name} className="recipeImage" />
-            //component continues
-      ```
 1. Return `recipeImage` inside its own `<div>`.
 
 ### Ingredient Lists
