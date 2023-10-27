@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ## Introduction and Background
@@ -32,6 +32,12 @@ When you first pull down the starter code, your running application will look so
 {{< rawhtml >}}
    <img src="images/starter-code-intro.png" alt="Starter Code Initial Run" width=50% />
 {{< /rawhtml >}}
+
+{{% notice blue "Note" "rocket" %}}
+
+Throughout this assignment, you may notice that the screenshots show `localhost:3000` as the location of the project when your port number is something different. This is totally fine and will not interfere with how the project functions.
+
+{{% /notice %}}
 
 ### Completed Code Check
 

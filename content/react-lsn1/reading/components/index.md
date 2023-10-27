@@ -38,7 +38,7 @@ function SchnucksInfo() {
 }
 ```
 
-If we have a functional component called `SchnucksInfo` in a separate file in `components`, we have to export it and then import it in `App.js`.
+If we have a functional component called `SchnucksInfo` in a separate file within the `components` directory, we have to export it and then import it in `App.jsx`.
 
 ```jsx
 function App() {
@@ -87,20 +87,20 @@ If we ran the app, we would have a heading that said "Your favorite food item is
 Class components are classes that contain a `render()` method that returns the HTML we need and extend `React.Component`. This means when writing a class component, you have to `import React from 'react';`. Earlier versions of React rely on class components. While later versions make use of more functional components, you will still see class components in React codebases. Let's look at a class component for another local grocery store we want to get some groceries delivered from.
 
 ```jsx
-   class DierbergsInfo extends React.Component {
-      render() {
-         return(
-            <div>
-               <h1>Dierbergs</h1>
-               <p>Grocery store</p>
-               <p>Delivering within an hour</p>
-            </div>
-         );
-      }
+class DierbergsInfo extends React.Component {
+   render() {
+      return(
+         <div>
+            <h1>Dierbergs</h1>
+            <p>Grocery store</p>
+            <p>Delivering within an hour</p>
+         </div>
+      );
    }
+}
 ```
 
-While `SchnucksInfo` and `DierbergsInfo` are structured differently, we can call `DierbergsInfo` the same way in `App.js` that we did `SchnucksInfo`.
+While `SchnucksInfo` and `DierbergsInfo` are structured differently, we can call `DierbergsInfo` the same way in `App.jsx` that we did `SchnucksInfo`.
 
 ```jsx
 function App() {
@@ -115,9 +115,9 @@ function App() {
 ## Check Your Understanding
 
 {{% notice green "Question" "rocket" %}}
-   True/False: Functional components are functions that return HTML.
+True/False: Functional components are functions that return HTML.
 {{% /notice %}}
 
 {{% notice green "Question" "rocket" %}}
-   True/False: Class components do not need a `render()` method.
+True/False: Class components do not need a `render()` method.
 {{% /notice %}}

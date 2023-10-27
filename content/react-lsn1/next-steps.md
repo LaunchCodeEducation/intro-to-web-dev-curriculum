@@ -14,6 +14,8 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 We are going to continue with React in the next chapter. If you are not sure about React or components yet, here are some additional resources on these topics:
 
+1. [Vite | Next Generation Frontend Tooling](https://vitejs.dev/)
+1. [DigitalOcean - How to Set Up a React Project with Vite](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-vite)
 1. [Your First Component](https://react.dev/learn/your-first-component)
 1. [React Functional Components, Props, and JSX](https://www.freecodecamp.org/news/react-components-jsx-props-for-beginners/)
 1. [The Benefits of ReactJS](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html)
