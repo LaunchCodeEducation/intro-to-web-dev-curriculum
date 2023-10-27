@@ -7,43 +7,42 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-10-19 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-In this studio, you will make a second Pinterest-inspired Pin.  This studio will add conditional rendering and the `map` function to the project.  
-
+In this studio, you will make a second Pinterest-inspired application.  This studio will add conditional rendering and the `map` function to the project.  
 
 The app you complete in this studio will have the following functionality:
    1. A star rating component that can be updated to display 0 - 5 stars.
    1. The ability to mimic the Save vs Saved button on a Pinterest pin using conditional rendering.
-   1. Displaying the recipe information using the `map` function and a JSON file.
+   1. Displaying specific recipe information using the `map` function, if necessary, and a JSON file.
    1. CSS styling has been created for this project. The instructions will let you know what and how to style elements.  
-
 
 ## Getting Started
 
-1. Check out the `studio2-solution` branch from the [exercises and studio](https://github.com/LaunchCodeEducation/react-exercises-and-studios) repo.
+1. Check out the application in the `part2/studio` directory from the [exercises and studio](https://github.com/LaunchCodeEducation/react-exercises-and-studios) repo.
 
 1. Explore the codebase.  
    1. Look at the `App` function. 
       1. You can see the list of components.  
    
          ```react{linenos=table,hl_lines=[],linenostart=9}
-            export default function App() {
-               return (
-                  <>
-                     <RecipeImage />
-                     <RecipeName />
-                     <RateARecipe rating={5} />
-                     <Button saveButton={true} />
-                     <AuthorInfo />
-                     <IngredientList />
-                  </>
-               );
-            }  
+         export default function App() {
+            return (
+               <>
+                  <RecipeImage />
+                  <RecipeName />
+                  <RateARecipe rating={5} />
+                  <Button saveButton={true} />
+                  <AuthorInfo />
+                  <IngredientList />
+               </>
+            );
+         }  
          ```
+
       1. Notice that both `RateARecipe` and `Button` have variables.  `RateARecipe` takes a number and `Button` takes a boolean.
       
       We will be providing the code (hard coding) for this app to render conditionally.  Keep that in mind as you work on this studio. Test things by changing these variables here.
@@ -54,9 +53,9 @@ The app you complete in this studio will have the following functionality:
 
 ## Part 1: `RateARecipe`
 
-   _Desired Output:_ The `RateARecipe` function should return 0-5 stars. The number of stars rendered will be determined by passing the function an argument. 
+*Desired Output:* The `RateARecipe` function should return 0-5 stars. The number of stars rendered will be determined by passing the function an argument. 
 
-1. Open the `RateARecipe.js` file inside the `components` folder.  You will see an array of star emojis.  These will be our rating system for the Pin.
+1. Open the `RateARecipe.jsx` file inside the `components` folder.  You will see an array of star emojis.  These will be our rating system for the Pin.
 
 1. Inside `RateARecipe` create a new function, that will also take props.  
    1. Let's name it `GiveRating`.  This function will return the number of stars passed to `RateARecipe`.  
@@ -90,7 +89,7 @@ This button has already been created.  You can use its code to help you create `
 
 1. Open the `SaveButton` file and explore the code. An alert has been added to demonstrate that you clicked the button.  
 1. When you click the Save button on a Pinterest pin, it will share a notification that you Saved the pin to a board.  
-1. The `button` class contains an `id` for the CSS needed to make the button red. The CSS has already been created in the `App.css`. The styling also changes when you hover over the button. It's unique to this button.
+1. The `button` class contains an `id` for the CSS needed to make the button red. The CSS has already been created in the `styling.css`. The styling also changes when you hover over the button. It's unique to this button.
 
 {{% notice green "Tip for Testing" "rocket" %}} 
  
@@ -102,9 +101,9 @@ Be sure to remove it once you have a working `Button` component.
 
 ### ClickedButton
 
-_Desired Output_: A black button with rounded corners.  The word has changed to "Saved"  When you click on this button a message about removing the pin appears.
+_Desired Output_: A black button with rounded corners.  The word has changed to "Saved". When you click on this button a message about removing the pin appears.
 
-1. Move into `ClickedButton.js`. It should function like the Save button, but it should display "Saved" instead of "Save", and be black instead of red. 
+1. Move into `ClickedButton.jsx`. It should function like the Save button, but it should display "Saved" instead of "Save", and be black instead of red. 
 1. For the styling, you can apply `clickedButton` as the `id`. This is found in the CSS styling which will need to be imported.  
 1. It should also have an alert that lets a user know that when you click it the pin is removed from the board. 
 
@@ -120,6 +119,7 @@ You will need to create a conditional that will render `SaveButton` or `ClickedB
       ```react{linenos=table,hl_lines=[],linenostart=5}
       const saveButton = props.saveButton;
       ```
+
    1. Create a conditional that does the following:   
       1. If the `saveButton` variable is `true`, then `SaveButton` will render
       1. else `ClickedButton` will appear.  
@@ -128,25 +128,13 @@ You will need to create a conditional that will render `SaveButton` or `ClickedB
 
 ## Part 3: Add the Recipe Data
 
-The remaining components will be using the `recipe.json` file.  You will need to import this file into each component.  We will also use the `map` function to find the desired keys.
+The remaining components will be using the `recipe.json` file.  You will need to import this file into each component.  We can also use the `map` function to find the desired keys if it makes sense to you.
 
 ### Recipe Name
 
 _Desired Output_: This function needs to return the recipe name as an `<h1>` level header.
 
 1. Open the `RecipeName` component.
-
-1. `map` through the JSON and pull out the `name`.
-   1. There is no `id` key in our JSON file.  We can use any of the other keys.  Set the `key` equal to `name`.  This would be a unique identifier if we had more than one recipe in our JSON file.
-
-      ```react{linenos=table,hl_lines=[],linenostart=1}
-         import recipedata from "./recipe.json";
-
-         function RecipeName() {
-         const recipeName = recipedata.map((data) => (
-            <div key={data.name}>
-            //..component continues
-      ```
 1. Render the recipe's name as an `<h1>` level header.  
 1. `return` the `recipeName` variable.  
 
@@ -155,77 +143,32 @@ _Desired Output_: This function needs to return the recipe name as an `<h1>` lev
 _Desired Output_:  Returns the image of the recipe from the JSON.
 
 1. Import the recipe JSON file.
-1. Use the `map` function to find the `recipeImage`.  
+1. Find the `recipeImage`.  
    1. Use the `<img>` tag.  You can pass the recipe name to the alt text value.
    1. Styling has been created for the image. If you would like to apply it set the `className` equal to `recipeImage`. 
-      ```react{linenos=table,hl_lines=[],linenostart=4}
-      function RecipeImage() {
-         const recipeImage = recipedata.map((data) => (
-            <div key={data.name}>
-            <img src={data.recipeImage} alt={data.name} className="recipeImage" />
-            //component continues
-      ```
 1. Return `recipeImage` inside its own `<div>`.
 
 ### Ingredient Lists
 
 _Desired Output_:  Create an unordered list of ingredients.
 
-This component will map over a [nested array](https://www.makeuseof.com/map-over-nested-array-in-react/).  The ingredients are contained within an array inside our JSON object. We will create an outer `map` function to iterate through the JSON object, then an inner `map` function to iterate through the array of ingredients.
+This component will map over a list of ingredients.  The ingredients are contained within an array inside our JSON object. We will create a `map` function to iterate through the array of ingredients.
 
 1. Import the recipe.
 1. `IngredientsList` will return a single `<div>` that holds an `<h3>Ingredients</h3>` header.
 1. Create a list object by placing our map inside curly braces.  In the other components, we used a variable to hold our map output.  In this component, we will return the list as we render it.
-   ```react{linenos=table,hl_lines=[],linenostart=3}
-      function IngredientList() {
-      return (
-         <div>
-            <h3>Ingredients</h3>
-            {recipedata.map((data) => {
-      //component continues
-   ```
-1. The first `map` function will iterate through the JSON object.  We will use `name` as our key.  
-1. This outer `map` will return the inner `map` without declaring a variable.  
-1. The inner `map` will iterate through `data` until it finds the ingredients array.  Pass the inner `map` function two parameters: `ingredient` and `index`.  
-   1. `ingredient` will be returned as a list item.
-   1. `index` will be used as the key.  This is the array index.
-   1. Close the `<div>`s for both inner and outer `map`.
-
-   ```react{linenos=table,hl_lines=[],linenostart=7}
-      //...outer map above
-      return (
-          <div key={data.name}>
-            {data.ingredients.map((ingredient, index) => {
-              return <li key={index}>{ingredient}</li>;
-            })}
-          </div>
-          //component continues
-          ```
+1. The `map` function will iterate through the ingredients using `id` as a key. 
 
 ### Author Info
 
 _Desired Output_: A single component that returns the author's name, image, and URL.  There is CSS for the image that you can set if you desire.
 
 1. Import the recipe and styling.
-1. Let's start by creating a variable that will return the author's name.  Use the `map` function to create a `<div>` that returns the value of the `author`.  You can set the `key` equal to the `name`. 
-
-   ```react{linenos=table,hl_lines=[],linenostart=5}
-      const recipeAuthor = recipedata.map((data) => (
-         <div key={data.name}>{data.author}</div>
-      ));
-   ```
+1. Let's start by creating a variable that will return the author's name.  Create a `<div>` that returns the value of the `author`.  You can set the `key` equal to the `name`. 
 1. Create a second variable that will use the map function to return the author's image.
    1. Set the alt text equal to the author's name.
    1. Apply the `authorImage` as the `className`.
-
-   ```react{linenos=table,hl_lines=[],linenostart=8}
-      const recipeAuthorImage = recipedata.map((data) => (
-         <div key={data.name}>
-            <img src={data.authorImage} alt={data.author} className="authorImage" />
-      </div>
-   ```
 1. Finally, create the final variable that will host the URL.  Return the link using the `<a>` tag.  The URL can be the context between the opening and closing tags.
-
 1. Return all variables in a final `<div>`.  
 
    ```react{linenos=table,hl_lines=[],linenostart=18}
