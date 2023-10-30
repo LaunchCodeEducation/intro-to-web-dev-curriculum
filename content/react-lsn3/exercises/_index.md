@@ -16,12 +16,12 @@ Time to make a React app to share a hobby you love with your friends and family!
 
 {{% notice blue "Note" "rocket" %}}
 
-The solution in the `solutions` branch of the `react-exercises-and-studios` repo uses needlepoint as an example hobby. Whenever you see a reference to needlepoint in the solution to the exercises, substitute it for your own chosen hobby.
+The solution in the `react-part3-exercises-vite` branch of the `react-exercises-and-studios` repo uses needlepoint as an example hobby. Whenever you see a reference to needlepoint in the solution to the exercises, substitute it for your own chosen hobby.
 
 {{% /notice %}}
 
 1. Create a new application called `exercises` in the `part3` directory in the [react-exercises-and-studios](https://github.com/LaunchCodeEducation/react-exercises-and-studios) repo.
-1. In `App.js`, remove the content from the `<div className="App">` element and replace it with an `<h1>` heading that says "My Hobby: " with your hobby coming after the colon.
+1. In `App.jsx`, remove the boilerplate content as you have done in previous lessons. Replace it with an `<h1>` heading that says "My Hobby: " with your hobby coming after the colon.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
@@ -32,7 +32,7 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
    {{% /expand %}}
 
 1. Create a new `components` directory in `src`.
-1. Create a new file called `Introduction.js` in `components` and inside create a new functional component called `HobbyIntroduction`.
+1. Create a new file called `Introduction.jsx` in `components` and inside create a new functional component called `HobbyIntroduction`.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
@@ -47,7 +47,7 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
    1. An `<h2>` heading that says something to the effect of "3 Fun Facts About this Hobby".
    1. An ordered list that contains three facts that you want others to know about your chosen hobby.
 
-1. Call the new `HobbyIntroduction` component under your `<h1>` heading in `App.js`.
+1. Import and Call the new `HobbyIntroduction` component under your `<h1>` heading in `App.jsx`.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
@@ -74,8 +74,8 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
    ```
    {{% /expand %}}
 
-1. Create a new file called `Projects.js` in `components`. This file will hold a functional component called `MyProjects`.
-1. Import the data from `data.json` and `useState` from `'react'` at the top of `Projects.js`.
+1. Create a new file called `Projects.jsx` in `components`. This file will hold a functional component called `MyProjects`.
+1. Import the data from `data.json` and `useState` from `'react'` at the top of `Projects.jsx`.
 
    {{% expand "Check Your Solution" %}}
    ```jsx
@@ -106,7 +106,7 @@ The solution in the `solutions` branch of the `react-exercises-and-studios` repo
    }
    ```
 
-1. Return to `App.js` and call the completed `MyProjects` component below `HobbyIntroduction`. Run the application to see your new gallery! Hit the *Next* button to see state in action!
+1. Return to `App.jsx` and call the completed `MyProjects` component below `HobbyIntroduction`. Run the application to see your new gallery! Hit the *Next* button to see state in action!
 
 ## Submitting Your Work
 
