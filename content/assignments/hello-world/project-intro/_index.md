@@ -6,9 +6,9 @@ weight: 1
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Rob Thomas
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-11-06 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 Your first assignment is mostly an exercise in following instructions. We'll ask you to modify an existing program so that, when run, the program prints "Hello world!".
@@ -38,7 +38,7 @@ So while the coding task may appear straightforward, you'll be introduced to a s
 If you haven't done so already, create a [GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 
 {{% notice blue Note "rocket" %}}
-You can also learn more about git and github by viewing the following [resource page](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
+You can also learn more about Git and GitHub by viewing the following [resource page](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
 {{% /notice %}}
 
 ### Assignment Invitation
