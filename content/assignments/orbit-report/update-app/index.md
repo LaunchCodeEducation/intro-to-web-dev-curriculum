@@ -20,7 +20,7 @@ lastMod: 2023-10-16 # UPDATE ANY TIME CHANGES ARE MADE
 These variables and this function will be used by the `Buttons` and `Table` components.
 
 ### Inside the `App.jsx` file
-Open the `App.js` file.  
+Open the `App.jsx` file.  
 
 1. Import `useState` from `"react"`.
 1. Import `satData.jsx` as `satData`.

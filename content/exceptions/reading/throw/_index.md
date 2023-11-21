@@ -7,9 +7,9 @@ originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Sally Steuterman # to be set by the page reviewer
 reviewerGitHub: gildedgardenia # to be set by the page reviewer
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Colin Brock # update any time edits are made after review
+lastEditorGitHub: ColinBrock # update any time edits are made after review
+lastMod: 2023-11-18 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 In most programming languages, when the compiler or interpreter encounters code it doesn't know how to handle, it
@@ -21,7 +21,7 @@ is if your code is being used in an unexpected way.
 
 ## Throw Default Error
 
-We can throw a default Error by using the `throw` statement and passing in a string description as a argument.
+We can throw a default Error by using the `throw` statement and passing in a string description as an argument.
 
 {{% notice blue Example "rocket" %}}
 ```javascript
@@ -45,7 +45,7 @@ true because our example only has one line of code.
 
 {{% notice blue Note "rocket" %}}
 With all that we have learned about unit testing, you might be wondering how you test if an error is thrown when it should be.
-To do so, let's imagine our example above is inside a function called `checkThrow()`. We need can then use the `toThrow()` matcher like so:
+To do so, let's imagine our example above is inside a function called `checkThrow()`. We can then use the `toThrow()` matcher like so:
 
 ```javascript
 expect( function() {
