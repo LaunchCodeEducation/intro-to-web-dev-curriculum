@@ -10,3 +10,6 @@ canonifyURLs = true
 
 [params]
   themeVariant = ["lc-light", "lc-dark-blue", "lc-dark-blue-two"]
+  nodeUpdateDate = "December 2023"
+  nodeVersion = "20.9.0"
+  nodeShortVersion = "20.x.x"
