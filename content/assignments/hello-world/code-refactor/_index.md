@@ -6,17 +6,17 @@ weight: 2
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Rob Thomas
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-11-06 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-Once you have the assignment open within visual studio code, have a look around the various files and get curious about what this code does.
+Once you have the assignment open within Visual Studio Code, have a look around the various files and get curious about what this code does.
 Don't be afraid to look - just don't edit any of this code just yet.
 
 ![Screenshot of Assignment 0: Hello World open within Visual Studio Code](pictures/visual-studio-code-window.png?classes=border)
 
-After you have done some exploring, open a terminal window within your `Visual Studio Code` application. You can do this by selecting the `terminal` option near the top left of your window and clicking `new terminal`.
+After you have done some exploring, open a terminal window within your `Visual Studio Code` application. You can do this by selecting the *Terminal* option near the top left of your window and clicking *New Terminal*.
 
 ![Open Terminal window within Visual Studio Code](pictures/open-terminal-visual-studio-code.png?classes=border)
 
@@ -24,9 +24,9 @@ After you have done some exploring, open a terminal window within your `Visual S
 You can also open a terminal and navigate to the `assignment0` project directory location and run the following commands as well.
 {{% /notice %}}
 
-Before we begin we are going to install the required packages within our project directory. We will be using `npm` (Node Package Manager) to do so. Run the following command within your terminal:
+Before we begin, we are going to install the required packages within our project directory. We will be using `npm` (Node Package Manager) to do so. Run the following command within your terminal:
 
-```JavaScript
+```console
 npm i
 ```
 
@@ -40,7 +40,7 @@ After a short amount of time you should see that the packages were installed suc
 
 Now that we have installed all required packages we can move forward with running the program. Type the following command into your terminal window:
 
-```JavaScript
+```console
 node index.js
 ```
 

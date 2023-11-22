@@ -6,22 +6,22 @@ weight: 3
 originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Rob Thomas
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Sally Steuterman # update any time edits are made after review
+lastEditorGitHub: gildedgardenia # update any time edits are made after review
+lastMod: 2023-11-06 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 ### Test Code Locally
 
 Run the following command to test your newly updated code to see if it passes the tests:
 
-```bash
+```console
 npm test
 ```
 
 ![Image of terminal window after running the npm test command](pictures/npm-test.png?classes=border)
 
-If your tests fail, please revisit the previous section and double check that your hello.js file is formatted as expected. The test expects the output to be "Hello world!" precisely.
+If your tests fail, please revisit the previous section and double check that your `hello.js` file is formatted as expected. The test expects the output to be "Hello world!" precisely.
 
 ### Commit Your Changes
 
@@ -71,7 +71,7 @@ You can click on the `Hello world!` workflow run and view the steps that the `Gi
 
 ![View after selecting the specific Hello world! workflow run within GitHub Actions](pictures/autograding-yml-view.png?classes=border)
 
-Click the the `build` button:
+Click the `build` button:
 
 ![View of the actual GitHub actions build steps](pictures/build.png?classes=border)
 
@@ -81,7 +81,7 @@ If your solution does not pass, you will see a red `x` in its place.
 
 A red `x` can always be corrected by repeating the previous steps. These are:
 
-1. Open the `actions` tab. Select the failed test and select the `rerun all failed jobs` option.
+1. Open the *Actions* tab. Select the failed test and select the `rerun all failed jobs` option.
 1. Change the string,
 1. Run the program to visually ensure that `"Hello world!"` is printed,
 1. Commit and push your changes.
