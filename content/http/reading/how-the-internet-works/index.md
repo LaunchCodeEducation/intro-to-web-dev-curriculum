@@ -79,7 +79,7 @@ The sending computer will attempt to *resolve* the domain name by looking it up 
 
    It's easy to look up the IP address of any domain name using freely-available tools. 
 
-   Use the popular site [MX Toolbox](https://mxtoolbox.com/DNSLookup.aspx) to look up the IP address of `help.launchcode.org`. Does this site live on the same server as `launchcode.org`?
+   Use the popular site [MX Toolbox](https://mxtoolbox.com/DNSLookup.aspx) to look up the IP address of `launchcode.org`.
 
 {{% /notice %}}
 
