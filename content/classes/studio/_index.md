@@ -26,10 +26,10 @@ Open up `ClassStudio.js` in `javascript-projects/classes/studio` and edit the fi
 
 1. Create objects for the following candidates:
 
-   a. Bubba Bear has a mass of 135 kg and test scores of 88, 85, and 90.
-   b. Merry Maltese has a mass of 1.5 kg and test scores of 93, 88, and 97.
-   c. Glad Gator has a mass of 225 kg and test scores of 75, 78, and 62.
-
+   - Bubba Bear has a mass of 135 kg and test scores of 88, 85, and 90.
+   - Merry Maltese has a mass of 1.5 kg and test scores of 93, 88, and 97.
+   - Glad Gator has a mass of 225 kg and test scores of 75, 78, and 62.
+ 
 Use `console.log` for each object to verify that your class correctly assigns
 the key/value pairs.
 
