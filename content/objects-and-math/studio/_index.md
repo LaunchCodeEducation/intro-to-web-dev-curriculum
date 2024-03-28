@@ -63,8 +63,6 @@ Fill in the blanks with the names of the selected animals.
 
 Open `ObjectStudio02.js` in `javascript-projects/objects-and-math/studio` to work on the next section.
 
-To access the code for the orbit calculations and first bonus mission, go to.
-
 1. Spacecraft orbits are not circular, but we will assume that our mission is
    special. The animals will achieve a circular orbit with an altitude of
    2000 km.
@@ -77,10 +75,7 @@ To access the code for the orbit calculations and first bonus mission, go to.
       28000 km/hr.
    1. Calculate how long it will take our animals to complete a certain number
       of orbits (`time = distance/speed`). Round the answer to 2 decimal
-      places, then return the result.
-
-      For example, with the default radius and speed, 5 orbits will take about
-      `2.24 hours`.
+      places, then return the result. For example, with the default radius and speed, 5 orbits will take about `2.24 hours`.
    1. Print, `'The mission will travel ____ km around the planet, and it will
       take ____ hours to complete.'`
 
@@ -90,13 +85,13 @@ To access the code for the orbit calculations and first bonus mission, go to.
    1. The function should take a candidate object as a parameter and NOT the
       `crew` array.
 
-      {{% notice blue "Note" "rocket" %}}
-
-         When you call `oxygenExpended`, feel free to use your
-         `selectRandomEntry` to pick the crew member to pass into the
-         function.
-
-      {{% /notice %}}
+   {{% notice blue "Note" "rocket" %}}
+   
+   When you call `oxygenExpended`, feel free to use your
+   `selectRandomEntry` to pick the crew member to pass into the
+   function.
+   
+   {{% /notice %}}
 
    1. The spacewalk will last for three orbits around the earth. Use
       `missionDuration` to calculate how many hours the spacewalk will take.
@@ -120,8 +115,6 @@ program select the animal with the smallest oxygen consumption.
 ### Fuel Required for Launch
 
 Open `ObjectsStudio03.js` in `javascript-projects/object-and-math/studio`.
-
-To access the code for this bonus mission, go to .
 
 A general rule of thumb states that it takes about 9 - 10 kg of rocket
 fuel to lift 1 kg of mass into low-earth orbit (LEO). For our mission, we

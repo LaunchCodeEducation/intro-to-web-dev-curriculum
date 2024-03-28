@@ -12,7 +12,7 @@ lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-Recall that [objects]({{< relref "../../../objects-and-math/reading/background ">}}) are data structures that hold many
+Recall that [objects]({{< relref "../../../objects-and-math/reading/background">}}) are data structures that hold many
 values, which consist of *properties* and *methods*.
 
 We often need to create many objects of the same *type*. To do this in an
