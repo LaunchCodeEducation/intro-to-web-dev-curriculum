@@ -80,10 +80,11 @@ You can't submit the form with a button to submit it!
 a. Was the value properly submitted to the form handler?
 
 {{% expand "Check Your Solution" %}}
+
 Yes! At this point, your form should be able to handle input into the "testName" field.
 {{% /expand %}}
 
-6. Repeat steps 2 and 5 for the remaining data fields from the :ref:`data table <exercises-forms-data-table>`. 
+6. Repeat steps 2 and 5 for the remaining data fields from the [data table]({{% relref "#data-fields-for-the-rocket-simulation-form"  %}}). 
 - Pay attention to the input types and possible options.
 - Don't forget to add a `<label>` for each input.
 
