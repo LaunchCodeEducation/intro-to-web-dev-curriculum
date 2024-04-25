@@ -35,22 +35,24 @@ point value equal to the key. For example, `'A'` and `'R'` are worth 1,
 
 To find the point value for a letter with the old format, the program must
 iterate over each key in `oldPointStructure` and then check if the letter is
-inside the array paired with that key. *This search within a search is
 inefficient*.
 
 {{% notice green "Tip" "rocket" %}}
+Think about this for a second. The scoring action takes in letters in a word as input
+and outputs numerical point values. 
 
-   Think about this for a second. The scoring action takes in letters in a word as input
-   and outputs numerical point values. 
-
-   We can improve our program by rewriting the data structure to better fit the action
-   we want to take. Keep this idea in mind as you go on to code your own
-   applications.
+We can improve our program by rewriting the data structure to better fit the action
+we want to take. Keep this idea in mind as you go on to code your own
+applications.
 
 {{% /notice %}}
 
 It would improve the performance of the program to create a `newPointStructure` object that has 26 keys,
 one for each letter. The value of each key will be the Scrabble point value.
+
+{{% notice blue Note "rocket" %}}
+The `newPointStructure` object will be created and tested during Task 4. Below are examples of what the new object storage will look like, in addition to testing the new object itself. You will not be able to test the `newPointStructure` object until Task 4!
+{{% /notice %}}
 
 Examples of the new key storage:
 
@@ -63,23 +65,21 @@ In `newPointStructure`, the letters themselves are keys, so a *single* search
 will identify a point value. 
 
 {{% notice blue "Example" "rocket" %}}
+Example of `newPointStructure` object usage.
 
-   Example of ``newPointStructure`` object usage.
+```js
+console.log("Scrabble scoring values for");
+console.log("letter a: ", newPointStructure.a);
+console.log("letter j: ", newPointStructure.j);
+console.log("letter z: ", newPointStructure["z"]);
+```
 
-   ```js
-      console.log("Scrabble scoring values for");
-      console.log("letter a: ", newPointStructure.a);
-      console.log("letter j: ", newPointStructure.j);
-      console.log("letter z: ", newPointStructure["z"]);
-   ```
+**Console Output**
 
-   **Console Output**
-
-   ```console
-      Scrabble scoring values for
-      letter a:  1
-      letter j:  8
-      letter z:  10
-   ```
-
+```console
+Scrabble scoring values for
+letter a:  1
+letter j:  8
+letter z:  10
+```
 {{% /notice %}}

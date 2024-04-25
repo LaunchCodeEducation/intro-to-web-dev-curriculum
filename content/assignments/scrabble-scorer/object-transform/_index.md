@@ -5,8 +5,8 @@ draft: false
 weight: 4
 originalAuthor: Sally Steuterman # to be set by page creator
 originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: Rob Thomas 
-reviewerGitHub: icre8FreeCode 
+reviewer: John Woolbright
+reviewerGitHub: jwoolbright23 
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -24,28 +24,28 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
       relevant section in the
       `Objects and Math` chapter.
    1. To access the letter arrays within `oldPointStructure`, use bracket
-      notation (`oldPointStructure['key']`).
+      notation (`oldPointStructure[key]`).
    1. To access a particular element within a letter array, add a second set of
-      brackets (`oldPointStructure['key'][index]`), or assign the array to a
+      brackets (`oldPointStructure[key][index]`), or assign the array to a
       variable and use `variableName[index]`.
 
       ```js {linenos=table}
-         console.log("Letters with score '4':", oldPointStructure['4']);
-         console.log("3rd letter within the key '4' array:", oldPointStructure['4'][2]);
+      console.log("Letters with score '4':", oldPointStructure[4]);
+      console.log("3rd letter within the key '4' array:", oldPointStructure[4][2]);
 
-         let letters = oldPointStructure['8'];
-         console.log("Letters with score '8':", letters);
-         console.log("2nd letter within the key '8' array:", letters[1]);
+      let letters = oldPointStructure[8];
+      console.log("Letters with score '8':", letters);
+      console.log("2nd letter within the key '8' array:", letters[1]);
       ```
 
       **Console Output**
 
       ```console
-         Letters with score '4': [ 'F', 'H', 'V', 'W', 'Y' ]
-         3rd letter within the key '4' array: V
+      Letters with score '4': [ 'F', 'H', 'V', 'W', 'Y' ]
+      3rd letter within the key '4' array: V
 
-         Letters with score '8': [ 'J', 'X' ]
-         2nd letter within the key '8' array: X
+      Letters with score '8': [ 'J', 'X' ]
+      2nd letter within the key '8' array: X
       ```
       {{% /notice %}}
 
@@ -59,13 +59,13 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
    Hard-coding the `newPointStructure` object literal like this:
 
    ```js
-      let newPointStructure = 
-      {
-         a:1,
-         b: 1,
-         c: 1,
-         etc ...
-      }
+   let newPointStructure = 
+   {
+      a:1,
+      b: 1,
+      c: 1,
+      etc ...
+   }
    ```
 
    won't pass. And you'll lose an opportunity to practice this skill.
