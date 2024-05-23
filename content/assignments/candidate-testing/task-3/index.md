@@ -31,13 +31,13 @@ Some tips:
 
       _(Number of Correct Answers) / (Number of Quiz Questions) * 100_
 
-## Testing Part 3
+## Testing Task 3
 
 In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
 
-   > To pass Part 3, you need to pass tests 11-17.  
+   > To pass Task 3, you need to pass tests 11-17.  
 
-You should still pass tests 1-10 from Parts 1 and 2. 
+You should still pass tests 1-10 from Tasks 1 and 2. 
 
 {{< rawhtml >}}
    <img src="../images/AllTests-Pass.png" alt=" " width=60% />

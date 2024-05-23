@@ -37,40 +37,40 @@ The requirements below are what your END assignment will look like.
 1. Determine if the candidate did well enough to enter our program (need >= 80% to pass)
 1. Display the results.
 
-This assignment is broken down so you can complete small pieces as you go. You need to move sequentially starting at Part 1. Please read the WHOLE assignment page before starting.
+This assignment is broken down so you can complete small pieces as you go. You need to move sequentially starting at Task 1. Please read the WHOLE assignment page before starting.
 
 ## Take It Step by Step
-When starting any project, it's best to approach it as a series of smaller, testable parts. The goal is to get simple parts working first and then expand the code in a systematic way. The following is NOT the only way to complete this assignment, but it provides a framework for thinking through the project.
+When starting any project, it's best to approach it as a series of smaller, testable tasks. The goal is to get simple tasks working first and then expand the code in a systematic way. The following is NOT the only way to complete this assignment, but it provides a framework for thinking through the project.
 
-To help you with this large assignment, we have broken it into 3 parts.
+To help you with this large assignment, we have broken it into 3 tasks.
 
-**Part 1: Minimum Viable Quiz**
+**Task 1: Minimum Viable Quiz**
 
 You will create a single question quiz.  This will let you see the overall project in a smaller scale.
    1. You will create 1 question with 1 correct answer.  
    1. You will collect 1 answer from the user.
    1. You will compare the correct answer with the user's answer and let the user know if they got the question right.
 
-You will run the autograding tests before moving onto Part 2.  You need to pass Tests 1-6.
+You will run the autograding tests before moving onto Task 2.  You need to pass Tests 1-6.
 
-**Part 2:Multiple Questions**
+**Task 2: Multiple Questions**
 
 You will increase the number of questions and answers to 5.  
 
 You will need to update your single question quiz to a 5 question quiz. 
 This will also mean, you will also have 5 correct answers and you will collect 5 user answers.
 
-You will run the autograding tests before moving onto Part 3.  You need to pass Tests 7-10.
+You will run the autograding tests before moving onto Task 3.  You need to pass Tests 7-10.
 
-**Part 3: Grade the Quiz**
+**Task 3: Grade the Quiz**
 
 In this section, you will score the candidate's quiz results and let them know if they passed or failed.
 
-You will run the autograding tests before moving onto Part 3.  You need to pass Tests 11-17 for this section.  You should pass all 17 tests to complete the assignment.
+You will run the autograding tests before moving onto Task 3.  You need to pass Tests 11-17 for this section.  You should pass all 17 tests to complete the assignment.
 
 ## Example Output
 
-Once all three parts have been completed, the results output should include the candidate's name, the candidate's responses, the correct answers, the final percentage, and if the candidate passed the quiz.
+Once all three tasks have been completed, the results output should include the candidate's name, the candidate's responses, the correct answers, the final percentage, and if the candidate passed the quiz.
 
 ```bash
 Candidate Name: Can Twin
@@ -102,6 +102,6 @@ Correct Answer: 3
  The output will vary slightly based on the candidate's answers to each question.
 {{% /notice %}}
 
-Let's get started on [Part 1]({{< relref "../part-1/index.md" >}})
+Let's get started on [Task 1]({{< relref "../task-1/index.md" >}})
 
 

@@ -33,17 +33,17 @@ Now that your small app is working, expand it to deal with multiple questions. T
 {{% /notice %}}
 
    {{% notice blue "Note" "rocket" %}} 
-   Make sure your loops work properly before moving on to part 3.
+   Make sure your loops work properly before moving on to task 3.
 
    This is also a great time to save, commit, and push up your work.
    {{% /notice %}}
 
-## Testing Part 2
+## Testing Task 2
 
 In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
 
-   > To pass Part 2, you need to pass tests 7-10.  
+   > To pass Task 2, you need to pass tests 7-10.  
 
-You should still pass tests 1-6 from Part 1. 
+You should still pass tests 1-6 from Task 1. 
 
-Move on to [Part 3]({{< relref "../part-3/index.md" >}})
+Move on to [Task 3]({{< relref "../task-3/index.md" >}})
