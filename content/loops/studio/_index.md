@@ -58,7 +58,7 @@ Your work will go into `solution.js`, but please feel free to explore the progra
 
    2. Each ingredient can only be used ONCE.
    3. Add each meal to the `meals` array once it is assembled.
-   4. To test your own solution, scroll down to another function defined in this file called `runProgram()`. Uncomment the lines that call the `mealAssembly` function and print the result. Run the command `node solution` to see how your work is progressing.
+   4. To test your own solution, scroll down to another function defined in this file called `runProgram()`. Uncomment the lines that call the `mealAssembly` function and print the result. Run the command `node index` to see how your work is progressing.
 
 ## Part B: Collect User Input
 
@@ -66,7 +66,7 @@ Update `askForNumber()` to add user input and validation.
 
 1. Using a `while` loop, ask the user to select the number of meals to assemble. Validate the input to make sure it is an integer from 1 - 6.
 2. Save the result to the `numMeals` variable returned by the function.
-3. Test your solution to this part by returning to the `runProgram()` function in the file and uncommenting the section labelled for testing Part B. Run `node solution` to see the result.
+3. Test your solution to this part by returning to the `runProgram()` function in the file and uncommenting the section labelled for testing Part B. Run `node index` to see the result.
 
 ## Checking Your Work
 

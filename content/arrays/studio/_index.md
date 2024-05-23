@@ -60,7 +60,7 @@ array, then modify the array and convert it back to a printable string.
 
 1. Use the `reverseSpace()` function to code the following. If the string uses spaces to separate the words, `split` it into an array, reverse alphabetize the entries, and then `join` the array into a new space-separated string. For example, `"to code up fun"` becomes `"up to fun code"`.
 
-1. Use the `commaSpace()` function to code the following.  *Consider*: What if the string uses 'comma spaces' (, ) to separate the list? Modify your code to produce the same result as part "b", making sure that the extra spaces are NOT part of the final string.
+1. Use the `commaSpace()` function to code the following.  *Consider*: What if the string uses 'comma spaces' (, ) to separate the list? Modify your code to produce the same result as #2, making sure that the extra spaces are NOT part of the final string.
 
 ## Bonus Mission: Multi-dimensional Arrays
 

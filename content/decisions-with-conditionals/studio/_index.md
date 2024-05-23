@@ -51,7 +51,7 @@ Start out by creating the below variables with the given values. Remember to acc
 We want to make sure that the following conditions are met in order for our shuttle to launch. Create a statement for each condition:
 1. if `astronautCount` is no greater than 7
 1. if `astronautStatus` is ready
-1. if the `totalMassKg` is less than the `maximumMassLimit` of `85000`
+1. if the `totalMassKg` is less than the `maximumMassLimit` of `850000`
 1. if the `fuelTempCelsius` is no less than `-300` OR no greater than `-150`
 1. if `fuelLevel` is at `100%`
 1. if `weatherStatus` is `clear`
