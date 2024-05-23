@@ -1,5 +1,5 @@
 ---
-title: "Part 2: Multiple Questions"
+title: "Task 2: Multiple Questions"
 date: 2023-06-20T10:39:25-05:00
 draft: false
 weight: 3

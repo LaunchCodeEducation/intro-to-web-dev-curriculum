@@ -1,5 +1,5 @@
 ---
-title: "Part 3: Grade the Quiz"
+title: "Task 3: Grade the Quiz"
 date: 2023-06-20T10:39:25-05:00
 draft: false
 weight: 4

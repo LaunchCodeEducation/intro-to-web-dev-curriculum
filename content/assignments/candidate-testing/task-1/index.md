@@ -1,5 +1,5 @@
 ---
-title: "Part 1: Minimum Viable Quiz"
+title: "Task 1: Minimum Viable Quiz"
 date: 2023-06-20T10:39:25-05:00
 draft: false
 weight: 2
