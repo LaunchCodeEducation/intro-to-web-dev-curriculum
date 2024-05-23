@@ -234,7 +234,12 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
    1. Line 32 `git push` sends our latest code up to GitHub.
 
    We will learn more about these in a later chapter.
+   {{% /notice %}}
 
+   {{% notice blue Note "rocket" %}}
+   When writing your commit messages, you will encounter problems if you include punctuation inside of double quotes `"This wont work!"`.
+
+   If you have a strong desire to include punctuation, you must wrap your commit message inside of single quotes `'Like this!'`.
    {{% /notice %}}
    
    ## Back to GitHub
