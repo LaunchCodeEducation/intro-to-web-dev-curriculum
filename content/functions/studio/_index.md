@@ -45,7 +45,7 @@ flips the order of entries in the array.
 
 ## Part One: Reverse Characters
 
-In the *composing functions* section, we examined a function that [revereses characters in a string]({{< relref "../reading/composing-functions/_index.md#the-reverse-function" >}}) using the `split` and `join` methods. Let's rebuild that function now.
+In the *composing functions* section, we examined a function that [reverses characters in a string]({{< relref "../reading/composing-functions/_index.md#the-reverse-function" >}}) using the `split` and `join` methods. Let's rebuild that function now.
 1. Define the function as `reverseCharacters`. Give it one parameter, which will be the string to reverse.
 1. Within the function, `split` the string into an array, then reverse the array.
 1. Use `join` to create the reversed string and *return* that string from the function.

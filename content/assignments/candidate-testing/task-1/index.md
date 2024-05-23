@@ -1,18 +1,18 @@
 ---
-title: "Part 1: Minimum Viable Quiz"
+title: "Task 1: Minimum Viable Quiz"
 date: 2023-06-20T10:39:25-05:00
 draft: false
 weight: 2
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: Rob Thomas
-reviewerGitHub: icre8FreeCode
+reviewer: John Woolbright
+reviewerGitHub: jwoolbright23
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
-For Part 1, you are going to:  
+For Task 1, you are going to:  
 
 1. Ask the candidate for their name
 1. Create a quiz that asks a single question
@@ -54,31 +54,28 @@ For the sake of this assignment, look for the `TODO` statements. Some are outsid
 
 Under `TODO 1.2c`, check the candidate's answer to see if it is correct. Provide basic feedback to the candidate, letting them know if their answer is correct or not.
 
-## Testing Part 1
+## Testing Task 1
 
 In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
 
 {{< rawhtml >}}
-   <img src="../images/Part1-tests.png" alt="Results of tests with only part 1 completed" width=50% />
+   <img src="../images/Part1-tests.png" alt="Results of tests with only task 1 completed" width=50% />
 {{< /rawhtml >}}
 
-   > To pass Part 1, you need to pass tests 1-6. 
+   > To pass Task 1, you need to pass tests 1-6. 
 
 To see which tests you passed, scroll up in your terminal.  You will see details of each test.  At the top of the test results, you will find a list that displays all of the tests and each status.  This can be used a quick reference.  The detailed outputs can help you explore the cause of a failure which can help you debug and improve your code.
 
 {{< rawhtml >}}
-   <img src="../images/Part1-tests-list.png" alt="Results of tests with only part 1 completed" width=50% />
+   <img src="../images/Part1-tests-list.png" alt="Results of tests with only task 1 completed" width=50% />
 {{< /rawhtml >}}
 
-The rest of the tests are for Parts 2 and 3.  
+The rest of the tests are for Tasks 2 and 3.  
 
    {{% notice blue "Note" "rocket" %}} 
-   Make sure your small app works properly before moving on to part 2.
+   Make sure your small app works properly before moving on to task 2.
 
    This is also a great time to save, commit, and push up your work.
    {{% /notice %}}
 
-
-
-
-Ready for [Part 2]({{< relref "../part-2/index.md" >}})
+Ready for [Task 2]({{< relref "../task-2/index.md" >}})

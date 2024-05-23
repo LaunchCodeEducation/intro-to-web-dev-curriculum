@@ -1,12 +1,12 @@
 ---
-title: "Part 3: Grade the Quiz"
+title: "Task 3: Grade the Quiz"
 date: 2023-06-20T10:39:25-05:00
 draft: false
 weight: 4
 originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
-reviewer: Rob Thomas
-reviewerGitHub: icre8FreeCode
+reviewer: John Woolbright
+reviewerGitHub: jwoolbright23
 lastEditor: # update any time edits are made after review
 lastEditorGitHub: # update any time edits are made after review
 lastMod: # UPDATE ANY TIME CHANGES ARE MADE
@@ -31,13 +31,13 @@ Some tips:
 
       _(Number of Correct Answers) / (Number of Quiz Questions) * 100_
 
-## Testing Part 3
+## Testing Task 3
 
 In the terminal run `npm test`.  This will run the autograding tests.  The results will display in the terminal.
 
-   > To pass Part 3, you need to pass tests 11-17.  
+   > To pass Task 3, you need to pass tests 11-17.  
 
-You should still pass tests 1-10 from Parts 1 and 2. 
+You should still pass tests 1-10 from Tasks 1 and 2. 
 
 {{< rawhtml >}}
    <img src="../images/AllTests-Pass.png" alt=" " width=60% />
