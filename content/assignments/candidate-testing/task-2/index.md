@@ -7,9 +7,9 @@ originalAuthor: Courtney Frey # to be set by page creator
 originalAuthorGitHub: speudusa # to be set by page creator
 reviewer: John Woolbright
 reviewerGitHub: jwoolbright23
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Colin Brock # update any time edits are made after review
+lastEditorGitHub: ColinBrock # update any time edits are made after review
+lastMod: 6/26/24 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 Now that your small app is working, expand it to deal with multiple questions. This time, you only have one `TODO` item in the starter code. You will need to determine which lines need to be modified.
@@ -26,7 +26,7 @@ Now that your small app is working, expand it to deal with multiple questions. T
 | True or false: 5 kilometer == 5000 meters?   | "true"        |
 | (5 + 3)/2 * 10 = ? | "40"   |
 | Given the array `[8, 'Orbit', 'Trajectory', 45]`, what entry is at index 2?   | "Trajectory" |
-| What is the minimum crew size for the ISS? | 3   |
+| What is the minimum crew size for the ISS? | "3"   |
 
 {{% notice orange "Warning" "rocket" %}} 
  Keep the questions and correct answers stored in this exact order.
