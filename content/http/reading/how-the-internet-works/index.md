@@ -57,7 +57,7 @@ When a server sends a file back to a client, that file must physically be sent a
 
 {{% notice blue "Note" "rocket" %}}
 
-   You can think of the Internet as a ["series of tubes."](https://www.youtube.com/watch?time_continue=15&v=_cZC67wXUTs) This phrase was used by a U.S. Senator in 2006 and widely mocked. However, we think it's actually a reasonable analogy. TCP/IP allows data to be passed from one tube to another until reaching the final destination.
+   You can think of the Internet as a "[series of tubes.](https://www.youtube.com/watch?time_continue=15&v=_cZC67wXUTs)" This phrase was used by a U.S. Senator in 2006 and widely mocked. However, we think it's actually a reasonable analogy. TCP/IP allows data to be passed from one tube to another until reaching the final destination.
 
 {{% /notice %}}
 
