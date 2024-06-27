@@ -146,7 +146,10 @@ returned an object.
 
 ### Code Red
 
-Let's run the test! Click the `run >` button in your repl.it.
+Let's run the test!
+
+Type in the command `npm run test` to check your test.
+
 You should see an error about `processor.js` not existing. This makes sense, because we have not
 created the file yet. We are officially in the Red phase of Red, Green, Refactor!
 
