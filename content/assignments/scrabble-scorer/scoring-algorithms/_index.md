@@ -32,9 +32,9 @@ Your program will use the `scoringAlgorithms` array to retrieve information abou
 three scoring algorithms and convey that information to the user. 
 
 1. Finish writing the `scoringAlgorithms` array. It should be populated with three objects, one for each of the three scoring options. 
-   Each object should contain three keys: `name`, `description`, and `scoringFunction`.
+   Each object should contain three keys: `name`, `description`, and `scorerFunction`.
 1. Examine the table for the information to store in `name` and
-   `description`. The `scoringFunction` for each object should be the name of
+   `description`. The `scorerFunction` for each object should be the name of
    one of the three scoring algorithms already defined.
 
    | Name | Description | Score Function |
@@ -64,14 +64,14 @@ three scoring algorithms and convey that information to the user.
    ```js
       // Simple scoring
       console.log("algorithm name: ", scoringAlgorithms[0].name);
-      console.log("scoringFunction result: ", scoringAlgorithms[0].scoringFunction("JavaScript"));
+      console.log("scorerFunction result: ", scoringAlgorithms[0].scorerFunction("JavaScript"));
    ```
 
    Console Output
 
    ```console
       algorithm name:  Simple Score
-      scoringFunction result:  10
+      scorerFunction result:  10
    ```
    {{% /notice %}}
 
