@@ -70,10 +70,20 @@ To see which tests you passed, scroll up in your terminal.  You will see details
    <img src="../images/Part1-tests-list.png" alt="Results of tests with only task 1 completed" width=50% />
 {{< /rawhtml >}}
 
+[]()
+
 The rest of the tests are for Tasks 2 and 3.  
 
    {{% notice blue "Note" "rocket" %}} 
    Make sure your small app works properly before moving on to task 2.
+
+   Run the following command to make sure the app is running without errors, if you do encounter any errors:
+   1. Revisit the above instructions step by step to ensure you completed all steps in Task 1.
+   1. If you are still encountering problems, take a look back at [this page]({{< relref "../../../errors-and-debugging/reading/asking-good-questions/index.md" >}}) and reach out to your instructional assistant.
+
+   ```JavaScript
+   node index.js
+   ```
 
    This is also a great time to save, commit, and push up your work.
    {{% /notice %}}
