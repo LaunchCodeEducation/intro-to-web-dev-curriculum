@@ -55,8 +55,8 @@ Code your solution within the `javascript-projects/user-input-with-forms/exercis
 Please follow the steps below and good luck!
 
 1. Create a `<form>` with these attributes.
-- Set `method` to `"POST"`
-- Set `action` to `"https://handlers.education.launchcode.org/request-parrot"`
+   1. Set `method` to `"POST"`
+   1. Set `action` to `"https://handlers.education.launchcode.org/request-parrot"`
 
    {{% expand "Check Your Solution" %}}
    ```html
@@ -67,7 +67,7 @@ Please follow the steps below and good luck!
    {{% /expand %}} 
 
 2. Add a `<label>` and `<input>` for Test Name to the `<form>`.
-- `<label>Test Name <input type="text" name="testName"/></label>`.
+   1. `<label>Test Name <input type="text" name="testName"/></label>`.
 
 3. Can you submit the form now? What is missing?
 
@@ -77,7 +77,7 @@ You can't submit the form with a button to submit it!
 
 4. Add a `<button>Run Simulation</button>` to the `<form>`.
 5. Enter a value into the "testName" input and submit the form.
-a. Was the value properly submitted to the form handler?
+   1. Was the value properly submitted to the form handler?
 
 {{% expand "Check Your Solution" %}}
 
@@ -85,8 +85,8 @@ Yes! At this point, your form should be able to handle input into the "testName"
 {{% /expand %}}
 
 6. Repeat steps 2 and 5 for the remaining data fields from the [data table]({{% relref "#data-fields-for-the-rocket-simulation-form"  %}}). 
-- Pay attention to the input types and possible options.
-- Don't forget to add a `<label>` for each input.
+   1. Pay attention to the input types and possible options.
+   1. Don't forget to add a `<label>` for each input.
 
 ## Bonus Mission
 
