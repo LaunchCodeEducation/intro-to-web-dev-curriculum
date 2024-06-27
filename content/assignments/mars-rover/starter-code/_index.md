@@ -7,9 +7,9 @@ originalAuthor: John Woolbright # to be set by page creator
 originalAuthorGitHub: jwoolbright23 # to be set by page creator
 reviewer: Rob Thomas
 reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+lastEditor: Colin Brock # update any time edits are made after review
+lastEditorGitHub: ColinBrock  # update any time edits are made after review
+lastMod: 4-30-24 # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 This task puts your unit testing, modules making, and exception handling knowledge to use by writing tests and classes for the Mars rover named Curiosity.
@@ -42,7 +42,7 @@ Fork and Clone the following repository:[Assignment #3: Mars Rover](https://gith
 
 ## How-To TDD
 
-Recall that in TDD, you write the test for a given behavior before you code the actual function. Feel free to review the [Test/Code cycle](test-code-cycle) while you work on this project.
+Recall that in TDD, you write the test for a given behavior before you code the actual function. Feel free to review the [Test/Code cycle](https://education.launchcode.org/intro-to-web-dev-curriculum/unit-testing/reading/tdd/index.html) while you work on this project.
 
 1. Focus on one test at a time.
 1. Write the test and *then* create the code to make it pass.
