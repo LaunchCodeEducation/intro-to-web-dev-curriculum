@@ -97,7 +97,7 @@ trigger a `submit` event at precisely this moment. Therefore, we can create
 an event handler to solve this problem. Our handler will:
 
 1. Retrieve the selected value from the radio group.
-1 Use this value to determine the `action` URL, based on the selected search engine.
+1. Use this value to determine the `action` URL, based on the selected search engine.
 1. Set the `action` attribute of the form.
 
 ### Create and Register the Handler
