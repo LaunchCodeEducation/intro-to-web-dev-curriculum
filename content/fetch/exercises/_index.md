@@ -104,7 +104,7 @@ Add this preliminary HTML to your `fetch_planets` document:
    {{% /expand %}}
 
 {{% notice blue Note "rocket" %}}
-You should not expect a response, take note of the error that you receive from the console!
+You should not expect a response. Take note of the error that you see in the console!
 {{% /notice %}}
 
 1. Our last task left us with some knowledge about where and how we can use the  fetched data, but we don't really want to keep those changes. Instead, how  about we use an event to change the planet information we see? Let's move the DOM manipulation to inside a click handler.
