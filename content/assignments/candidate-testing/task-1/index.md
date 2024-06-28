@@ -70,8 +70,6 @@ To see which tests you passed, scroll up in your terminal.  You will see details
    <img src="../images/Part1-tests-list.png" alt="Results of tests with only task 1 completed" width=50% />
 {{< /rawhtml >}}
 
-[]()
-
 The rest of the tests are for Tasks 2 and 3.  
 
    {{% notice blue "Note" "rocket" %}} 
