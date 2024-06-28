@@ -34,10 +34,10 @@ Your CSS must:
 1. Follow these rules:
 
    1. Use the element selector to give the `<body>` element a `margin` value of `8px` and a `display` type of `block`.
-   1. Give a heading on your page the `id` of `mainHeading` and use the id selector in `styles.css` to apply a styling of your choosing.
-   1. Give a paragraph on your page the id of `testP` and a class name of `funParagraph`. Use the class selector in `styles.css` and give it a styling of your choosing.  
+   1. Give a heading on your page the `id` of `mainHeading` and use the id selector in `styles.css` to make the color red and apply any additional styling of your choosing.
+   1. Give a paragraph on your page the id of `testP` and a class name of `funParagraph`. Use the class selector in `styles.css` and make the color green and give it any additional styling of your choosing.  
 
-   You will be asked to explain and point out your styling choices to your TA during your code review.  Have fun with creating your assignment.
+   We ask that you implement the styling as requested. You will be asked to explain and point out your additional styling choices to your TA during your code review.  Have fun with creating your assignment. If any of the styling requirements do not suit your personal tastes and you want to share your work on this assignment as part of a portfolio, you can change it after the end of the unit.
 
 ### Notes
    1. In order to see any visible change, make sure to link the stylesheet to your main document.
