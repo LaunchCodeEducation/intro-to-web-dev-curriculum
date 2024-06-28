@@ -35,7 +35,7 @@ Now that your small app is working, expand it to deal with multiple questions. T
    {{% notice blue "Note" "rocket" %}} 
    Make sure your loops work properly before moving on to task 3.
 
-   Run the following command to make sure the app is running without errors, if you do encounter any errors:
+   Run the following command to make sure the app is running without errors:
 
    ```JavaScript
    node index.js
