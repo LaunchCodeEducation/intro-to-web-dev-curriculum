@@ -146,7 +146,10 @@ returned an object.
 
 ### Code Red
 
-Let's run the test! Click the `run >` button in your repl.it.
+Let's run the test!
+
+Type in the command `npm run test` to check your test.
+
 You should see an error about `processor.js` not existing. This makes sense, because we have not
 created the file yet. We are officially in the Red phase of Red, Green, Refactor!
 
@@ -249,8 +252,8 @@ The `id` is the part of the transmission *before* the `"::"`.
 The same steps will be followed, even though they are not explicitly listed.
 
 See lines *16 - 19* to see the test added for this requirement. To test
-this case `not.toEqual()` was used, which is checking if the two values
-are NOT equal. `not.toEqual()` is used to make sure that `result.id`
+this case `not.toBeUndefined()` was used, which is checking if the two values
+are NOT equal. `not.toBeUndefined()` is used to make sure that `result.id`
 is NOT equal to `undefined`. Remember that if you reference a property on an
 object that does NOT exist, `undefined` is returned.
 

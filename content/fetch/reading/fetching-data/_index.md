@@ -54,10 +54,6 @@ Launch Status web page, which we will add weather data to.
 ```
 {{% /notice %}}
 
-{{% notice orange Warning "rocket" %}}
-Before going through the `fetch` examples, please know that `fetch` does NOT work in Internet Explorer. [List of alternative browsers](https://browsehappy.com)
-{{% /notice %}}
-
 ## `fetch` Function
 
 To request the weather data, we will use the `fetch` function. `fetch` is a

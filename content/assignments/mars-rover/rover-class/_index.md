@@ -66,7 +66,7 @@ console.log(response);
 
 ### Rover Tests
 
-Create `spec/rover.spec.js` and write the following tests. Write the code to make them pass in `rover.js`. Remember to use the given phrase as the test description.
+Within the `spec/rover.spec.js` file, write the tests below. Make sure to write the code to make them pass in `rover.js`. Remember to use the given phrase as the test description.
 
 **Test 7**
 

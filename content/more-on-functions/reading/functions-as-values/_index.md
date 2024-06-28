@@ -18,7 +18,7 @@ Functions are powerful tools in any programming language, and JavaScript uses th
 
 We [defined a value]({{< relref "../../../data-and-variables/reading/values-and-data-types/_index.md" >}}) as "a specific piece of data." Some examples are the number `42`, the string `"LC101"`, and the array `["MO", "FL", "DC"]`. *Functions appear to be very different from other keywords we have worked with, they share many core characteristics.
 
-In particular, functions have a data type, similar too other javascript objects. Recall that a **data type** is a group of values that share characteristics, such as strings and numbers. Strings share the characteristics of having a length, while numbers don't. Numbers can be manipulated in ways that strings cannot, via operations like division and subtraction. 
+In particular, functions have a data type, similar to other javascript objects. Recall that a **data type** is a group of values that share characteristics, such as strings and numbers. Strings share the characteristics of having a length, while numbers don't. Numbers can be manipulated in ways that strings cannot, via operations like division and subtraction. 
 
 {{% notice blue Example "rocket" %}}
 The data type of the type conversion function `Number` is `function`. In fact, all functions are of type `function`.

@@ -138,16 +138,20 @@ take for each animal to reach 20 steps.
 
 ```js {linenos=true}
 function fitnessTest(candidates){
- let results = [], numSteps, turns;
- for (let i = 0; i < candidates.length; i++){
-     numSteps = 0;
-     turns = 0;
+    let results = [], numSteps, turns;
+
+    for (let i = 0; i < candidates.length; i++){
+        numSteps = 0;
+        turns = 0;
+
      while(numSteps < 20){
-     numSteps += candidates[i].move();
-     turns++;
+        numSteps += candidates[i].move();
+        turns++;
      }
+
      results.push(`${candidates[i].name} took ${turns} turns to take 20 steps.`);
  }
+
  return results;
 }
 ```
