@@ -23,7 +23,7 @@ Your task is to build a website that shows astronauts fetched from an API.
 1. Add code that runs on the `window` `load` event.
     - This is done because we can't interact with the HTML elements until the page has loaded.
 
-2. Make a GET request using `fetch` to the astronauts API `<https://handlers.education.launchcode.org/static/astronauts.json>`__
+2. Make a GET request using `fetch` to the astronauts API `<https://handlers.launchcodelearning.org/static/astronauts.json>`__
     - Do this part inside the `load` event handler.
 
 3. Add each astronaut returned to the web page.

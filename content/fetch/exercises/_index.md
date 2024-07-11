@@ -38,12 +38,12 @@ Add this preliminary HTML to your `fetch_planets` document:
 </html>
 ```
 
-1. The URL where our planet data is located is: `"https://handlers.education.launchcode.org/static/planets.json"`. Add the code to fetch this URL inside the load event listener.
+1. The URL where our planet data is located is: `"https://handlers.launchcodelearning.org/static/planets.json"`. Add the code to fetch this URL inside the load event listener.
 
    {{% expand "Check Your Solution" %}}
    ```html
    window.addEventListener("load", function() {
-      fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
+      fetch("https://handlers.launchcodelearning.org/static/planets.json").then(function(response){
          // TODO: do something after fetching and receiving a response
       });
    });
@@ -60,7 +60,7 @@ Add this preliminary HTML to your `fetch_planets` document:
 
    {{% expand "Check Your Solution" %}}
    ```html
-   fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
+   fetch("https://handlers.launchcodelearning.org/static/planets.json").then(function(response){
       response.json().then(function(json) {
          console.log(json);
       });
@@ -92,7 +92,7 @@ Add this preliminary HTML to your `fetch_planets` document:
    ```html
    window.addEventListener("load", function() {
       let json = [];
-      fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
+      fetch("https://handlers.launchcodelearning.org/static/planets.json").then(function(response){
          response.json().then(function(json) {
             console.log(json);
          });
@@ -110,7 +110,7 @@ You should not expect a response. Take note of the error that you see in the con
 1. Our last task left us with some knowledge about where and how we can use the  fetched data, but we don't really want to keep those changes. Instead, how  about we use an event to change the planet information we see? Let's move the DOM manipulation to inside a click handler.
 
    ```javascript
-   fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
+   fetch("https://handlers.launchcodelearning.org/static/planets.json").then(function(response){
       response.json().then(function(json) {
          const destination = document.getElementById("destination");
          destination.addEventListener("click", function(){
@@ -136,7 +136,7 @@ You should not expect a response. Take note of the error that you see in the con
 
    {{% expand "Check Your Solution" %}}
    ```html
-   fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response) {
+   fetch("https://handlers.launchcodelearning.org/static/planets.json").then(function(response) {
       response.json().then(function(json) {
          const destination = document.getElementById("destination");
          let index = 0;

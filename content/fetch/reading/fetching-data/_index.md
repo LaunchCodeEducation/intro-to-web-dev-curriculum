@@ -14,7 +14,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 
 Now that we know what an API is, let's use one to update a web page. Let's use
 a weather API to add weather data to a web page. The URL for this special
-LaunchCode weather API is https://handlers.education.launchcode.org/static/weather.json.
+LaunchCode weather API is https://handlers.launchcodelearning.org/static/weather.json.
 
 Example JSON returned from our weather API.
 
@@ -62,7 +62,7 @@ global function that requests, or fetches, resources such as data from an API.
 Take note of two necessary aspects of the `fetch` function:
 
 1. The URL of where the data is located.
-- For this example, it will be `"https://handlers.education.launchcode.org/static/weather.json"`
+- For this example, it will be `"https://handlers.launchcodelearning.org/static/weather.json"`
 1. A response handler function to utilize the data that is being fetched.
 - For this example, it will be `function(response){...};`
 
@@ -70,12 +70,12 @@ Take note of two necessary aspects of the `fetch` function:
 Notice a string URL is passed to `fetch`. Also notice the anonymous *request handler function* that has a `response` parameter. The `.then` method will be explained soon.
 
 ```javascript
-fetch("https://handlers.education.launchcode.org/static/weather.json").then(function(response) {
+fetch("https://handlers.launchcodelearning.org/static/weather.json").then(function(response) {
     console.log(response);
 } );
 ```
 
-In this example, we are requesting data from `https://handlers.education.launchcode.org/static/weather.json` and our response handler (the anonymous function) simply logs the response to the console.
+In this example, we are requesting data from `https://handlers.launchcodelearning.org/static/weather.json` and our response handler (the anonymous function) simply logs the response to the console.
 {{% /notice %}}
 
 ## `fetch` Example
@@ -96,7 +96,7 @@ A `<script>` tag has been added that includes:
     <title>Launch Status</title>
     <script>
         window.addEventListener("load", function() {
-            fetch("https://handlers.education.launchcode.org/static/weather.json").then(function(response) {
+            fetch("https://handlers.launchcodelearning.org/static/weather.json").then(function(response) {
                 console.log(response);
             } );
         });
@@ -160,7 +160,7 @@ Line 9 logs the JSON to the console. We'll discuss `.then()` later.
     <title>Launch Status</title>
     <script>
         window.addEventListener("load", function() {
-            fetch("https://handlers.education.launchcode.org/static/weather.json").then( function(response) {
+            fetch("https://handlers.launchcodelearning.org/static/weather.json").then( function(response) {
                 // Access the JSON in the response
                 response.json().then( function(json) {
                 console.log(json);
@@ -213,7 +213,7 @@ The following example uses the `javascript-projects/fetch/chapter-examples/fetch
     <title>Launch Status</title>
     <script>
         window.addEventListener("load", function() {
-            fetch("https://handlers.education.launchcode.org/static/weather.json").then( function(response) {
+            fetch("https://handlers.launchcodelearning.org/static/weather.json").then( function(response) {
                 response.json().then( function(json) {
                 const div = document.getElementById("weather-conditions");
                 // Add HTML that includes the JSON data

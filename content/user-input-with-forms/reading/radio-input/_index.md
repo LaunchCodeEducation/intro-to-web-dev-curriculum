@@ -23,7 +23,7 @@ be submitted. Radio inputs are best used with `<label>` tags.
 
 {{% notice blue Example "rocket" %}}
 ```html
-<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+<form action="https://handlers.launchcodelearning.org/request-parrot" method="post">
     Flight Rating:
     <label>Rough<input type="radio" name="flightRating" value="rough"/></label>
     <label>Few Bumps<input type="radio" name="flightRating" value="fewBumps"/></label>

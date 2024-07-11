@@ -39,7 +39,7 @@ if there is ever a question of browser support for a certain feature.
 
 {{% notice blue Example "rocket" %}}
 ```html
-<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+<form action="https://handlers.launchcodelearning.org/request-parrot" method="post">
     <label>Code Name<input type="text" name="codeName"/></label>
     <label>Code Word<input type="password" name="codeWord"/></label>
 

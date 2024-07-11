@@ -13,7 +13,7 @@ lastMod: # UPDATE ANY TIME CHANGES ARE MADE
 ---
 
 Finally, we need some JSON to fill in the crew on the mission destination.
-Our planetary data can be found in [JSON format](https://handlers.education.launchcode.org/static/planets.json).
+Our planetary data can be found in [JSON format](https://handlers.launchcodelearning.org/static/planets.json).
 Review the list and decide which planet you want to send our intrepid crew to and make note of the index number.
 
 {{% notice blue "Note" "rocket" %}} 

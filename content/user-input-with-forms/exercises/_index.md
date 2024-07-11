@@ -56,11 +56,11 @@ Please follow the steps below and good luck!
 
 1. Create a `<form>` with these attributes.
    1. Set `method` to `"POST"`
-   1. Set `action` to `"https://handlers.education.launchcode.org/request-parrot"`
+   1. Set `action` to `"https://handlers.launchcodelearning.org/request-parrot"`
 
    {{% expand "Check Your Solution" %}}
    ```html
-   <form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+   <form action="https://handlers.launchcodelearning.org/request-parrot" method="POST">
       // the rest of your form fields go in here //
    </form>
    ```

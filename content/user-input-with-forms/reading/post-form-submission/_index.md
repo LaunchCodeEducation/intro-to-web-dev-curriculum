@@ -47,7 +47,7 @@ When submitted, this form will send a POST request to the form handler defined b
 `action` attribute.
 
 ```html
-<form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+<form action="https://handlers.launchcodelearning.org/request-parrot" method="POST">
     <label>Username <input type="text" name="username"></label>
     <label>Team Name <input type="text" name="team"></label>
     <button>Submit</button>
